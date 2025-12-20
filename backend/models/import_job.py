@@ -10,15 +10,20 @@ class ImportJob(Base):
     status = Column(String(50), nullable=False, default="queued")
     total_rows = Column(Integer, default=0)
     processed_rows = Column(Integer, default=0)
-    error_message = Column(Text, nullable=True)
+    error_message = Column(Text)
+    file_path = Column(String(500), nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     def to_dict(self):
+        progress = 0
+        if self.total_rows > 0:
+            progress = int((self.processed_rows / self.total_rows) * 100)
+
         return {
-            "id": self.id,
+            "job_id": self.id,
             "status": self.status,
             "total_rows": self.total_rows,
             "processed_rows": self.processed_rows,
-            "error_message": self.error_message,
-            "created_at": self.created_at.isoformat() if self.created_at else None
+            "progress": progress,
+            "error_message": self.error_message
         }
