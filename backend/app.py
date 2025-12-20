@@ -14,6 +14,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = SQLALCHEMY_TRACK_MODIFICATIONS
 db = SQLAlchemy(app)
 
+@app.route('/api/health', methods=['GET'])
+def health_check():
+    return jsonify({"status": "ok"}), 200
 
 
 # ---------------- Run App ----------------
