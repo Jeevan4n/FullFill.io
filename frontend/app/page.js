@@ -9,7 +9,10 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
-import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '@/components/ui/alert-dialog';
+import {
+  AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent,
+  AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger
+} from '@/components/ui/alert-dialog';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -29,6 +32,9 @@ export default function ProductsPage() {
   const [open, setOpen] = useState(false);
   const [editing, setEditing] = useState(null);
   const [form, setForm] = useState({ sku: '', name: '', description: '', price: '', active: true });
+
+  // State for individual delete confirmation
+  const [deleteSku, setDeleteSku] = useState(null);
 
   const fetchProducts = async () => {
     setLoading(true);
@@ -94,9 +100,13 @@ export default function ProductsPage() {
   };
 
   const handleDelete = async (sku) => {
-    if (!confirm('Delete this product?')) return;
-    await fetch(`${API_BASE}/products/${sku}`, { method: 'DELETE' });
-    fetchProducts();
+    const res = await fetch(`${API_BASE}/products/${sku}`, { method: 'DELETE' });
+    if (res.ok) {
+      fetchProducts();
+    } else {
+      alert('Failed to delete product');
+    }
+    setDeleteSku(null); // Close the dialog
   };
 
   const handleBulkDelete = async () => {
@@ -188,17 +198,22 @@ export default function ProductsPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 p-6">
-      <Card className="max-w-7xl mx-auto shadow-2xl border-0">
+      <Card className="max-w-8xl mx-auto shadow-2xl border-0">
         <CardHeader className="border-b bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
-          <div className="flex justify-between items-center">
-            <div>
-              <CardTitle className="text-3xl font-bold mb-1">Product Management</CardTitle>
-              <p className="text-blue-100 text-sm">Manage your product inventory</p>
+          <div className="flex items-center justify-between">
+            <div className="space-y-1">
+              <CardTitle className="text-2xl font-bold">
+                Product Management
+              </CardTitle>
+              <p className="text-sm text-blue-100">
+                Manage your product inventory
+              </p>
             </div>
-            <Button 
-              onClick={openCreate} 
-              size="lg" 
-              className="bg-white text-blue-600 hover:bg-blue-50 font-semibold shadow-lg"
+
+            <Button
+              onClick={openCreate}
+              size="lg"
+              className="bg-white text-blue-600 font-semibold shadow-lg hover:bg-blue-50 transition-colors"
             >
               + Add Product
             </Button>
@@ -343,22 +358,45 @@ export default function ProductsPage() {
                             </Badge>
                           </TableCell>
                           <TableCell className="text-right space-x-2">
-                            <Button 
-                              size="sm" 
-                              variant="outline" 
+                            <Button
+                              size="sm"
+                              variant="outline"
                               onClick={() => openEdit(p)}
                               className="hover:bg-blue-50 hover:text-blue-700 hover:border-blue-300"
                             >
                               Edit
                             </Button>
-                            <Button 
-                              size="sm" 
-                              variant="outline" 
-                              onClick={() => handleDelete(p.sku)}
-                              className="hover:bg-red-50 hover:text-red-700 hover:border-red-300"
-                            >
-                              Delete
-                            </Button>
+
+                            <AlertDialog open={deleteSku === p.sku} onOpenChange={(open) => !open && setDeleteSku(null)}>
+                              <AlertDialogTrigger asChild>
+                                <Button
+                                  size="sm"
+                                  variant="outline"
+                                  onClick={() => setDeleteSku(p.sku)}
+                                  className="hover:bg-red-50 hover:text-red-700 hover:border-red-300"
+                                >
+                                  Delete
+                                </Button>
+                              </AlertDialogTrigger>
+                              <AlertDialogContent>
+                                <AlertDialogHeader>
+                                  <AlertDialogTitle>Delete Product?</AlertDialogTitle>
+                                  <AlertDialogDescription>
+                                    Are you sure you want to delete the product <strong>{p.sku}</strong> – {p.name || 'Unnamed'}?
+                                    This action cannot be undone.
+                                  </AlertDialogDescription>
+                                </AlertDialogHeader>
+                                <AlertDialogFooter>
+                                  <AlertDialogCancel>Cancel</AlertDialogCancel>
+                                  <AlertDialogAction
+                                    onClick={() => handleDelete(p.sku)}
+                                    className="bg-red-600 hover:bg-red-700"
+                                  >
+                                    Delete Product
+                                  </AlertDialogAction>
+                                </AlertDialogFooter>
+                              </AlertDialogContent>
+                            </AlertDialog>
                           </TableCell>
                         </TableRow>
                       ))
