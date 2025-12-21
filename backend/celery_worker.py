@@ -9,9 +9,7 @@ from models.import_job import ImportJob
 from models.product import Product
 
 
-# ============================================================
-# Celery App
-# ============================================================
+
 celery = Celery(
     "celery_worker",
     broker=CELERY_BROKER_URL,
@@ -19,9 +17,9 @@ celery = Celery(
 )
 
 
-# ============================================================
+
 # SAFE Progress Update (ID ONLY — NO ORM OBJECTS)
-# ============================================================
+
 def update_job_progress(
     job_id,
     status=None,
@@ -58,9 +56,7 @@ def update_job_progress(
         safe_close(session)
 
 
-# ============================================================
-# CSV Processing Task
-# ============================================================
+
 @celery.task(bind=True)
 def process_csv_task(self, job_id):
     """
@@ -112,7 +108,6 @@ def process_csv_task(self, job_id):
 
             for row_idx, row in enumerate(reader, start=1):
 
-                # ---- Cancellation check ----
                 session.refresh(job)
                 if job.status == "cancelled":
                     update_job_progress(job_id, status="cancelled")
@@ -142,7 +137,7 @@ def process_csv_task(self, job_id):
                     )
                     continue
 
-                # ---- Optional fields ----
+
                 description = row.get("description", "").strip() or None
 
                 price = None
@@ -200,14 +195,8 @@ def process_csv_task(self, job_id):
                     error_count=error_count
                 )
 
-        # ----------------------------------------------------
-        # Final commit
-        # ----------------------------------------------------
         session.commit()
 
-        # ----------------------------------------------------
-        # Final status
-        # ----------------------------------------------------
         if errors:
             msg = "\n".join(errors[:10])
             if len(errors) > 10:

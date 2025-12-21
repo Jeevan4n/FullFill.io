@@ -128,6 +128,7 @@ def upload_csv():
 
     return jsonify(response_data), 202
 
+
 @app.route("/api/imports/<job_id>/status")
 def get_status(job_id):
     session = get_session()
