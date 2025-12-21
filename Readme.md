@@ -1,257 +1,304 @@
-FullFill.io – Product Import & Inventory Management System
-📌 Project Summary
+# FullFill.io – Product Import & Inventory Management System
+
+## 📌 Project Summary
 
 FullFill.io is a lightweight product import and inventory management system designed to handle large CSV product uploads efficiently using background processing. It enables users to manage products via a responsive frontend while tracking real-time import progress.
 
-Key Capabilities
+### Key Capabilities
 
-Upload and process large CSV files asynchronously
+- Upload and process large CSV files asynchronously
+- Deduplicate and upsert products using case-insensitive SKU
+- Real-time job progress updates via Server-Sent Events (SSE)
+- Full CRUD operations for products
+- Scalable architecture using background workers
 
-Deduplicate and upsert products using case-insensitive SKU
-
-Real-time job progress updates via Server-Sent Events (SSE)
-
-Full CRUD operations for products
-
-Scalable architecture using background workers
-
-🎯 Purpose
+## 🎯 Purpose
 
 To provide a scalable and user-friendly system that allows businesses to:
 
-Import up to 500,000+ products reliably
+- Import up to 500,000+ products reliably
+- Avoid duplicate SKUs through intelligent upserts
+- Track import progress in real time
+- Manage product inventory through a modern UI
 
-Avoid duplicate SKUs through intelligent upserts
+## 🧠 Business Logic
 
-Track import progress in real time
+### CSV Import Flow
 
-Manage product inventory through a modern UI
+1. User uploads a `.csv` file via `POST /api/imports`
+2. Backend validates headers and creates an `ImportJob`
+3. A Celery background task processes the CSV asynchronously
+4. Progress updates are streamed to the frontend via SSE
 
-🧠 Business Logic
-CSV Import Flow
+### Validation Rules
 
-User uploads a .csv file via POST /api/imports
+- CSV must include `sku`, `name`, and `price` (case-insensitive)
+- Empty CSV or missing required headers → job marked as failed
+- Validation errors are stored in the job's error message
 
-Backend validates headers and creates an ImportJob
-
-A Celery background task processes the CSV asynchronously
-
-Progress updates are streamed to the frontend via SSE
-
-Validation Rules
-
-CSV must include sku, name, and price (case-insensitive)
-
-Empty CSV or missing required headers → job marked as failed
-
-Validation errors are stored in the job’s error message
-
-Processing Rules
+### Processing Rules
 
 For each CSV row:
 
-sku is normalized to lowercase
+- `sku` is normalized to lowercase
+- If SKU exists → product is updated
+- If SKU does not exist → product is created (`active = true`)
+- Invalid SKUs are skipped and counted as errors
+- Price parsing errors are tolerated (price set to `null`)
 
-If SKU exists → product is updated
-
-If SKU does not exist → product is created (active = true)
-
-Invalid SKUs are skipped and counted as errors
-
-Price parsing errors are tolerated (price set to null)
-
-Job Lifecycle
+### Job Lifecycle
 
 ImportJob statuses:
 
-queued
-
-parsing
-
-validating
-
-completed
-
-failed
-
-cancelled
+- `queued`
+- `parsing`
+- `validating`
+- `processing`
+- `completed`
+- `failed`
+- `cancelled`
 
 Additional features:
 
-Retry failed or cancelled jobs
+- Retry failed or cancelled jobs
+- Cancel running jobs
+- Progress is committed every 1000 rows to preserve state
 
-Cancel running jobs
+### Cleanup
 
-Progress is committed every 1000 rows to preserve state
+- Uploaded CSV files are automatically deleted after job completion or failure
 
-Cleanup
+## 🏗️ Architecture & Components
 
-Uploaded CSV files are automatically deleted after job completion or failure
+### Backend
 
-🏗️ Architecture & Components
-Backend
+- **Framework:** Flask
+- **ORM:** SQLAlchemy
+- **Background Worker:** Celery
+- **Broker / Result Backend:** Redis
+- **Database:** PostgreSQL (configurable via `DATABASE_URL`)
 
-Framework: Flask
+#### Key Backend Files
 
-ORM: SQLAlchemy
+- `app.py` – API routes & web server
+- `celery_worker.py` – CSV processing worker
+- `import_job.py` – ImportJob model & progress tracking
+- `product.py` – Product model with SKU uniqueness
+- `uploads/` – Temporary CSV storage
 
-Background Worker: Celery
+### Frontend
 
-Broker / Result Backend: Redis
+- **Framework:** Next.js (React)
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui (Radix UI wrappers)
 
-Database: PostgreSQL (configurable via DATABASE_URL)
+#### Key Frontend Files
 
-Key Backend Files
+- `page.js` – Product list, CRUD UI
+- `imports/page.js` – CSV import interface
+- `package.json` – Frontend dependencies
 
-app.py – API routes & web server
+## 🔌 API Endpoints
 
-celery_worker.py – CSV processing worker
+### Import APIs
 
-import_job.py – ImportJob model & progress tracking
+- `POST /api/imports` – Upload CSV & create import job
+- `GET /api/imports/<job_id>/status` – Poll job status
+- `GET /api/imports/<job_id>/status-stream` – SSE real-time updates
+- `POST /api/imports/<job_id>/retry` – Retry job
+- `POST /api/imports/<job_id>/cancel` – Cancel job
 
-product.py – Product model with SKU uniqueness
+### Product APIs
 
-uploads/ – Temporary CSV storage
+- `GET /api/products` – List products (pagination, search, filters)
+- `POST /api/products` – Create product
+- `PUT /api/products/<sku>` – Update product (case-insensitive SKU)
+- `DELETE /api/products/<sku>` – Delete product
+- `DELETE /api/products/bulk-delete` – Delete all products
 
-Frontend
+## 🖥️ Frontend Features
 
-Framework: Next.js (React)
+### Product List
 
-Styling: Tailwind CSS
+- Server-side pagination (10 items per page)
+- Loading & empty-state UI
+- Columns: SKU, Name, Price, Status (Active/Inactive)
 
-UI Components: Radix UI (custom wrappers)
+### Filtering & Search
 
-Key Frontend Files
+- Free-text search across SKU, name, description
+- Status filters: All / Active / Inactive
+- Keyboard-friendly UX (Enter to apply filters)
 
-page.js – Product list, CRUD UI
+### CRUD Operations
 
-package.json – Frontend dependencies
+- Create product (modal dialog)
+- Edit product (SKU locked during edit)
+- Delete single product (confirmation dialog)
+- Bulk delete all products (destructive confirmation)
 
-🔌 API Endpoints
-Import APIs
+### Import Interface
 
-POST /api/imports – Upload CSV & create import job
+- Dedicated Import CSV tab/page
+- Drag-and-drop file upload
+- Live progress updates using SSE
+- Retry failed imports
+- Cancel running imports
 
-GET /api/imports/<job_id>/status – Poll job status
+## 🧪 Important Implementation Notes
 
-GET /api/imports/<job_id>/status-stream – SSE real-time updates
+- SKU uniqueness enforced via case-insensitive DB index
+- CSV size limit: 500 MB
+- Progress calculated using `processed_rows / total_rows`
+- Periodic DB commits reduce long-running transactions
+- Server-Sent Events (SSE) for real-time progress tracking
 
-POST /api/imports/<job_id>/retry – Retry job
+## ⚙️ Tech Stack
 
-POST /api/imports/<job_id>/cancel – Cancel job
+### Backend
 
-Product APIs
+- Python 3
+- Flask
+- SQLAlchemy
+- Celery
+- Redis
+- PostgreSQL
 
-GET /api/products – List products (pagination, search, filters)
+### Frontend
 
-POST /api/products – Create product
+- Next.js (React)
+- Tailwind CSS
+- shadcn/ui
 
-PUT /api/products/<sku> – Update product (case-insensitive SKU)
+### Dev Tools
 
-DELETE /api/products/<sku> – Delete product
+- Node.js / npm
+- pip / virtualenv
 
-DELETE /api/products/bulk-delete – Delete all products
+## 🚀 Setup & Run (Local Development)
 
-🖥️ Frontend Features
-Product List
+### Prerequisites
 
-Server-side pagination (10 items per page)
+- Python 3.8+
+- Node.js 16+
+- PostgreSQL
+- Redis
 
-Loading & empty-state UI
-
-Columns: SKU, Name, Price, Status (Active/Inactive)
-
-Filtering & Search
-
-Free-text search across SKU, name, description
-
-Status filters: All / Active / Inactive
-
-Keyboard-friendly UX (Enter to apply)
-
-CRUD Operations
-
-Create product (modal dialog)
-
-Edit product (SKU locked during edit)
-
-Delete single product (confirmation dialog)
-
-Bulk delete all products (destructive confirmation)
-
-Import Navigation
-
-Dedicated Import CSV tab
-
-Live progress updates using SSE
-
-🧪 Important Implementation Notes
-
-SKU uniqueness enforced via case-insensitive DB index
-
-CSV size limit: 500 MB
-
-Progress calculated using processed_rows / total_rows
-
-Periodic DB commits reduce long-running transactions
-
-⚙️ Tech Stack
-
-Backend
-
-Python 3
-
-Flask
-
-SQLAlchemy
-
-Celery
-
-Redis
-
-PostgreSQL
-
-Frontend
-
-Next.js (React)
-
-Tailwind CSS
-
-Radix UI
-
-Dev Tools
-
-Node.js / npm
-
-pip / virtualenv
-
-🚀 Setup & Run (Local Development)
-Backend
+### Backend Setup
+```bash
+# Create virtual environment
 python -m venv .venv
+
+# Activate virtual environment
 # Windows
 .venv\Scripts\activate
-# Unix
+# Unix/MacOS
 source .venv/bin/activate
 
+# Install dependencies
 pip install -r backend/requirements.txt
 
+# Set environment variables
+export DATABASE_URL=postgresql://user:pass@localhost:5432/fullfill
+export REDIS_URL=redis://localhost:6379/0
 
-Ensure PostgreSQL and Redis are running.
-
-# Example DATABASE_URL
-export DATABASE_URL=postgresql://user:pass@localhost:5432/fullfil
-
-
-Start services:
-
+# Initialize database
 cd backend
-celery -A celery_worker worker --loglevel=info
-python app.py
+python init_db.py
 
-Frontend
+# Start Celery worker (in separate terminal)
+celery -A celery_worker worker --loglevel=info
+
+# Start Flask server
+python app.py
+```
+
+Backend will run on `http://localhost:5000`
+
+### Frontend Setup
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
+Frontend will run on `http://localhost:3000`
 
-Open: http://localhost:3000
+## 📁 Project Structure
+```
+fullfill.io/
+├── backend/
+│   ├── app.py                 # Flask API server
+│   ├── celery_worker.py       # Celery task processor
+│   ├── models/
+│   │   ├── product.py         # Product model
+│   │   └── import_job.py      # ImportJob model
+│   ├── uploads/               # Temporary CSV storage
+│   └── requirements.txt       # Python dependencies
+├── frontend/
+│   ├── app/
+│   │   ├── page.js           # Products page
+│   │   └── imports/
+│   │       └── page.js       # Import CSV page
+│   ├── components/ui/        # shadcn/ui components
+│   └── package.json          # Node dependencies
+└── README.md
+```
+
+## 🔧 Configuration
+
+### Environment Variables
+
+**Backend:**
+
+- `DATABASE_URL` – PostgreSQL connection string
+- `REDIS_URL` – Redis connection string (default: `redis://localhost:6379/0`)
+- `UPLOAD_FOLDER` – CSV upload directory (default: `./uploads`)
+- `MAX_CONTENT_LENGTH` – Max file size in bytes (default: 500MB)
+
+**Frontend:**
+
+- `NEXT_PUBLIC_API_URL` – Backend API URL (default: `http://localhost:5000`)
+
+## 📝 CSV Format
+
+Your CSV file must include these exact headers (case-insensitive):
+
+| Header | Required | Description |
+|--------|----------|-------------|
+| `sku` | ✅ Yes | Unique product identifier (lowercase) |
+| `name` | ✅ Yes | Product name |
+| `description` | ❌ No | Product description |
+| `price` | ❌ No | Product price (numeric) |
+| `active` | ❌ No | Active status (true/false or 1/0) |
+
+### Example CSV
+```csv
+sku,name,description,price,active
+abc123,Wireless Mouse,"Compact and ergonomic",29.99,true
+xyz789,USB Cable 2m,"Fast charging cable",12.50,true
+demo001,Sample Product,Just a demo item,0.00,false
+test2024,New Product 2024,,49.99,true
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🐛 Known Issues & Future Improvements
+
+- [ ] Add user authentication
+- [ ] Implement export to CSV functionality
+- [ ] Add product categories and tags
+- [ ] Support for bulk product updates
+- [ ] Add API rate limiting
+- [ ] Implement comprehensive error logging
+- [ ] Add unit and integration tests
+
+## 📞 Support
+
+For issues and questions, please open an issue on GitHub.
