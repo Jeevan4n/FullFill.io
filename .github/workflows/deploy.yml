@@ -1,0 +1,39 @@
+name: Deploy to GCP Cloud Run
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
+
+      # Authenticate Docker to your Artifact Registry
+      - name: Docker Auth
+        run: |
+          gcloud auth configure-docker us-central1-docker.pkg.dev
+
+      # Build and Push Backend
+      - name: Build and Push Backend
+        run: |
+          docker build -t us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/fullfill-repo/backend:latest ./backend
+          docker push us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/fullfill-repo/backend:latest
+
+      # Deploy Backend to Cloud Run
+      - name: Deploy Backend
+        uses: 'google-github-actions/deploy-cloudrun@v2'
+        with:
+          service: 'fullfill-backend'
+          image: 'us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/fullfill-repo/backend:latest'
+          region: us-central1
