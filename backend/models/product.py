@@ -1,5 +1,5 @@
 from datetime import datetime
-from sqlalchemy import Column, BigInteger, String, Text, Boolean, DateTime, Index
+from sqlalchemy import Column, BigInteger, String, Text, Boolean, DateTime, Numeric,Index
 from sqlalchemy.sql import func
 from models.base import Base
 
@@ -10,6 +10,7 @@ class Product(Base):
     sku = Column(String(255), nullable=False)
     name = Column(String(255), nullable=True)
     description = Column(Text, nullable=True)
+    price = Column(Numeric(10, 2), nullable=True)  # Added price
     active = Column(Boolean, default=True, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
@@ -24,6 +25,7 @@ class Product(Base):
             "sku": self.sku,
             "name": self.name,
             "description": self.description,
+            "price": float(self.price) if self.price is not None else None,
             "active": self.active,
             "created_at": self.created_at.isoformat() if self.created_at else None,
             "updated_at": self.updated_at.isoformat() if self.updated_at else None

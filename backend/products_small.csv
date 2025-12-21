@@ -1,0 +1,1001 @@
+sku,name,description,price,active
+HOME-CLO-000001,HomeEssentials Super Clothing Item 1,High-quality super clothing product from HomeEssentials. Perfect for all your clothing needs.,1596.37,False
+HOME-CLO-000002,HomeEssentials Ultra Clothing Item 2,High-quality ultra clothing product from HomeEssentials. Perfect for all your clothing needs.,1243.52,True
+FITG-TOY-000003,FitGear Elite Toys & Games Item 3,High-quality elite toys & games product from FitGear. Perfect for all your toys & games needs.,873.37,False
+FITG-SPO-000004,FitGear Professional Sports & Outdoors Item 4,High-quality professional sports & outdoors product from FitGear. Perfect for all your sports & outdoors needs.,2141.35,True
+BEAU-BOO-000005,BeautyPlus Standard Books Item 5,High-quality standard books product from BeautyPlus. Perfect for all your books needs.,1324.77,True
+AUTO-HEA-000006,AutoParts Premium Health & Beauty Item 6,High-quality premium health & beauty product from AutoParts. Perfect for all your health & beauty needs.,1599.27,True
+FITG-AUT-000007,FitGear Premium Automotive Item 7,High-quality premium automotive product from FitGear. Perfect for all your automotive needs.,7187.68,False
+FITG-HEA-000008,FitGear Elite Health & Beauty Item 8,High-quality elite health & beauty product from FitGear. Perfect for all your health & beauty needs.,7488.97,False
+FOOD-JEW-000009,FoodMart Elite Jewelry Item 9,High-quality elite jewelry product from FoodMart. Perfect for all your jewelry needs.,9707.44,False
+TECH-TOY-000010,TechPro Economy Toys & Games Item 10,High-quality economy toys & games product from TechPro. Perfect for all your toys & games needs.,6661.83,True
+BOOK-TOY-000011,BookWorld Premium Toys & Games Item 11,High-quality premium toys & games product from BookWorld. Perfect for all your toys & games needs.,8301.9,True
+JEWE-BOO-000012,JewelCraft Standard Books Item 12,High-quality standard books product from JewelCraft. Perfect for all your books needs.,7705.92,True
+ACME-JEW-000013,Acme Basic Jewelry Item 13,High-quality basic jewelry product from Acme. Perfect for all your jewelry needs.,588.32,True
+FASH-AUT-000014,FashionZone Basic Automotive Item 14,High-quality basic automotive product from FashionZone. Perfect for all your automotive needs.,5292.11,False
+FITG-SPO-000015,FitGear Professional Sports & Outdoors Item 15,High-quality professional sports & outdoors product from FitGear. Perfect for all your sports & outdoors needs.,3725.51,False
+GADG-AUT-000016,GadgetHub Elite Automotive Item 16,High-quality elite automotive product from GadgetHub. Perfect for all your automotive needs.,5461.23,True
+HOME-OFF-000017,HomeEssentials Deluxe Office Supplies Item 17,High-quality deluxe office supplies product from HomeEssentials. Perfect for all your office supplies needs.,1997.65,False
+OFFI-BOO-000018,OfficeMax Mega Books Item 18,High-quality mega books product from OfficeMax. Perfect for all your books needs.,5588.08,False
+FITG-CLO-000019,FitGear Ultra Clothing Item 19,High-quality ultra clothing product from FitGear. Perfect for all your clothing needs.,4626.92,True
+BEAU-HOM-000020,BeautyPlus Super Home & Garden Item 20,High-quality super home & garden product from BeautyPlus. Perfect for all your home & garden needs.,8375.52,True
+BOOK-ELE-000021,BookWorld Economy Electronics Item 21,High-quality economy electronics product from BookWorld. Perfect for all your electronics needs.,9425.65,False
+BEAU-HOM-000022,BeautyPlus Professional Home & Garden Item 22,High-quality professional home & garden product from BeautyPlus. Perfect for all your home & garden needs.,5564.36,True
+FASH-CLO-000023,FashionZone Advanced Clothing Item 23,High-quality advanced clothing product from FashionZone. Perfect for all your clothing needs.,4386.27,True
+FOOD-CLO-000024,FoodMart Elite Clothing Item 24,High-quality elite clothing product from FoodMart. Perfect for all your clothing needs.,4349.31,True
+FITG-PET-000025,FitGear Mega Pet Supplies Item 25,High-quality mega pet supplies product from FitGear. Perfect for all your pet supplies needs.,4562.37,True
+AUTO-OFF-000026,AutoParts Basic Office Supplies Item 26,High-quality basic office supplies product from AutoParts. Perfect for all your office supplies needs.,2315.26,True
+BEAU-BOO-000027,BeautyPlus Elite Books Item 27,High-quality elite books product from BeautyPlus. Perfect for all your books needs.,4616.5,True
+FITG-CLO-000028,FitGear Super Clothing Item 28,High-quality super clothing product from FitGear. Perfect for all your clothing needs.,5851.93,True
+AUTO-CLO-000029,AutoParts Standard Clothing Item 29,High-quality standard clothing product from AutoParts. Perfect for all your clothing needs.,8372.67,True
+STYL-TOY-000030,StyleCo Professional Toys & Games Item 30,High-quality professional toys & games product from StyleCo. Perfect for all your toys & games needs.,5414.46,True
+STYL-SPO-000031,StyleCo Deluxe Sports & Outdoors Item 31,High-quality deluxe sports & outdoors product from StyleCo. Perfect for all your sports & outdoors needs.,1570.21,True
+HOME-BOO-000032,HomeEssentials Elite Books Item 32,High-quality elite books product from HomeEssentials. Perfect for all your books needs.,2921.74,False
+BOOK-CLO-000033,BookWorld Advanced Clothing Item 33,High-quality advanced clothing product from BookWorld. Perfect for all your clothing needs.,5474.3,True
+FASH-TOY-000034,FashionZone Professional Toys & Games Item 34,High-quality professional toys & games product from FashionZone. Perfect for all your toys & games needs.,70.25,False
+JEWE-OFF-000035,JewelCraft Elite Office Supplies Item 35,High-quality elite office supplies product from JewelCraft. Perfect for all your office supplies needs.,9338.85,True
+BEAU-FOO-000036,BeautyPlus Standard Food & Beverage Item 36,High-quality standard food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,7436.17,True
+PETC-AUT-000037,PetCare Deluxe Automotive Item 37,High-quality deluxe automotive product from PetCare. Perfect for all your automotive needs.,1519.35,True
+PETC-TOY-000038,PetCare Ultra Toys & Games Item 38,High-quality ultra toys & games product from PetCare. Perfect for all your toys & games needs.,7443.98,True
+ACME-FOO-000039,Acme Mega Food & Beverage Item 39,High-quality mega food & beverage product from Acme. Perfect for all your food & beverage needs.,1758.0,True
+FOOD-AUT-000040,FoodMart Standard Automotive Item 40,High-quality standard automotive product from FoodMart. Perfect for all your automotive needs.,3300.36,True
+STYL-ELE-000041,StyleCo Professional Electronics Item 41,High-quality professional electronics product from StyleCo. Perfect for all your electronics needs.,1501.84,True
+FASH-PET-000042,FashionZone Standard Pet Supplies Item 42,High-quality standard pet supplies product from FashionZone. Perfect for all your pet supplies needs.,6954.71,True
+STYL-HOM-000043,StyleCo Premium Home & Garden Item 43,High-quality premium home & garden product from StyleCo. Perfect for all your home & garden needs.,6882.54,True
+HOME-HOM-000044,HomeEssentials Premium Home & Garden Item 44,High-quality premium home & garden product from HomeEssentials. Perfect for all your home & garden needs.,870.35,True
+STYL-HOM-000045,StyleCo Standard Home & Garden Item 45,High-quality standard home & garden product from StyleCo. Perfect for all your home & garden needs.,3539.3,True
+JEWE-OFF-000046,JewelCraft Advanced Office Supplies Item 46,High-quality advanced office supplies product from JewelCraft. Perfect for all your office supplies needs.,2997.75,True
+GADG-SPO-000047,GadgetHub Super Sports & Outdoors Item 47,High-quality super sports & outdoors product from GadgetHub. Perfect for all your sports & outdoors needs.,7378.65,True
+JEWE-BOO-000048,JewelCraft Advanced Books Item 48,High-quality advanced books product from JewelCraft. Perfect for all your books needs.,5140.23,False
+TOYS-SPO-000049,ToysRUs Basic Sports & Outdoors Item 49,High-quality basic sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,9573.81,True
+AUTO-OFF-000050,AutoParts Premium Office Supplies Item 50,High-quality premium office supplies product from AutoParts. Perfect for all your office supplies needs.,2511.86,True
+BOOK-BOO-000051,BookWorld Elite Books Item 51,High-quality elite books product from BookWorld. Perfect for all your books needs.,8659.52,False
+ACME-OFF-000052,Acme Elite Office Supplies Item 52,High-quality elite office supplies product from Acme. Perfect for all your office supplies needs.,6799.49,True
+OFFI-JEW-000053,OfficeMax Economy Jewelry Item 53,High-quality economy jewelry product from OfficeMax. Perfect for all your jewelry needs.,3867.83,False
+OFFI-HEA-000054,OfficeMax Ultra Health & Beauty Item 54,High-quality ultra health & beauty product from OfficeMax. Perfect for all your health & beauty needs.,4376.7,True
+TECH-TOY-000055,TechPro Economy Toys & Games Item 55,High-quality economy toys & games product from TechPro. Perfect for all your toys & games needs.,2097.0,False
+HOME-FOO-000056,HomeEssentials Super Food & Beverage Item 56,High-quality super food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,2384.2,True
+HOME-HOM-000057,HomeEssentials Super Home & Garden Item 57,High-quality super home & garden product from HomeEssentials. Perfect for all your home & garden needs.,9162.37,True
+FASH-AUT-000058,FashionZone Super Automotive Item 58,High-quality super automotive product from FashionZone. Perfect for all your automotive needs.,8935.19,True
+PETC-TOY-000059,PetCare Ultra Toys & Games Item 59,High-quality ultra toys & games product from PetCare. Perfect for all your toys & games needs.,729.47,True
+GADG-HEA-000060,GadgetHub Super Health & Beauty Item 60,High-quality super health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,5779.91,True
+HOME-JEW-000061,HomeEssentials Super Jewelry Item 61,High-quality super jewelry product from HomeEssentials. Perfect for all your jewelry needs.,1458.63,True
+STYL-PET-000062,StyleCo Super Pet Supplies Item 62,High-quality super pet supplies product from StyleCo. Perfect for all your pet supplies needs.,1766.15,True
+HOME-HEA-000063,HomeEssentials Ultra Health & Beauty Item 63,High-quality ultra health & beauty product from HomeEssentials. Perfect for all your health & beauty needs.,9842.44,True
+PETC-SPO-000064,PetCare Economy Sports & Outdoors Item 64,High-quality economy sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,384.11,True
+FASH-JEW-000065,FashionZone Standard Jewelry Item 65,High-quality standard jewelry product from FashionZone. Perfect for all your jewelry needs.,5302.31,True
+FOOD-PET-000066,FoodMart Elite Pet Supplies Item 66,High-quality elite pet supplies product from FoodMart. Perfect for all your pet supplies needs.,8514.44,False
+OFFI-TOY-000067,OfficeMax Deluxe Toys & Games Item 67,High-quality deluxe toys & games product from OfficeMax. Perfect for all your toys & games needs.,5521.7,True
+BOOK-BOO-000068,BookWorld Elite Books Item 68,High-quality elite books product from BookWorld. Perfect for all your books needs.,6278.3,True
+HOME-TOY-000069,HomeEssentials Mega Toys & Games Item 69,High-quality mega toys & games product from HomeEssentials. Perfect for all your toys & games needs.,4944.26,True
+JEWE-TOY-000070,JewelCraft Basic Toys & Games Item 70,High-quality basic toys & games product from JewelCraft. Perfect for all your toys & games needs.,7606.41,True
+OFFI-TOY-000071,OfficeMax Basic Toys & Games Item 71,High-quality basic toys & games product from OfficeMax. Perfect for all your toys & games needs.,2532.83,False
+HOME-SPO-000072,HomeEssentials Premium Sports & Outdoors Item 72,High-quality premium sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,6939.55,True
+STYL-HEA-000073,StyleCo Economy Health & Beauty Item 73,High-quality economy health & beauty product from StyleCo. Perfect for all your health & beauty needs.,4021.59,True
+STYL-BOO-000074,StyleCo Economy Books Item 74,High-quality economy books product from StyleCo. Perfect for all your books needs.,5088.99,True
+OFFI-AUT-000075,OfficeMax Premium Automotive Item 75,High-quality premium automotive product from OfficeMax. Perfect for all your automotive needs.,7659.47,True
+PETC-HOM-000076,PetCare Ultra Home & Garden Item 76,High-quality ultra home & garden product from PetCare. Perfect for all your home & garden needs.,593.94,True
+TOYS-PET-000077,ToysRUs Professional Pet Supplies Item 77,High-quality professional pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,7397.56,True
+STYL-AUT-000078,StyleCo Professional Automotive Item 78,High-quality professional automotive product from StyleCo. Perfect for all your automotive needs.,3492.72,True
+BEAU-ELE-000079,BeautyPlus Professional Electronics Item 79,High-quality professional electronics product from BeautyPlus. Perfect for all your electronics needs.,7975.76,True
+FASH-TOY-000080,FashionZone Advanced Toys & Games Item 80,High-quality advanced toys & games product from FashionZone. Perfect for all your toys & games needs.,6557.72,True
+ACME-TOY-000081,Acme Economy Toys & Games Item 81,High-quality economy toys & games product from Acme. Perfect for all your toys & games needs.,2513.35,False
+BOOK-CLO-000082,BookWorld Ultra Clothing Item 82,High-quality ultra clothing product from BookWorld. Perfect for all your clothing needs.,7086.67,False
+AUTO-HOM-000083,AutoParts Mega Home & Garden Item 83,High-quality mega home & garden product from AutoParts. Perfect for all your home & garden needs.,2516.54,True
+TECH-AUT-000084,TechPro Premium Automotive Item 84,High-quality premium automotive product from TechPro. Perfect for all your automotive needs.,3752.15,True
+ACME-PET-000085,Acme Advanced Pet Supplies Item 85,High-quality advanced pet supplies product from Acme. Perfect for all your pet supplies needs.,8146.11,True
+JEWE-ELE-000086,JewelCraft Economy Electronics Item 86,High-quality economy electronics product from JewelCraft. Perfect for all your electronics needs.,4840.55,True
+JEWE-JEW-000087,JewelCraft Economy Jewelry Item 87,High-quality economy jewelry product from JewelCraft. Perfect for all your jewelry needs.,9070.61,True
+GADG-AUT-000088,GadgetHub Standard Automotive Item 88,High-quality standard automotive product from GadgetHub. Perfect for all your automotive needs.,4687.79,True
+TECH-JEW-000089,TechPro Super Jewelry Item 89,High-quality super jewelry product from TechPro. Perfect for all your jewelry needs.,8364.07,True
+TOYS-SPO-000090,ToysRUs Economy Sports & Outdoors Item 90,High-quality economy sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,4322.15,True
+FITG-AUT-000091,FitGear Standard Automotive Item 91,High-quality standard automotive product from FitGear. Perfect for all your automotive needs.,6893.19,True
+GADG-ELE-000092,GadgetHub Elite Electronics Item 92,High-quality elite electronics product from GadgetHub. Perfect for all your electronics needs.,3733.35,True
+GADG-OFF-000093,GadgetHub Ultra Office Supplies Item 93,High-quality ultra office supplies product from GadgetHub. Perfect for all your office supplies needs.,8354.13,False
+OFFI-CLO-000094,OfficeMax Basic Clothing Item 94,High-quality basic clothing product from OfficeMax. Perfect for all your clothing needs.,8156.31,False
+BEAU-SPO-000095,BeautyPlus Elite Sports & Outdoors Item 95,High-quality elite sports & outdoors product from BeautyPlus. Perfect for all your sports & outdoors needs.,7029.2,True
+FITG-ELE-000096,FitGear Standard Electronics Item 96,High-quality standard electronics product from FitGear. Perfect for all your electronics needs.,2005.63,False
+PETC-BOO-000097,PetCare Professional Books Item 97,High-quality professional books product from PetCare. Perfect for all your books needs.,9369.0,True
+BEAU-HOM-000098,BeautyPlus Economy Home & Garden Item 98,High-quality economy home & garden product from BeautyPlus. Perfect for all your home & garden needs.,499.21,True
+GADG-HEA-000099,GadgetHub Ultra Health & Beauty Item 99,High-quality ultra health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,6167.19,True
+GADG-HOM-000100,GadgetHub Super Home & Garden Item 100,High-quality super home & garden product from GadgetHub. Perfect for all your home & garden needs.,3036.02,False
+TECH-HOM-000101,TechPro Mega Home & Garden Item 101,High-quality mega home & garden product from TechPro. Perfect for all your home & garden needs.,2310.75,True
+TOYS-HEA-000102,ToysRUs Economy Health & Beauty Item 102,High-quality economy health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,4449.27,True
+TECH-ELE-000103,TechPro Basic Electronics Item 103,High-quality basic electronics product from TechPro. Perfect for all your electronics needs.,9163.39,True
+PETC-FOO-000104,PetCare Super Food & Beverage Item 104,High-quality super food & beverage product from PetCare. Perfect for all your food & beverage needs.,6582.4,True
+GADG-HOM-000105,GadgetHub Advanced Home & Garden Item 105,High-quality advanced home & garden product from GadgetHub. Perfect for all your home & garden needs.,2687.18,False
+TECH-AUT-000106,TechPro Professional Automotive Item 106,High-quality professional automotive product from TechPro. Perfect for all your automotive needs.,7685.24,True
+FOOD-HOM-000107,FoodMart Premium Home & Garden Item 107,High-quality premium home & garden product from FoodMart. Perfect for all your home & garden needs.,4098.63,False
+AUTO-AUT-000108,AutoParts Deluxe Automotive Item 108,High-quality deluxe automotive product from AutoParts. Perfect for all your automotive needs.,2583.51,True
+TECH-TOY-000109,TechPro Elite Toys & Games Item 109,High-quality elite toys & games product from TechPro. Perfect for all your toys & games needs.,820.97,False
+FOOD-HOM-000110,FoodMart Professional Home & Garden Item 110,High-quality professional home & garden product from FoodMart. Perfect for all your home & garden needs.,2205.18,False
+BOOK-PET-000111,BookWorld Basic Pet Supplies Item 111,High-quality basic pet supplies product from BookWorld. Perfect for all your pet supplies needs.,2725.91,True
+FOOD-TOY-000112,FoodMart Advanced Toys & Games Item 112,High-quality advanced toys & games product from FoodMart. Perfect for all your toys & games needs.,5023.18,True
+PETC-CLO-000113,PetCare Professional Clothing Item 113,High-quality professional clothing product from PetCare. Perfect for all your clothing needs.,3150.07,True
+ACME-BOO-000114,Acme Economy Books Item 114,High-quality economy books product from Acme. Perfect for all your books needs.,1983.22,True
+JEWE-JEW-000115,JewelCraft Standard Jewelry Item 115,High-quality standard jewelry product from JewelCraft. Perfect for all your jewelry needs.,4013.85,True
+TECH-PET-000116,TechPro Mega Pet Supplies Item 116,High-quality mega pet supplies product from TechPro. Perfect for all your pet supplies needs.,8121.92,True
+ACME-OFF-000117,Acme Economy Office Supplies Item 117,High-quality economy office supplies product from Acme. Perfect for all your office supplies needs.,5405.46,True
+OFFI-CLO-000118,OfficeMax Standard Clothing Item 118,High-quality standard clothing product from OfficeMax. Perfect for all your clothing needs.,9438.9,True
+JEWE-HEA-000119,JewelCraft Professional Health & Beauty Item 119,High-quality professional health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,3309.41,True
+FOOD-CLO-000120,FoodMart Premium Clothing Item 120,High-quality premium clothing product from FoodMart. Perfect for all your clothing needs.,3060.99,True
+AUTO-BOO-000121,AutoParts Ultra Books Item 121,High-quality ultra books product from AutoParts. Perfect for all your books needs.,8449.3,True
+JEWE-JEW-000122,JewelCraft Economy Jewelry Item 122,High-quality economy jewelry product from JewelCraft. Perfect for all your jewelry needs.,7717.92,True
+ACME-ELE-000123,Acme Basic Electronics Item 123,High-quality basic electronics product from Acme. Perfect for all your electronics needs.,1991.42,True
+FASH-HEA-000124,FashionZone Mega Health & Beauty Item 124,High-quality mega health & beauty product from FashionZone. Perfect for all your health & beauty needs.,8783.22,True
+BOOK-JEW-000125,BookWorld Professional Jewelry Item 125,High-quality professional jewelry product from BookWorld. Perfect for all your jewelry needs.,2133.64,True
+BEAU-OFF-000126,BeautyPlus Ultra Office Supplies Item 126,High-quality ultra office supplies product from BeautyPlus. Perfect for all your office supplies needs.,4269.13,True
+PETC-SPO-000127,PetCare Super Sports & Outdoors Item 127,High-quality super sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,6824.65,True
+BEAU-OFF-000128,BeautyPlus Premium Office Supplies Item 128,High-quality premium office supplies product from BeautyPlus. Perfect for all your office supplies needs.,2877.94,True
+JEWE-HOM-000129,JewelCraft Advanced Home & Garden Item 129,High-quality advanced home & garden product from JewelCraft. Perfect for all your home & garden needs.,2613.5,True
+FITG-AUT-000130,FitGear Professional Automotive Item 130,High-quality professional automotive product from FitGear. Perfect for all your automotive needs.,4219.85,True
+FITG-BOO-000131,FitGear Ultra Books Item 131,High-quality ultra books product from FitGear. Perfect for all your books needs.,2361.52,True
+FOOD-PET-000132,FoodMart Professional Pet Supplies Item 132,High-quality professional pet supplies product from FoodMart. Perfect for all your pet supplies needs.,8900.16,True
+TECH-AUT-000133,TechPro Elite Automotive Item 133,High-quality elite automotive product from TechPro. Perfect for all your automotive needs.,8721.22,True
+BEAU-OFF-000134,BeautyPlus Deluxe Office Supplies Item 134,High-quality deluxe office supplies product from BeautyPlus. Perfect for all your office supplies needs.,8633.43,False
+BEAU-FOO-000135,BeautyPlus Elite Food & Beverage Item 135,High-quality elite food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,1818.57,True
+JEWE-HEA-000136,JewelCraft Super Health & Beauty Item 136,High-quality super health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,3837.68,True
+TECH-FOO-000137,TechPro Ultra Food & Beverage Item 137,High-quality ultra food & beverage product from TechPro. Perfect for all your food & beverage needs.,7244.19,True
+TOYS-SPO-000138,ToysRUs Economy Sports & Outdoors Item 138,High-quality economy sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,6043.39,True
+PETC-SPO-000139,PetCare Basic Sports & Outdoors Item 139,High-quality basic sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,165.6,False
+BOOK-HOM-000140,BookWorld Economy Home & Garden Item 140,High-quality economy home & garden product from BookWorld. Perfect for all your home & garden needs.,2962.27,False
+OFFI-CLO-000141,OfficeMax Elite Clothing Item 141,High-quality elite clothing product from OfficeMax. Perfect for all your clothing needs.,9388.83,True
+PETC-JEW-000142,PetCare Mega Jewelry Item 142,High-quality mega jewelry product from PetCare. Perfect for all your jewelry needs.,58.19,True
+TOYS-BOO-000143,ToysRUs Super Books Item 143,High-quality super books product from ToysRUs. Perfect for all your books needs.,5.26,True
+FITG-JEW-000144,FitGear Super Jewelry Item 144,High-quality super jewelry product from FitGear. Perfect for all your jewelry needs.,8157.52,True
+FASH-ELE-000145,FashionZone Elite Electronics Item 145,High-quality elite electronics product from FashionZone. Perfect for all your electronics needs.,7056.25,False
+BEAU-HEA-000146,BeautyPlus Deluxe Health & Beauty Item 146,High-quality deluxe health & beauty product from BeautyPlus. Perfect for all your health & beauty needs.,8907.92,True
+JEWE-BOO-000147,JewelCraft Advanced Books Item 147,High-quality advanced books product from JewelCraft. Perfect for all your books needs.,2897.64,True
+FASH-SPO-000148,FashionZone Professional Sports & Outdoors Item 148,High-quality professional sports & outdoors product from FashionZone. Perfect for all your sports & outdoors needs.,2121.85,True
+TECH-HEA-000149,TechPro Elite Health & Beauty Item 149,High-quality elite health & beauty product from TechPro. Perfect for all your health & beauty needs.,5315.23,True
+TECH-OFF-000150,TechPro Deluxe Office Supplies Item 150,High-quality deluxe office supplies product from TechPro. Perfect for all your office supplies needs.,1149.78,False
+STYL-JEW-000151,StyleCo Economy Jewelry Item 151,High-quality economy jewelry product from StyleCo. Perfect for all your jewelry needs.,7147.67,True
+FASH-HOM-000152,FashionZone Advanced Home & Garden Item 152,High-quality advanced home & garden product from FashionZone. Perfect for all your home & garden needs.,3628.06,False
+PETC-FOO-000153,PetCare Ultra Food & Beverage Item 153,High-quality ultra food & beverage product from PetCare. Perfect for all your food & beverage needs.,7814.28,False
+OFFI-CLO-000154,OfficeMax Standard Clothing Item 154,High-quality standard clothing product from OfficeMax. Perfect for all your clothing needs.,691.61,True
+JEWE-OFF-000155,JewelCraft Economy Office Supplies Item 155,High-quality economy office supplies product from JewelCraft. Perfect for all your office supplies needs.,9146.8,True
+FITG-HOM-000156,FitGear Premium Home & Garden Item 156,High-quality premium home & garden product from FitGear. Perfect for all your home & garden needs.,9241.18,False
+JEWE-FOO-000157,JewelCraft Ultra Food & Beverage Item 157,High-quality ultra food & beverage product from JewelCraft. Perfect for all your food & beverage needs.,4742.15,False
+ACME-HOM-000158,Acme Basic Home & Garden Item 158,High-quality basic home & garden product from Acme. Perfect for all your home & garden needs.,7448.65,True
+TECH-SPO-000159,TechPro Elite Sports & Outdoors Item 159,High-quality elite sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,8334.63,False
+AUTO-PET-000160,AutoParts Premium Pet Supplies Item 160,High-quality premium pet supplies product from AutoParts. Perfect for all your pet supplies needs.,4743.3,True
+FITG-BOO-000161,FitGear Economy Books Item 161,High-quality economy books product from FitGear. Perfect for all your books needs.,294.53,True
+FITG-PET-000162,FitGear Super Pet Supplies Item 162,High-quality super pet supplies product from FitGear. Perfect for all your pet supplies needs.,5305.09,True
+BEAU-HEA-000163,BeautyPlus Ultra Health & Beauty Item 163,High-quality ultra health & beauty product from BeautyPlus. Perfect for all your health & beauty needs.,1390.32,True
+BEAU-PET-000164,BeautyPlus Deluxe Pet Supplies Item 164,High-quality deluxe pet supplies product from BeautyPlus. Perfect for all your pet supplies needs.,9437.11,True
+TOYS-HOM-000165,ToysRUs Basic Home & Garden Item 165,High-quality basic home & garden product from ToysRUs. Perfect for all your home & garden needs.,550.84,True
+JEWE-HEA-000166,JewelCraft Economy Health & Beauty Item 166,High-quality economy health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,8193.44,True
+FASH-BOO-000167,FashionZone Super Books Item 167,High-quality super books product from FashionZone. Perfect for all your books needs.,9623.78,True
+FASH-HEA-000168,FashionZone Standard Health & Beauty Item 168,High-quality standard health & beauty product from FashionZone. Perfect for all your health & beauty needs.,6689.67,False
+GADG-JEW-000169,GadgetHub Premium Jewelry Item 169,High-quality premium jewelry product from GadgetHub. Perfect for all your jewelry needs.,9818.35,True
+BOOK-HOM-000170,BookWorld Deluxe Home & Garden Item 170,High-quality deluxe home & garden product from BookWorld. Perfect for all your home & garden needs.,3445.01,True
+BEAU-CLO-000171,BeautyPlus Economy Clothing Item 171,High-quality economy clothing product from BeautyPlus. Perfect for all your clothing needs.,4518.75,False
+OFFI-ELE-000172,OfficeMax Mega Electronics Item 172,High-quality mega electronics product from OfficeMax. Perfect for all your electronics needs.,876.77,False
+ACME-CLO-000173,Acme Ultra Clothing Item 173,High-quality ultra clothing product from Acme. Perfect for all your clothing needs.,4780.16,True
+BEAU-JEW-000174,BeautyPlus Elite Jewelry Item 174,High-quality elite jewelry product from BeautyPlus. Perfect for all your jewelry needs.,1780.91,True
+JEWE-SPO-000175,JewelCraft Advanced Sports & Outdoors Item 175,High-quality advanced sports & outdoors product from JewelCraft. Perfect for all your sports & outdoors needs.,9466.64,False
+STYL-AUT-000176,StyleCo Basic Automotive Item 176,High-quality basic automotive product from StyleCo. Perfect for all your automotive needs.,362.05,False
+PETC-FOO-000177,PetCare Ultra Food & Beverage Item 177,High-quality ultra food & beverage product from PetCare. Perfect for all your food & beverage needs.,51.36,False
+FASH-FOO-000178,FashionZone Standard Food & Beverage Item 178,High-quality standard food & beverage product from FashionZone. Perfect for all your food & beverage needs.,4103.98,False
+FASH-ELE-000179,FashionZone Basic Electronics Item 179,High-quality basic electronics product from FashionZone. Perfect for all your electronics needs.,1307.12,False
+PETC-PET-000180,PetCare Economy Pet Supplies Item 180,High-quality economy pet supplies product from PetCare. Perfect for all your pet supplies needs.,5874.77,False
+STYL-CLO-000181,StyleCo Premium Clothing Item 181,High-quality premium clothing product from StyleCo. Perfect for all your clothing needs.,495.42,True
+GADG-HEA-000182,GadgetHub Advanced Health & Beauty Item 182,High-quality advanced health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,2352.13,True
+FOOD-BOO-000183,FoodMart Elite Books Item 183,High-quality elite books product from FoodMart. Perfect for all your books needs.,6393.03,False
+JEWE-JEW-000184,JewelCraft Basic Jewelry Item 184,High-quality basic jewelry product from JewelCraft. Perfect for all your jewelry needs.,4322.11,True
+FITG-BOO-000185,FitGear Basic Books Item 185,High-quality basic books product from FitGear. Perfect for all your books needs.,1147.09,True
+BOOK-BOO-000186,BookWorld Super Books Item 186,High-quality super books product from BookWorld. Perfect for all your books needs.,5108.97,True
+OFFI-TOY-000187,OfficeMax Ultra Toys & Games Item 187,High-quality ultra toys & games product from OfficeMax. Perfect for all your toys & games needs.,8352.45,False
+PETC-HOM-000188,PetCare Basic Home & Garden Item 188,High-quality basic home & garden product from PetCare. Perfect for all your home & garden needs.,4264.28,True
+TECH-HOM-000189,TechPro Super Home & Garden Item 189,High-quality super home & garden product from TechPro. Perfect for all your home & garden needs.,9030.78,True
+BEAU-ELE-000190,BeautyPlus Basic Electronics Item 190,High-quality basic electronics product from BeautyPlus. Perfect for all your electronics needs.,9198.26,False
+TOYS-HOM-000191,ToysRUs Basic Home & Garden Item 191,High-quality basic home & garden product from ToysRUs. Perfect for all your home & garden needs.,3950.51,True
+HOME-SPO-000192,HomeEssentials Deluxe Sports & Outdoors Item 192,High-quality deluxe sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,4161.6,False
+GADG-TOY-000193,GadgetHub Deluxe Toys & Games Item 193,High-quality deluxe toys & games product from GadgetHub. Perfect for all your toys & games needs.,5785.22,False
+FOOD-FOO-000194,FoodMart Advanced Food & Beverage Item 194,High-quality advanced food & beverage product from FoodMart. Perfect for all your food & beverage needs.,3013.49,True
+TOYS-HEA-000195,ToysRUs Deluxe Health & Beauty Item 195,High-quality deluxe health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,356.45,True
+TECH-FOO-000196,TechPro Standard Food & Beverage Item 196,High-quality standard food & beverage product from TechPro. Perfect for all your food & beverage needs.,6097.21,False
+FOOD-HOM-000197,FoodMart Mega Home & Garden Item 197,High-quality mega home & garden product from FoodMart. Perfect for all your home & garden needs.,2391.57,True
+BOOK-ELE-000198,BookWorld Elite Electronics Item 198,High-quality elite electronics product from BookWorld. Perfect for all your electronics needs.,9523.79,True
+OFFI-JEW-000199,OfficeMax Economy Jewelry Item 199,High-quality economy jewelry product from OfficeMax. Perfect for all your jewelry needs.,60.49,True
+BOOK-ELE-000200,BookWorld Professional Electronics Item 200,High-quality professional electronics product from BookWorld. Perfect for all your electronics needs.,7059.77,True
+BOOK-ELE-000201,BookWorld Standard Electronics Item 201,High-quality standard electronics product from BookWorld. Perfect for all your electronics needs.,4313.55,False
+JEWE-JEW-000202,JewelCraft Super Jewelry Item 202,High-quality super jewelry product from JewelCraft. Perfect for all your jewelry needs.,2228.36,True
+BOOK-AUT-000203,BookWorld Premium Automotive Item 203,High-quality premium automotive product from BookWorld. Perfect for all your automotive needs.,1876.38,True
+TECH-ELE-000204,TechPro Mega Electronics Item 204,High-quality mega electronics product from TechPro. Perfect for all your electronics needs.,8038.67,True
+FOOD-BOO-000205,FoodMart Premium Books Item 205,High-quality premium books product from FoodMart. Perfect for all your books needs.,3297.57,True
+FITG-AUT-000206,FitGear Premium Automotive Item 206,High-quality premium automotive product from FitGear. Perfect for all your automotive needs.,9627.16,True
+PETC-OFF-000207,PetCare Standard Office Supplies Item 207,High-quality standard office supplies product from PetCare. Perfect for all your office supplies needs.,5767.83,True
+FOOD-JEW-000208,FoodMart Super Jewelry Item 208,High-quality super jewelry product from FoodMart. Perfect for all your jewelry needs.,1536.23,False
+TECH-CLO-000209,TechPro Professional Clothing Item 209,High-quality professional clothing product from TechPro. Perfect for all your clothing needs.,3330.07,True
+ACME-PET-000210,Acme Basic Pet Supplies Item 210,High-quality basic pet supplies product from Acme. Perfect for all your pet supplies needs.,2957.07,True
+BOOK-ELE-000211,BookWorld Ultra Electronics Item 211,High-quality ultra electronics product from BookWorld. Perfect for all your electronics needs.,5867.15,True
+STYL-AUT-000212,StyleCo Standard Automotive Item 212,High-quality standard automotive product from StyleCo. Perfect for all your automotive needs.,3124.8,True
+GADG-CLO-000213,GadgetHub Mega Clothing Item 213,High-quality mega clothing product from GadgetHub. Perfect for all your clothing needs.,4043.6,True
+FASH-AUT-000214,FashionZone Premium Automotive Item 214,High-quality premium automotive product from FashionZone. Perfect for all your automotive needs.,3863.36,True
+OFFI-AUT-000215,OfficeMax Super Automotive Item 215,High-quality super automotive product from OfficeMax. Perfect for all your automotive needs.,2419.49,True
+JEWE-HOM-000216,JewelCraft Super Home & Garden Item 216,High-quality super home & garden product from JewelCraft. Perfect for all your home & garden needs.,2223.48,True
+JEWE-AUT-000217,JewelCraft Professional Automotive Item 217,High-quality professional automotive product from JewelCraft. Perfect for all your automotive needs.,715.11,False
+BOOK-BOO-000218,BookWorld Basic Books Item 218,High-quality basic books product from BookWorld. Perfect for all your books needs.,6589.02,True
+STYL-ELE-000219,StyleCo Professional Electronics Item 219,High-quality professional electronics product from StyleCo. Perfect for all your electronics needs.,4918.27,True
+GADG-HEA-000220,GadgetHub Basic Health & Beauty Item 220,High-quality basic health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,2690.87,True
+PETC-OFF-000221,PetCare Super Office Supplies Item 221,High-quality super office supplies product from PetCare. Perfect for all your office supplies needs.,6992.83,False
+AUTO-CLO-000222,AutoParts Elite Clothing Item 222,High-quality elite clothing product from AutoParts. Perfect for all your clothing needs.,7461.37,True
+JEWE-PET-000223,JewelCraft Ultra Pet Supplies Item 223,High-quality ultra pet supplies product from JewelCraft. Perfect for all your pet supplies needs.,9381.37,False
+BEAU-TOY-000224,BeautyPlus Professional Toys & Games Item 224,High-quality professional toys & games product from BeautyPlus. Perfect for all your toys & games needs.,9410.01,True
+PETC-JEW-000225,PetCare Professional Jewelry Item 225,High-quality professional jewelry product from PetCare. Perfect for all your jewelry needs.,9196.69,True
+TECH-JEW-000226,TechPro Deluxe Jewelry Item 226,High-quality deluxe jewelry product from TechPro. Perfect for all your jewelry needs.,3281.39,False
+TOYS-JEW-000227,ToysRUs Elite Jewelry Item 227,High-quality elite jewelry product from ToysRUs. Perfect for all your jewelry needs.,6730.47,False
+FITG-FOO-000228,FitGear Advanced Food & Beverage Item 228,High-quality advanced food & beverage product from FitGear. Perfect for all your food & beverage needs.,7424.02,True
+ACME-JEW-000229,Acme Elite Jewelry Item 229,High-quality elite jewelry product from Acme. Perfect for all your jewelry needs.,2290.56,True
+GADG-FOO-000230,GadgetHub Super Food & Beverage Item 230,High-quality super food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,8484.8,True
+OFFI-ELE-000231,OfficeMax Premium Electronics Item 231,High-quality premium electronics product from OfficeMax. Perfect for all your electronics needs.,5110.4,True
+FITG-AUT-000232,FitGear Economy Automotive Item 232,High-quality economy automotive product from FitGear. Perfect for all your automotive needs.,6004.05,False
+AUTO-SPO-000233,AutoParts Mega Sports & Outdoors Item 233,High-quality mega sports & outdoors product from AutoParts. Perfect for all your sports & outdoors needs.,5541.6,False
+TECH-ELE-000234,TechPro Ultra Electronics Item 234,High-quality ultra electronics product from TechPro. Perfect for all your electronics needs.,9991.54,True
+STYL-HOM-000235,StyleCo Elite Home & Garden Item 235,High-quality elite home & garden product from StyleCo. Perfect for all your home & garden needs.,632.71,True
+AUTO-HEA-000236,AutoParts Elite Health & Beauty Item 236,High-quality elite health & beauty product from AutoParts. Perfect for all your health & beauty needs.,8595.63,True
+HOME-SPO-000237,HomeEssentials Super Sports & Outdoors Item 237,High-quality super sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,6036.89,True
+STYL-CLO-000238,StyleCo Advanced Clothing Item 238,High-quality advanced clothing product from StyleCo. Perfect for all your clothing needs.,3818.7,True
+GADG-SPO-000239,GadgetHub Ultra Sports & Outdoors Item 239,High-quality ultra sports & outdoors product from GadgetHub. Perfect for all your sports & outdoors needs.,1255.88,True
+GADG-HEA-000240,GadgetHub Premium Health & Beauty Item 240,High-quality premium health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,4208.24,False
+TECH-BOO-000241,TechPro Super Books Item 241,High-quality super books product from TechPro. Perfect for all your books needs.,8488.26,True
+JEWE-TOY-000242,JewelCraft Ultra Toys & Games Item 242,High-quality ultra toys & games product from JewelCraft. Perfect for all your toys & games needs.,5531.56,False
+GADG-FOO-000243,GadgetHub Ultra Food & Beverage Item 243,High-quality ultra food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,8716.89,True
+JEWE-HEA-000244,JewelCraft Basic Health & Beauty Item 244,High-quality basic health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,6134.67,True
+FOOD-HOM-000245,FoodMart Elite Home & Garden Item 245,High-quality elite home & garden product from FoodMart. Perfect for all your home & garden needs.,953.07,False
+PETC-HOM-000246,PetCare Deluxe Home & Garden Item 246,High-quality deluxe home & garden product from PetCare. Perfect for all your home & garden needs.,5900.14,True
+HOME-JEW-000247,HomeEssentials Professional Jewelry Item 247,High-quality professional jewelry product from HomeEssentials. Perfect for all your jewelry needs.,5547.44,True
+BEAU-ELE-000248,BeautyPlus Basic Electronics Item 248,High-quality basic electronics product from BeautyPlus. Perfect for all your electronics needs.,9741.42,True
+BEAU-OFF-000249,BeautyPlus Mega Office Supplies Item 249,High-quality mega office supplies product from BeautyPlus. Perfect for all your office supplies needs.,8340.41,True
+HOME-PET-000250,HomeEssentials Professional Pet Supplies Item 250,High-quality professional pet supplies product from HomeEssentials. Perfect for all your pet supplies needs.,253.11,True
+FASH-JEW-000251,FashionZone Basic Jewelry Item 251,High-quality basic jewelry product from FashionZone. Perfect for all your jewelry needs.,4623.97,True
+OFFI-AUT-000252,OfficeMax Deluxe Automotive Item 252,High-quality deluxe automotive product from OfficeMax. Perfect for all your automotive needs.,5614.68,True
+GADG-ELE-000253,GadgetHub Basic Electronics Item 253,High-quality basic electronics product from GadgetHub. Perfect for all your electronics needs.,2796.24,True
+FASH-OFF-000254,FashionZone Mega Office Supplies Item 254,High-quality mega office supplies product from FashionZone. Perfect for all your office supplies needs.,6436.67,True
+BEAU-SPO-000255,BeautyPlus Advanced Sports & Outdoors Item 255,High-quality advanced sports & outdoors product from BeautyPlus. Perfect for all your sports & outdoors needs.,6768.48,False
+AUTO-FOO-000256,AutoParts Mega Food & Beverage Item 256,High-quality mega food & beverage product from AutoParts. Perfect for all your food & beverage needs.,9219.95,True
+JEWE-PET-000257,JewelCraft Professional Pet Supplies Item 257,High-quality professional pet supplies product from JewelCraft. Perfect for all your pet supplies needs.,7547.54,False
+PETC-BOO-000258,PetCare Basic Books Item 258,High-quality basic books product from PetCare. Perfect for all your books needs.,854.57,False
+HOME-BOO-000259,HomeEssentials Mega Books Item 259,High-quality mega books product from HomeEssentials. Perfect for all your books needs.,3069.79,True
+GADG-OFF-000260,GadgetHub Premium Office Supplies Item 260,High-quality premium office supplies product from GadgetHub. Perfect for all your office supplies needs.,746.93,True
+FASH-BOO-000261,FashionZone Mega Books Item 261,High-quality mega books product from FashionZone. Perfect for all your books needs.,1022.95,True
+FOOD-OFF-000262,FoodMart Super Office Supplies Item 262,High-quality super office supplies product from FoodMart. Perfect for all your office supplies needs.,9938.33,False
+FOOD-PET-000263,FoodMart Deluxe Pet Supplies Item 263,High-quality deluxe pet supplies product from FoodMart. Perfect for all your pet supplies needs.,9804.86,True
+FITG-HOM-000264,FitGear Ultra Home & Garden Item 264,High-quality ultra home & garden product from FitGear. Perfect for all your home & garden needs.,477.1,True
+FITG-JEW-000265,FitGear Mega Jewelry Item 265,High-quality mega jewelry product from FitGear. Perfect for all your jewelry needs.,7913.12,True
+BEAU-FOO-000266,BeautyPlus Ultra Food & Beverage Item 266,High-quality ultra food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,7751.88,True
+BOOK-FOO-000267,BookWorld Mega Food & Beverage Item 267,High-quality mega food & beverage product from BookWorld. Perfect for all your food & beverage needs.,1249.29,True
+TOYS-AUT-000268,ToysRUs Professional Automotive Item 268,High-quality professional automotive product from ToysRUs. Perfect for all your automotive needs.,2063.89,True
+PETC-HEA-000269,PetCare Standard Health & Beauty Item 269,High-quality standard health & beauty product from PetCare. Perfect for all your health & beauty needs.,181.9,False
+GADG-HEA-000270,GadgetHub Economy Health & Beauty Item 270,High-quality economy health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,6559.81,False
+FITG-OFF-000271,FitGear Mega Office Supplies Item 271,High-quality mega office supplies product from FitGear. Perfect for all your office supplies needs.,974.08,True
+STYL-PET-000272,StyleCo Premium Pet Supplies Item 272,High-quality premium pet supplies product from StyleCo. Perfect for all your pet supplies needs.,2910.75,False
+TOYS-SPO-000273,ToysRUs Mega Sports & Outdoors Item 273,High-quality mega sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,7839.58,True
+OFFI-TOY-000274,OfficeMax Ultra Toys & Games Item 274,High-quality ultra toys & games product from OfficeMax. Perfect for all your toys & games needs.,7401.56,True
+OFFI-HEA-000275,OfficeMax Super Health & Beauty Item 275,High-quality super health & beauty product from OfficeMax. Perfect for all your health & beauty needs.,125.54,True
+FITG-BOO-000276,FitGear Super Books Item 276,High-quality super books product from FitGear. Perfect for all your books needs.,6302.15,True
+HOME-BOO-000277,HomeEssentials Ultra Books Item 277,High-quality ultra books product from HomeEssentials. Perfect for all your books needs.,260.85,True
+TOYS-BOO-000278,ToysRUs Professional Books Item 278,High-quality professional books product from ToysRUs. Perfect for all your books needs.,7023.7,True
+FASH-FOO-000279,FashionZone Super Food & Beverage Item 279,High-quality super food & beverage product from FashionZone. Perfect for all your food & beverage needs.,7812.43,False
+FASH-HOM-000280,FashionZone Mega Home & Garden Item 280,High-quality mega home & garden product from FashionZone. Perfect for all your home & garden needs.,2487.91,False
+BEAU-FOO-000281,BeautyPlus Super Food & Beverage Item 281,High-quality super food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,485.83,True
+TOYS-HEA-000282,ToysRUs Standard Health & Beauty Item 282,High-quality standard health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,1445.64,False
+FASH-PET-000283,FashionZone Basic Pet Supplies Item 283,High-quality basic pet supplies product from FashionZone. Perfect for all your pet supplies needs.,8752.18,True
+TECH-CLO-000284,TechPro Super Clothing Item 284,High-quality super clothing product from TechPro. Perfect for all your clothing needs.,4503.62,False
+TECH-SPO-000285,TechPro Advanced Sports & Outdoors Item 285,High-quality advanced sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,911.77,True
+TECH-BOO-000286,TechPro Super Books Item 286,High-quality super books product from TechPro. Perfect for all your books needs.,8607.44,True
+HOME-OFF-000287,HomeEssentials Ultra Office Supplies Item 287,High-quality ultra office supplies product from HomeEssentials. Perfect for all your office supplies needs.,4876.13,True
+GADG-HOM-000288,GadgetHub Super Home & Garden Item 288,High-quality super home & garden product from GadgetHub. Perfect for all your home & garden needs.,7015.27,True
+FOOD-FOO-000289,FoodMart Elite Food & Beverage Item 289,High-quality elite food & beverage product from FoodMart. Perfect for all your food & beverage needs.,5417.49,False
+AUTO-OFF-000290,AutoParts Super Office Supplies Item 290,High-quality super office supplies product from AutoParts. Perfect for all your office supplies needs.,9716.65,True
+PETC-ELE-000291,PetCare Professional Electronics Item 291,High-quality professional electronics product from PetCare. Perfect for all your electronics needs.,1392.25,True
+BOOK-ELE-000292,BookWorld Basic Electronics Item 292,High-quality basic electronics product from BookWorld. Perfect for all your electronics needs.,8299.75,True
+PETC-HOM-000293,PetCare Premium Home & Garden Item 293,High-quality premium home & garden product from PetCare. Perfect for all your home & garden needs.,3130.21,True
+BEAU-TOY-000294,BeautyPlus Premium Toys & Games Item 294,High-quality premium toys & games product from BeautyPlus. Perfect for all your toys & games needs.,6568.91,True
+BOOK-JEW-000295,BookWorld Elite Jewelry Item 295,High-quality elite jewelry product from BookWorld. Perfect for all your jewelry needs.,2457.11,True
+PETC-SPO-000296,PetCare Super Sports & Outdoors Item 296,High-quality super sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,7460.42,True
+OFFI-CLO-000297,OfficeMax Elite Clothing Item 297,High-quality elite clothing product from OfficeMax. Perfect for all your clothing needs.,8427.0,True
+FASH-HOM-000298,FashionZone Economy Home & Garden Item 298,High-quality economy home & garden product from FashionZone. Perfect for all your home & garden needs.,787.63,True
+TOYS-TOY-000299,ToysRUs Advanced Toys & Games Item 299,High-quality advanced toys & games product from ToysRUs. Perfect for all your toys & games needs.,283.55,True
+ACME-CLO-000300,Acme Basic Clothing Item 300,High-quality basic clothing product from Acme. Perfect for all your clothing needs.,6425.31,False
+BEAU-CLO-000301,BeautyPlus Economy Clothing Item 301,High-quality economy clothing product from BeautyPlus. Perfect for all your clothing needs.,7887.99,False
+STYL-JEW-000302,StyleCo Professional Jewelry Item 302,High-quality professional jewelry product from StyleCo. Perfect for all your jewelry needs.,648.95,True
+JEWE-BOO-000303,JewelCraft Standard Books Item 303,High-quality standard books product from JewelCraft. Perfect for all your books needs.,1909.26,False
+BEAU-SPO-000304,BeautyPlus Mega Sports & Outdoors Item 304,High-quality mega sports & outdoors product from BeautyPlus. Perfect for all your sports & outdoors needs.,8552.26,True
+FOOD-ELE-000305,FoodMart Elite Electronics Item 305,High-quality elite electronics product from FoodMart. Perfect for all your electronics needs.,3556.52,True
+HOME-BOO-000306,HomeEssentials Economy Books Item 306,High-quality economy books product from HomeEssentials. Perfect for all your books needs.,4153.24,True
+TOYS-AUT-000307,ToysRUs Economy Automotive Item 307,High-quality economy automotive product from ToysRUs. Perfect for all your automotive needs.,5265.72,True
+PETC-HOM-000308,PetCare Super Home & Garden Item 308,High-quality super home & garden product from PetCare. Perfect for all your home & garden needs.,2505.98,True
+BOOK-FOO-000309,BookWorld Elite Food & Beverage Item 309,High-quality elite food & beverage product from BookWorld. Perfect for all your food & beverage needs.,2050.41,False
+HOME-HOM-000310,HomeEssentials Basic Home & Garden Item 310,High-quality basic home & garden product from HomeEssentials. Perfect for all your home & garden needs.,6049.84,False
+PETC-CLO-000311,PetCare Elite Clothing Item 311,High-quality elite clothing product from PetCare. Perfect for all your clothing needs.,4194.49,True
+GADG-FOO-000312,GadgetHub Advanced Food & Beverage Item 312,High-quality advanced food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,4601.39,True
+FASH-AUT-000313,FashionZone Professional Automotive Item 313,High-quality professional automotive product from FashionZone. Perfect for all your automotive needs.,1685.83,True
+FOOD-AUT-000314,FoodMart Professional Automotive Item 314,High-quality professional automotive product from FoodMart. Perfect for all your automotive needs.,1646.33,True
+JEWE-JEW-000315,JewelCraft Ultra Jewelry Item 315,High-quality ultra jewelry product from JewelCraft. Perfect for all your jewelry needs.,24.89,False
+TOYS-CLO-000316,ToysRUs Elite Clothing Item 316,High-quality elite clothing product from ToysRUs. Perfect for all your clothing needs.,3460.64,False
+OFFI-AUT-000317,OfficeMax Mega Automotive Item 317,High-quality mega automotive product from OfficeMax. Perfect for all your automotive needs.,8985.95,True
+BOOK-AUT-000318,BookWorld Economy Automotive Item 318,High-quality economy automotive product from BookWorld. Perfect for all your automotive needs.,8717.77,True
+FOOD-HOM-000319,FoodMart Economy Home & Garden Item 319,High-quality economy home & garden product from FoodMart. Perfect for all your home & garden needs.,3082.54,True
+FASH-HEA-000320,FashionZone Deluxe Health & Beauty Item 320,High-quality deluxe health & beauty product from FashionZone. Perfect for all your health & beauty needs.,1869.18,False
+STYL-HOM-000321,StyleCo Basic Home & Garden Item 321,High-quality basic home & garden product from StyleCo. Perfect for all your home & garden needs.,4100.65,False
+FASH-JEW-000322,FashionZone Standard Jewelry Item 322,High-quality standard jewelry product from FashionZone. Perfect for all your jewelry needs.,7081.77,False
+BEAU-CLO-000323,BeautyPlus Premium Clothing Item 323,High-quality premium clothing product from BeautyPlus. Perfect for all your clothing needs.,561.76,True
+HOME-CLO-000324,HomeEssentials Premium Clothing Item 324,High-quality premium clothing product from HomeEssentials. Perfect for all your clothing needs.,4537.17,True
+ACME-HOM-000325,Acme Premium Home & Garden Item 325,High-quality premium home & garden product from Acme. Perfect for all your home & garden needs.,4819.74,False
+BEAU-JEW-000326,BeautyPlus Premium Jewelry Item 326,High-quality premium jewelry product from BeautyPlus. Perfect for all your jewelry needs.,7545.12,True
+STYL-CLO-000327,StyleCo Super Clothing Item 327,High-quality super clothing product from StyleCo. Perfect for all your clothing needs.,8476.55,True
+OFFI-FOO-000328,OfficeMax Basic Food & Beverage Item 328,High-quality basic food & beverage product from OfficeMax. Perfect for all your food & beverage needs.,9342.62,False
+TECH-FOO-000329,TechPro Advanced Food & Beverage Item 329,High-quality advanced food & beverage product from TechPro. Perfect for all your food & beverage needs.,9728.43,True
+FASH-AUT-000330,FashionZone Elite Automotive Item 330,High-quality elite automotive product from FashionZone. Perfect for all your automotive needs.,2721.34,True
+PETC-JEW-000331,PetCare Basic Jewelry Item 331,High-quality basic jewelry product from PetCare. Perfect for all your jewelry needs.,6461.62,False
+JEWE-OFF-000332,JewelCraft Advanced Office Supplies Item 332,High-quality advanced office supplies product from JewelCraft. Perfect for all your office supplies needs.,9951.46,False
+GADG-AUT-000333,GadgetHub Mega Automotive Item 333,High-quality mega automotive product from GadgetHub. Perfect for all your automotive needs.,3157.54,True
+ACME-TOY-000334,Acme Deluxe Toys & Games Item 334,High-quality deluxe toys & games product from Acme. Perfect for all your toys & games needs.,6046.8,False
+TOYS-PET-000335,ToysRUs Standard Pet Supplies Item 335,High-quality standard pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,2603.44,True
+JEWE-HEA-000336,JewelCraft Deluxe Health & Beauty Item 336,High-quality deluxe health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,4964.31,True
+AUTO-PET-000337,AutoParts Elite Pet Supplies Item 337,High-quality elite pet supplies product from AutoParts. Perfect for all your pet supplies needs.,2024.94,True
+STYL-TOY-000338,StyleCo Economy Toys & Games Item 338,High-quality economy toys & games product from StyleCo. Perfect for all your toys & games needs.,6063.03,True
+BEAU-AUT-000339,BeautyPlus Mega Automotive Item 339,High-quality mega automotive product from BeautyPlus. Perfect for all your automotive needs.,3627.55,True
+HOME-ELE-000340,HomeEssentials Premium Electronics Item 340,High-quality premium electronics product from HomeEssentials. Perfect for all your electronics needs.,6026.3,True
+BEAU-HOM-000341,BeautyPlus Mega Home & Garden Item 341,High-quality mega home & garden product from BeautyPlus. Perfect for all your home & garden needs.,5582.64,False
+TOYS-JEW-000342,ToysRUs Advanced Jewelry Item 342,High-quality advanced jewelry product from ToysRUs. Perfect for all your jewelry needs.,1981.15,True
+PETC-BOO-000343,PetCare Advanced Books Item 343,High-quality advanced books product from PetCare. Perfect for all your books needs.,5924.59,True
+TOYS-HEA-000344,ToysRUs Elite Health & Beauty Item 344,High-quality elite health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,8494.08,True
+JEWE-SPO-000345,JewelCraft Standard Sports & Outdoors Item 345,High-quality standard sports & outdoors product from JewelCraft. Perfect for all your sports & outdoors needs.,4837.68,True
+PETC-AUT-000346,PetCare Advanced Automotive Item 346,High-quality advanced automotive product from PetCare. Perfect for all your automotive needs.,1709.95,True
+ACME-PET-000347,Acme Elite Pet Supplies Item 347,High-quality elite pet supplies product from Acme. Perfect for all your pet supplies needs.,2962.0,False
+STYL-PET-000348,StyleCo Advanced Pet Supplies Item 348,High-quality advanced pet supplies product from StyleCo. Perfect for all your pet supplies needs.,8373.01,True
+FASH-TOY-000349,FashionZone Advanced Toys & Games Item 349,High-quality advanced toys & games product from FashionZone. Perfect for all your toys & games needs.,8212.08,True
+STYL-AUT-000350,StyleCo Deluxe Automotive Item 350,High-quality deluxe automotive product from StyleCo. Perfect for all your automotive needs.,4522.49,True
+ACME-PET-000351,Acme Elite Pet Supplies Item 351,High-quality elite pet supplies product from Acme. Perfect for all your pet supplies needs.,2210.62,True
+OFFI-FOO-000352,OfficeMax Premium Food & Beverage Item 352,High-quality premium food & beverage product from OfficeMax. Perfect for all your food & beverage needs.,3828.76,True
+JEWE-AUT-000353,JewelCraft Super Automotive Item 353,High-quality super automotive product from JewelCraft. Perfect for all your automotive needs.,57.27,True
+HOME-TOY-000354,HomeEssentials Ultra Toys & Games Item 354,High-quality ultra toys & games product from HomeEssentials. Perfect for all your toys & games needs.,5845.65,False
+TOYS-JEW-000355,ToysRUs Elite Jewelry Item 355,High-quality elite jewelry product from ToysRUs. Perfect for all your jewelry needs.,2109.23,True
+TECH-TOY-000356,TechPro Premium Toys & Games Item 356,High-quality premium toys & games product from TechPro. Perfect for all your toys & games needs.,4417.28,False
+GADG-ELE-000357,GadgetHub Basic Electronics Item 357,High-quality basic electronics product from GadgetHub. Perfect for all your electronics needs.,2912.16,False
+BEAU-SPO-000358,BeautyPlus Super Sports & Outdoors Item 358,High-quality super sports & outdoors product from BeautyPlus. Perfect for all your sports & outdoors needs.,9440.56,True
+HOME-HEA-000359,HomeEssentials Mega Health & Beauty Item 359,High-quality mega health & beauty product from HomeEssentials. Perfect for all your health & beauty needs.,5270.09,True
+BOOK-CLO-000360,BookWorld Standard Clothing Item 360,High-quality standard clothing product from BookWorld. Perfect for all your clothing needs.,9618.14,True
+FOOD-HEA-000361,FoodMart Premium Health & Beauty Item 361,High-quality premium health & beauty product from FoodMart. Perfect for all your health & beauty needs.,3295.01,True
+HOME-ELE-000362,HomeEssentials Professional Electronics Item 362,High-quality professional electronics product from HomeEssentials. Perfect for all your electronics needs.,595.96,True
+ACME-FOO-000363,Acme Basic Food & Beverage Item 363,High-quality basic food & beverage product from Acme. Perfect for all your food & beverage needs.,755.77,True
+PETC-HOM-000364,PetCare Elite Home & Garden Item 364,High-quality elite home & garden product from PetCare. Perfect for all your home & garden needs.,3985.44,True
+OFFI-BOO-000365,OfficeMax Deluxe Books Item 365,High-quality deluxe books product from OfficeMax. Perfect for all your books needs.,4223.37,True
+GADG-BOO-000366,GadgetHub Deluxe Books Item 366,High-quality deluxe books product from GadgetHub. Perfect for all your books needs.,7563.07,True
+ACME-BOO-000367,Acme Elite Books Item 367,High-quality elite books product from Acme. Perfect for all your books needs.,5927.53,True
+BEAU-CLO-000368,BeautyPlus Ultra Clothing Item 368,High-quality ultra clothing product from BeautyPlus. Perfect for all your clothing needs.,3072.2,True
+BOOK-CLO-000369,BookWorld Elite Clothing Item 369,High-quality elite clothing product from BookWorld. Perfect for all your clothing needs.,5954.92,False
+ACME-CLO-000370,Acme Elite Clothing Item 370,High-quality elite clothing product from Acme. Perfect for all your clothing needs.,8948.7,True
+STYL-PET-000371,StyleCo Premium Pet Supplies Item 371,High-quality premium pet supplies product from StyleCo. Perfect for all your pet supplies needs.,5028.12,True
+TECH-JEW-000372,TechPro Advanced Jewelry Item 372,High-quality advanced jewelry product from TechPro. Perfect for all your jewelry needs.,4120.1,False
+AUTO-OFF-000373,AutoParts Economy Office Supplies Item 373,High-quality economy office supplies product from AutoParts. Perfect for all your office supplies needs.,7419.61,True
+AUTO-HOM-000374,AutoParts Super Home & Garden Item 374,High-quality super home & garden product from AutoParts. Perfect for all your home & garden needs.,4386.4,True
+BEAU-FOO-000375,BeautyPlus Super Food & Beverage Item 375,High-quality super food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,2132.89,False
+TECH-PET-000376,TechPro Premium Pet Supplies Item 376,High-quality premium pet supplies product from TechPro. Perfect for all your pet supplies needs.,442.89,True
+ACME-PET-000377,Acme Deluxe Pet Supplies Item 377,High-quality deluxe pet supplies product from Acme. Perfect for all your pet supplies needs.,8186.75,False
+BOOK-PET-000378,BookWorld Basic Pet Supplies Item 378,High-quality basic pet supplies product from BookWorld. Perfect for all your pet supplies needs.,6080.94,True
+GADG-OFF-000379,GadgetHub Ultra Office Supplies Item 379,High-quality ultra office supplies product from GadgetHub. Perfect for all your office supplies needs.,346.92,False
+GADG-FOO-000380,GadgetHub Advanced Food & Beverage Item 380,High-quality advanced food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,3356.84,True
+PETC-SPO-000381,PetCare Deluxe Sports & Outdoors Item 381,High-quality deluxe sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,4258.33,True
+OFFI-TOY-000382,OfficeMax Mega Toys & Games Item 382,High-quality mega toys & games product from OfficeMax. Perfect for all your toys & games needs.,6593.07,True
+ACME-AUT-000383,Acme Deluxe Automotive Item 383,High-quality deluxe automotive product from Acme. Perfect for all your automotive needs.,4385.34,True
+FASH-FOO-000384,FashionZone Advanced Food & Beverage Item 384,High-quality advanced food & beverage product from FashionZone. Perfect for all your food & beverage needs.,2954.78,True
+PETC-ELE-000385,PetCare Ultra Electronics Item 385,High-quality ultra electronics product from PetCare. Perfect for all your electronics needs.,6589.12,False
+BOOK-BOO-000386,BookWorld Elite Books Item 386,High-quality elite books product from BookWorld. Perfect for all your books needs.,4953.76,True
+BEAU-HEA-000387,BeautyPlus Basic Health & Beauty Item 387,High-quality basic health & beauty product from BeautyPlus. Perfect for all your health & beauty needs.,4915.46,True
+STYL-HOM-000388,StyleCo Elite Home & Garden Item 388,High-quality elite home & garden product from StyleCo. Perfect for all your home & garden needs.,9206.97,True
+OFFI-TOY-000389,OfficeMax Elite Toys & Games Item 389,High-quality elite toys & games product from OfficeMax. Perfect for all your toys & games needs.,8606.56,True
+BOOK-SPO-000390,BookWorld Professional Sports & Outdoors Item 390,High-quality professional sports & outdoors product from BookWorld. Perfect for all your sports & outdoors needs.,5492.14,True
+OFFI-CLO-000391,OfficeMax Ultra Clothing Item 391,High-quality ultra clothing product from OfficeMax. Perfect for all your clothing needs.,8085.07,True
+FOOD-ELE-000392,FoodMart Elite Electronics Item 392,High-quality elite electronics product from FoodMart. Perfect for all your electronics needs.,2192.64,True
+JEWE-CLO-000393,JewelCraft Premium Clothing Item 393,High-quality premium clothing product from JewelCraft. Perfect for all your clothing needs.,8033.95,True
+GADG-BOO-000394,GadgetHub Economy Books Item 394,High-quality economy books product from GadgetHub. Perfect for all your books needs.,4151.23,True
+GADG-AUT-000395,GadgetHub Deluxe Automotive Item 395,High-quality deluxe automotive product from GadgetHub. Perfect for all your automotive needs.,7532.97,False
+BEAU-SPO-000396,BeautyPlus Standard Sports & Outdoors Item 396,High-quality standard sports & outdoors product from BeautyPlus. Perfect for all your sports & outdoors needs.,2742.27,True
+FOOD-JEW-000397,FoodMart Advanced Jewelry Item 397,High-quality advanced jewelry product from FoodMart. Perfect for all your jewelry needs.,7344.87,True
+FOOD-ELE-000398,FoodMart Standard Electronics Item 398,High-quality standard electronics product from FoodMart. Perfect for all your electronics needs.,9431.6,False
+AUTO-JEW-000399,AutoParts Standard Jewelry Item 399,High-quality standard jewelry product from AutoParts. Perfect for all your jewelry needs.,7079.32,True
+JEWE-HOM-000400,JewelCraft Ultra Home & Garden Item 400,High-quality ultra home & garden product from JewelCraft. Perfect for all your home & garden needs.,6427.7,True
+STYL-HEA-000401,StyleCo Professional Health & Beauty Item 401,High-quality professional health & beauty product from StyleCo. Perfect for all your health & beauty needs.,3563.1,True
+FASH-JEW-000402,FashionZone Basic Jewelry Item 402,High-quality basic jewelry product from FashionZone. Perfect for all your jewelry needs.,5681.56,True
+AUTO-SPO-000403,AutoParts Basic Sports & Outdoors Item 403,High-quality basic sports & outdoors product from AutoParts. Perfect for all your sports & outdoors needs.,1276.47,True
+TOYS-FOO-000404,ToysRUs Ultra Food & Beverage Item 404,High-quality ultra food & beverage product from ToysRUs. Perfect for all your food & beverage needs.,332.0,True
+ACME-BOO-000405,Acme Ultra Books Item 405,High-quality ultra books product from Acme. Perfect for all your books needs.,2760.14,True
+BEAU-FOO-000406,BeautyPlus Elite Food & Beverage Item 406,High-quality elite food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,1135.69,True
+AUTO-PET-000407,AutoParts Standard Pet Supplies Item 407,High-quality standard pet supplies product from AutoParts. Perfect for all your pet supplies needs.,9866.82,True
+GADG-PET-000408,GadgetHub Premium Pet Supplies Item 408,High-quality premium pet supplies product from GadgetHub. Perfect for all your pet supplies needs.,8647.34,True
+STYL-FOO-000409,StyleCo Economy Food & Beverage Item 409,High-quality economy food & beverage product from StyleCo. Perfect for all your food & beverage needs.,2896.93,True
+STYL-HOM-000410,StyleCo Super Home & Garden Item 410,High-quality super home & garden product from StyleCo. Perfect for all your home & garden needs.,714.42,True
+ACME-SPO-000411,Acme Ultra Sports & Outdoors Item 411,High-quality ultra sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,3418.43,True
+PETC-HOM-000412,PetCare Super Home & Garden Item 412,High-quality super home & garden product from PetCare. Perfect for all your home & garden needs.,9494.01,True
+FOOD-CLO-000413,FoodMart Standard Clothing Item 413,High-quality standard clothing product from FoodMart. Perfect for all your clothing needs.,7878.71,True
+TECH-TOY-000414,TechPro Mega Toys & Games Item 414,High-quality mega toys & games product from TechPro. Perfect for all your toys & games needs.,8757.26,False
+FITG-FOO-000415,FitGear Elite Food & Beverage Item 415,High-quality elite food & beverage product from FitGear. Perfect for all your food & beverage needs.,8305.39,False
+PETC-AUT-000416,PetCare Premium Automotive Item 416,High-quality premium automotive product from PetCare. Perfect for all your automotive needs.,9196.1,True
+GADG-TOY-000417,GadgetHub Professional Toys & Games Item 417,High-quality professional toys & games product from GadgetHub. Perfect for all your toys & games needs.,2478.94,True
+TOYS-SPO-000418,ToysRUs Mega Sports & Outdoors Item 418,High-quality mega sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,2180.09,False
+ACME-SPO-000419,Acme Economy Sports & Outdoors Item 419,High-quality economy sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,4162.25,True
+PETC-HOM-000420,PetCare Professional Home & Garden Item 420,High-quality professional home & garden product from PetCare. Perfect for all your home & garden needs.,6031.28,False
+FOOD-HEA-000421,FoodMart Elite Health & Beauty Item 421,High-quality elite health & beauty product from FoodMart. Perfect for all your health & beauty needs.,1412.14,True
+TOYS-HEA-000422,ToysRUs Economy Health & Beauty Item 422,High-quality economy health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,224.38,True
+STYL-FOO-000423,StyleCo Super Food & Beverage Item 423,High-quality super food & beverage product from StyleCo. Perfect for all your food & beverage needs.,9821.62,False
+ACME-OFF-000424,Acme Economy Office Supplies Item 424,High-quality economy office supplies product from Acme. Perfect for all your office supplies needs.,263.17,False
+HOME-SPO-000425,HomeEssentials Professional Sports & Outdoors Item 425,High-quality professional sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,2885.2,True
+PETC-PET-000426,PetCare Elite Pet Supplies Item 426,High-quality elite pet supplies product from PetCare. Perfect for all your pet supplies needs.,5576.46,False
+ACME-OFF-000427,Acme Elite Office Supplies Item 427,High-quality elite office supplies product from Acme. Perfect for all your office supplies needs.,5400.38,True
+STYL-TOY-000428,StyleCo Basic Toys & Games Item 428,High-quality basic toys & games product from StyleCo. Perfect for all your toys & games needs.,1178.56,True
+AUTO-JEW-000429,AutoParts Elite Jewelry Item 429,High-quality elite jewelry product from AutoParts. Perfect for all your jewelry needs.,5837.21,True
+HOME-BOO-000430,HomeEssentials Premium Books Item 430,High-quality premium books product from HomeEssentials. Perfect for all your books needs.,5181.53,True
+JEWE-ELE-000431,JewelCraft Deluxe Electronics Item 431,High-quality deluxe electronics product from JewelCraft. Perfect for all your electronics needs.,7872.7,True
+PETC-JEW-000432,PetCare Basic Jewelry Item 432,High-quality basic jewelry product from PetCare. Perfect for all your jewelry needs.,9695.16,True
+PETC-CLO-000433,PetCare Professional Clothing Item 433,High-quality professional clothing product from PetCare. Perfect for all your clothing needs.,9416.41,False
+STYL-PET-000434,StyleCo Mega Pet Supplies Item 434,High-quality mega pet supplies product from StyleCo. Perfect for all your pet supplies needs.,5490.89,True
+FITG-ELE-000435,FitGear Premium Electronics Item 435,High-quality premium electronics product from FitGear. Perfect for all your electronics needs.,860.02,True
+FASH-TOY-000436,FashionZone Basic Toys & Games Item 436,High-quality basic toys & games product from FashionZone. Perfect for all your toys & games needs.,2730.79,True
+STYL-HOM-000437,StyleCo Basic Home & Garden Item 437,High-quality basic home & garden product from StyleCo. Perfect for all your home & garden needs.,8436.53,True
+BEAU-JEW-000438,BeautyPlus Elite Jewelry Item 438,High-quality elite jewelry product from BeautyPlus. Perfect for all your jewelry needs.,3810.21,True
+HOME-OFF-000439,HomeEssentials Deluxe Office Supplies Item 439,High-quality deluxe office supplies product from HomeEssentials. Perfect for all your office supplies needs.,2671.27,False
+BOOK-SPO-000440,BookWorld Standard Sports & Outdoors Item 440,High-quality standard sports & outdoors product from BookWorld. Perfect for all your sports & outdoors needs.,1062.79,False
+TECH-AUT-000441,TechPro Premium Automotive Item 441,High-quality premium automotive product from TechPro. Perfect for all your automotive needs.,913.39,True
+FASH-OFF-000442,FashionZone Economy Office Supplies Item 442,High-quality economy office supplies product from FashionZone. Perfect for all your office supplies needs.,4908.08,False
+JEWE-HOM-000443,JewelCraft Standard Home & Garden Item 443,High-quality standard home & garden product from JewelCraft. Perfect for all your home & garden needs.,382.88,True
+TOYS-HEA-000444,ToysRUs Mega Health & Beauty Item 444,High-quality mega health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,891.51,True
+FASH-SPO-000445,FashionZone Basic Sports & Outdoors Item 445,High-quality basic sports & outdoors product from FashionZone. Perfect for all your sports & outdoors needs.,9373.21,True
+BEAU-CLO-000446,BeautyPlus Basic Clothing Item 446,High-quality basic clothing product from BeautyPlus. Perfect for all your clothing needs.,9966.28,True
+GADG-JEW-000447,GadgetHub Professional Jewelry Item 447,High-quality professional jewelry product from GadgetHub. Perfect for all your jewelry needs.,9016.18,True
+PETC-TOY-000448,PetCare Super Toys & Games Item 448,High-quality super toys & games product from PetCare. Perfect for all your toys & games needs.,2069.53,True
+STYL-TOY-000449,StyleCo Elite Toys & Games Item 449,High-quality elite toys & games product from StyleCo. Perfect for all your toys & games needs.,1436.72,False
+GADG-BOO-000450,GadgetHub Super Books Item 450,High-quality super books product from GadgetHub. Perfect for all your books needs.,9195.26,True
+HOME-SPO-000451,HomeEssentials Elite Sports & Outdoors Item 451,High-quality elite sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,2971.08,False
+ACME-SPO-000452,Acme Premium Sports & Outdoors Item 452,High-quality premium sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,8969.52,True
+AUTO-AUT-000453,AutoParts Mega Automotive Item 453,High-quality mega automotive product from AutoParts. Perfect for all your automotive needs.,2814.41,True
+TECH-HEA-000454,TechPro Professional Health & Beauty Item 454,High-quality professional health & beauty product from TechPro. Perfect for all your health & beauty needs.,9497.7,True
+JEWE-TOY-000455,JewelCraft Professional Toys & Games Item 455,High-quality professional toys & games product from JewelCraft. Perfect for all your toys & games needs.,701.63,True
+BOOK-HEA-000456,BookWorld Economy Health & Beauty Item 456,High-quality economy health & beauty product from BookWorld. Perfect for all your health & beauty needs.,1509.63,True
+TECH-ELE-000457,TechPro Elite Electronics Item 457,High-quality elite electronics product from TechPro. Perfect for all your electronics needs.,2271.67,False
+STYL-OFF-000458,StyleCo Mega Office Supplies Item 458,High-quality mega office supplies product from StyleCo. Perfect for all your office supplies needs.,2533.85,True
+BEAU-SPO-000459,BeautyPlus Premium Sports & Outdoors Item 459,High-quality premium sports & outdoors product from BeautyPlus. Perfect for all your sports & outdoors needs.,7440.11,True
+FOOD-PET-000460,FoodMart Professional Pet Supplies Item 460,High-quality professional pet supplies product from FoodMart. Perfect for all your pet supplies needs.,9395.04,True
+AUTO-SPO-000461,AutoParts Premium Sports & Outdoors Item 461,High-quality premium sports & outdoors product from AutoParts. Perfect for all your sports & outdoors needs.,3583.32,True
+AUTO-JEW-000462,AutoParts Deluxe Jewelry Item 462,High-quality deluxe jewelry product from AutoParts. Perfect for all your jewelry needs.,2802.66,True
+BOOK-ELE-000463,BookWorld Basic Electronics Item 463,High-quality basic electronics product from BookWorld. Perfect for all your electronics needs.,3656.2,True
+ACME-CLO-000464,Acme Deluxe Clothing Item 464,High-quality deluxe clothing product from Acme. Perfect for all your clothing needs.,9781.73,False
+FITG-FOO-000465,FitGear Basic Food & Beverage Item 465,High-quality basic food & beverage product from FitGear. Perfect for all your food & beverage needs.,8460.74,True
+BOOK-HEA-000466,BookWorld Advanced Health & Beauty Item 466,High-quality advanced health & beauty product from BookWorld. Perfect for all your health & beauty needs.,4940.87,True
+ACME-PET-000467,Acme Mega Pet Supplies Item 467,High-quality mega pet supplies product from Acme. Perfect for all your pet supplies needs.,8228.16,True
+HOME-ELE-000468,HomeEssentials Economy Electronics Item 468,High-quality economy electronics product from HomeEssentials. Perfect for all your electronics needs.,7644.73,True
+OFFI-OFF-000469,OfficeMax Mega Office Supplies Item 469,High-quality mega office supplies product from OfficeMax. Perfect for all your office supplies needs.,3309.13,True
+AUTO-TOY-000470,AutoParts Advanced Toys & Games Item 470,High-quality advanced toys & games product from AutoParts. Perfect for all your toys & games needs.,6692.67,True
+AUTO-AUT-000471,AutoParts Standard Automotive Item 471,High-quality standard automotive product from AutoParts. Perfect for all your automotive needs.,3337.19,True
+AUTO-HOM-000472,AutoParts Premium Home & Garden Item 472,High-quality premium home & garden product from AutoParts. Perfect for all your home & garden needs.,894.73,True
+PETC-OFF-000473,PetCare Super Office Supplies Item 473,High-quality super office supplies product from PetCare. Perfect for all your office supplies needs.,3091.29,True
+BOOK-ELE-000474,BookWorld Ultra Electronics Item 474,High-quality ultra electronics product from BookWorld. Perfect for all your electronics needs.,7048.57,True
+FASH-OFF-000475,FashionZone Ultra Office Supplies Item 475,High-quality ultra office supplies product from FashionZone. Perfect for all your office supplies needs.,9137.38,True
+BEAU-HEA-000476,BeautyPlus Mega Health & Beauty Item 476,High-quality mega health & beauty product from BeautyPlus. Perfect for all your health & beauty needs.,1018.21,True
+FASH-FOO-000477,FashionZone Professional Food & Beverage Item 477,High-quality professional food & beverage product from FashionZone. Perfect for all your food & beverage needs.,5165.83,True
+AUTO-TOY-000478,AutoParts Mega Toys & Games Item 478,High-quality mega toys & games product from AutoParts. Perfect for all your toys & games needs.,1159.61,True
+FASH-HEA-000479,FashionZone Advanced Health & Beauty Item 479,High-quality advanced health & beauty product from FashionZone. Perfect for all your health & beauty needs.,78.55,True
+AUTO-AUT-000480,AutoParts Deluxe Automotive Item 480,High-quality deluxe automotive product from AutoParts. Perfect for all your automotive needs.,6648.57,False
+JEWE-PET-000481,JewelCraft Mega Pet Supplies Item 481,High-quality mega pet supplies product from JewelCraft. Perfect for all your pet supplies needs.,8384.8,True
+TECH-FOO-000482,TechPro Ultra Food & Beverage Item 482,High-quality ultra food & beverage product from TechPro. Perfect for all your food & beverage needs.,1759.15,True
+JEWE-CLO-000483,JewelCraft Mega Clothing Item 483,High-quality mega clothing product from JewelCraft. Perfect for all your clothing needs.,8989.79,True
+BOOK-AUT-000484,BookWorld Advanced Automotive Item 484,High-quality advanced automotive product from BookWorld. Perfect for all your automotive needs.,265.79,True
+TOYS-BOO-000485,ToysRUs Professional Books Item 485,High-quality professional books product from ToysRUs. Perfect for all your books needs.,2237.15,True
+PETC-OFF-000486,PetCare Basic Office Supplies Item 486,High-quality basic office supplies product from PetCare. Perfect for all your office supplies needs.,4265.27,True
+PETC-FOO-000487,PetCare Elite Food & Beverage Item 487,High-quality elite food & beverage product from PetCare. Perfect for all your food & beverage needs.,2942.9,True
+JEWE-TOY-000488,JewelCraft Standard Toys & Games Item 488,High-quality standard toys & games product from JewelCraft. Perfect for all your toys & games needs.,4906.6,True
+JEWE-HEA-000489,JewelCraft Deluxe Health & Beauty Item 489,High-quality deluxe health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,3889.68,False
+HOME-BOO-000490,HomeEssentials Standard Books Item 490,High-quality standard books product from HomeEssentials. Perfect for all your books needs.,5058.15,True
+BEAU-PET-000491,BeautyPlus Advanced Pet Supplies Item 491,High-quality advanced pet supplies product from BeautyPlus. Perfect for all your pet supplies needs.,5476.56,True
+FASH-SPO-000492,FashionZone Advanced Sports & Outdoors Item 492,High-quality advanced sports & outdoors product from FashionZone. Perfect for all your sports & outdoors needs.,8998.69,True
+GADG-BOO-000493,GadgetHub Super Books Item 493,High-quality super books product from GadgetHub. Perfect for all your books needs.,1245.74,True
+OFFI-FOO-000494,OfficeMax Mega Food & Beverage Item 494,High-quality mega food & beverage product from OfficeMax. Perfect for all your food & beverage needs.,2905.63,True
+JEWE-HOM-000495,JewelCraft Mega Home & Garden Item 495,High-quality mega home & garden product from JewelCraft. Perfect for all your home & garden needs.,6617.38,True
+HOME-JEW-000496,HomeEssentials Professional Jewelry Item 496,High-quality professional jewelry product from HomeEssentials. Perfect for all your jewelry needs.,2408.4,False
+TECH-HOM-000497,TechPro Basic Home & Garden Item 497,High-quality basic home & garden product from TechPro. Perfect for all your home & garden needs.,7157.75,True
+FITG-PET-000498,FitGear Elite Pet Supplies Item 498,High-quality elite pet supplies product from FitGear. Perfect for all your pet supplies needs.,1079.13,True
+FITG-ELE-000499,FitGear Basic Electronics Item 499,High-quality basic electronics product from FitGear. Perfect for all your electronics needs.,3365.45,True
+FASH-FOO-000500,FashionZone Standard Food & Beverage Item 500,High-quality standard food & beverage product from FashionZone. Perfect for all your food & beverage needs.,1430.84,False
+JEWE-BOO-000501,JewelCraft Advanced Books Item 501,High-quality advanced books product from JewelCraft. Perfect for all your books needs.,1242.5,False
+AUTO-PET-000502,AutoParts Professional Pet Supplies Item 502,High-quality professional pet supplies product from AutoParts. Perfect for all your pet supplies needs.,7943.32,True
+FITG-HEA-000503,FitGear Basic Health & Beauty Item 503,High-quality basic health & beauty product from FitGear. Perfect for all your health & beauty needs.,8653.2,False
+JEWE-SPO-000504,JewelCraft Economy Sports & Outdoors Item 504,High-quality economy sports & outdoors product from JewelCraft. Perfect for all your sports & outdoors needs.,4083.91,True
+ACME-JEW-000505,Acme Ultra Jewelry Item 505,High-quality ultra jewelry product from Acme. Perfect for all your jewelry needs.,7869.79,True
+AUTO-FOO-000506,AutoParts Basic Food & Beverage Item 506,High-quality basic food & beverage product from AutoParts. Perfect for all your food & beverage needs.,6993.61,True
+FOOD-TOY-000507,FoodMart Advanced Toys & Games Item 507,High-quality advanced toys & games product from FoodMart. Perfect for all your toys & games needs.,3862.28,True
+AUTO-HOM-000508,AutoParts Economy Home & Garden Item 508,High-quality economy home & garden product from AutoParts. Perfect for all your home & garden needs.,6339.2,True
+TOYS-CLO-000509,ToysRUs Advanced Clothing Item 509,High-quality advanced clothing product from ToysRUs. Perfect for all your clothing needs.,1968.0,True
+OFFI-AUT-000510,OfficeMax Elite Automotive Item 510,High-quality elite automotive product from OfficeMax. Perfect for all your automotive needs.,3042.44,True
+FITG-HEA-000511,FitGear Deluxe Health & Beauty Item 511,High-quality deluxe health & beauty product from FitGear. Perfect for all your health & beauty needs.,9177.66,True
+FITG-SPO-000512,FitGear Ultra Sports & Outdoors Item 512,High-quality ultra sports & outdoors product from FitGear. Perfect for all your sports & outdoors needs.,8609.07,True
+HOME-CLO-000513,HomeEssentials Ultra Clothing Item 513,High-quality ultra clothing product from HomeEssentials. Perfect for all your clothing needs.,6335.56,True
+TOYS-BOO-000514,ToysRUs Basic Books Item 514,High-quality basic books product from ToysRUs. Perfect for all your books needs.,435.31,True
+HOME-PET-000515,HomeEssentials Deluxe Pet Supplies Item 515,High-quality deluxe pet supplies product from HomeEssentials. Perfect for all your pet supplies needs.,1286.74,False
+GADG-PET-000516,GadgetHub Deluxe Pet Supplies Item 516,High-quality deluxe pet supplies product from GadgetHub. Perfect for all your pet supplies needs.,5271.95,True
+OFFI-FOO-000517,OfficeMax Super Food & Beverage Item 517,High-quality super food & beverage product from OfficeMax. Perfect for all your food & beverage needs.,6777.54,True
+PETC-BOO-000518,PetCare Professional Books Item 518,High-quality professional books product from PetCare. Perfect for all your books needs.,7776.77,False
+OFFI-HOM-000519,OfficeMax Ultra Home & Garden Item 519,High-quality ultra home & garden product from OfficeMax. Perfect for all your home & garden needs.,4333.31,True
+TECH-SPO-000520,TechPro Basic Sports & Outdoors Item 520,High-quality basic sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,4899.75,True
+BEAU-BOO-000521,BeautyPlus Elite Books Item 521,High-quality elite books product from BeautyPlus. Perfect for all your books needs.,3934.03,True
+JEWE-HEA-000522,JewelCraft Super Health & Beauty Item 522,High-quality super health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,8291.67,False
+PETC-HEA-000523,PetCare Deluxe Health & Beauty Item 523,High-quality deluxe health & beauty product from PetCare. Perfect for all your health & beauty needs.,3114.22,True
+TECH-SPO-000524,TechPro Super Sports & Outdoors Item 524,High-quality super sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,9726.65,False
+TECH-AUT-000525,TechPro Economy Automotive Item 525,High-quality economy automotive product from TechPro. Perfect for all your automotive needs.,7357.95,True
+BOOK-PET-000526,BookWorld Basic Pet Supplies Item 526,High-quality basic pet supplies product from BookWorld. Perfect for all your pet supplies needs.,5429.69,True
+OFFI-JEW-000527,OfficeMax Premium Jewelry Item 527,High-quality premium jewelry product from OfficeMax. Perfect for all your jewelry needs.,9905.28,True
+TOYS-PET-000528,ToysRUs Basic Pet Supplies Item 528,High-quality basic pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,7908.07,True
+PETC-SPO-000529,PetCare Super Sports & Outdoors Item 529,High-quality super sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,862.72,True
+GADG-OFF-000530,GadgetHub Ultra Office Supplies Item 530,High-quality ultra office supplies product from GadgetHub. Perfect for all your office supplies needs.,3751.66,False
+BEAU-BOO-000531,BeautyPlus Super Books Item 531,High-quality super books product from BeautyPlus. Perfect for all your books needs.,7063.77,False
+BEAU-HEA-000532,BeautyPlus Premium Health & Beauty Item 532,High-quality premium health & beauty product from BeautyPlus. Perfect for all your health & beauty needs.,4934.0,True
+TECH-PET-000533,TechPro Mega Pet Supplies Item 533,High-quality mega pet supplies product from TechPro. Perfect for all your pet supplies needs.,3228.33,True
+GADG-BOO-000534,GadgetHub Professional Books Item 534,High-quality professional books product from GadgetHub. Perfect for all your books needs.,6601.13,True
+GADG-OFF-000535,GadgetHub Super Office Supplies Item 535,High-quality super office supplies product from GadgetHub. Perfect for all your office supplies needs.,5014.93,True
+TOYS-FOO-000536,ToysRUs Super Food & Beverage Item 536,High-quality super food & beverage product from ToysRUs. Perfect for all your food & beverage needs.,1055.37,False
+TECH-AUT-000537,TechPro Economy Automotive Item 537,High-quality economy automotive product from TechPro. Perfect for all your automotive needs.,7533.15,True
+JEWE-AUT-000538,JewelCraft Standard Automotive Item 538,High-quality standard automotive product from JewelCraft. Perfect for all your automotive needs.,7783.22,True
+BOOK-PET-000539,BookWorld Mega Pet Supplies Item 539,High-quality mega pet supplies product from BookWorld. Perfect for all your pet supplies needs.,878.81,True
+FOOD-HEA-000540,FoodMart Standard Health & Beauty Item 540,High-quality standard health & beauty product from FoodMart. Perfect for all your health & beauty needs.,656.25,True
+TOYS-PET-000541,ToysRUs Ultra Pet Supplies Item 541,High-quality ultra pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,826.48,True
+PETC-OFF-000542,PetCare Super Office Supplies Item 542,High-quality super office supplies product from PetCare. Perfect for all your office supplies needs.,1231.11,True
+PETC-HEA-000543,PetCare Basic Health & Beauty Item 543,High-quality basic health & beauty product from PetCare. Perfect for all your health & beauty needs.,3188.08,True
+STYL-AUT-000544,StyleCo Super Automotive Item 544,High-quality super automotive product from StyleCo. Perfect for all your automotive needs.,3142.4,False
+JEWE-FOO-000545,JewelCraft Premium Food & Beverage Item 545,High-quality premium food & beverage product from JewelCraft. Perfect for all your food & beverage needs.,2293.07,True
+OFFI-CLO-000546,OfficeMax Standard Clothing Item 546,High-quality standard clothing product from OfficeMax. Perfect for all your clothing needs.,9942.77,True
+BEAU-JEW-000547,BeautyPlus Deluxe Jewelry Item 547,High-quality deluxe jewelry product from BeautyPlus. Perfect for all your jewelry needs.,1975.55,True
+ACME-JEW-000548,Acme Professional Jewelry Item 548,High-quality professional jewelry product from Acme. Perfect for all your jewelry needs.,7776.86,True
+OFFI-ELE-000549,OfficeMax Mega Electronics Item 549,High-quality mega electronics product from OfficeMax. Perfect for all your electronics needs.,8731.4,True
+BOOK-PET-000550,BookWorld Ultra Pet Supplies Item 550,High-quality ultra pet supplies product from BookWorld. Perfect for all your pet supplies needs.,8603.54,True
+TOYS-ELE-000551,ToysRUs Advanced Electronics Item 551,High-quality advanced electronics product from ToysRUs. Perfect for all your electronics needs.,629.06,False
+ACME-HEA-000552,Acme Basic Health & Beauty Item 552,High-quality basic health & beauty product from Acme. Perfect for all your health & beauty needs.,2862.57,True
+HOME-HOM-000553,HomeEssentials Mega Home & Garden Item 553,High-quality mega home & garden product from HomeEssentials. Perfect for all your home & garden needs.,8219.1,True
+FOOD-TOY-000554,FoodMart Advanced Toys & Games Item 554,High-quality advanced toys & games product from FoodMart. Perfect for all your toys & games needs.,3153.27,False
+OFFI-BOO-000555,OfficeMax Professional Books Item 555,High-quality professional books product from OfficeMax. Perfect for all your books needs.,9860.09,True
+JEWE-TOY-000556,JewelCraft Standard Toys & Games Item 556,High-quality standard toys & games product from JewelCraft. Perfect for all your toys & games needs.,4166.66,True
+STYL-AUT-000557,StyleCo Ultra Automotive Item 557,High-quality ultra automotive product from StyleCo. Perfect for all your automotive needs.,5013.92,True
+ACME-PET-000558,Acme Ultra Pet Supplies Item 558,High-quality ultra pet supplies product from Acme. Perfect for all your pet supplies needs.,9211.61,True
+BEAU-OFF-000559,BeautyPlus Ultra Office Supplies Item 559,High-quality ultra office supplies product from BeautyPlus. Perfect for all your office supplies needs.,9278.8,True
+GADG-TOY-000560,GadgetHub Deluxe Toys & Games Item 560,High-quality deluxe toys & games product from GadgetHub. Perfect for all your toys & games needs.,9481.64,True
+GADG-HEA-000561,GadgetHub Mega Health & Beauty Item 561,High-quality mega health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,873.95,True
+HOME-OFF-000562,HomeEssentials Mega Office Supplies Item 562,High-quality mega office supplies product from HomeEssentials. Perfect for all your office supplies needs.,9070.78,True
+AUTO-ELE-000563,AutoParts Mega Electronics Item 563,High-quality mega electronics product from AutoParts. Perfect for all your electronics needs.,4762.69,True
+HOME-TOY-000564,HomeEssentials Basic Toys & Games Item 564,High-quality basic toys & games product from HomeEssentials. Perfect for all your toys & games needs.,6296.46,False
+FOOD-BOO-000565,FoodMart Deluxe Books Item 565,High-quality deluxe books product from FoodMart. Perfect for all your books needs.,3527.08,False
+STYL-HEA-000566,StyleCo Premium Health & Beauty Item 566,High-quality premium health & beauty product from StyleCo. Perfect for all your health & beauty needs.,3473.58,True
+STYL-PET-000567,StyleCo Professional Pet Supplies Item 567,High-quality professional pet supplies product from StyleCo. Perfect for all your pet supplies needs.,8630.94,True
+FITG-TOY-000568,FitGear Elite Toys & Games Item 568,High-quality elite toys & games product from FitGear. Perfect for all your toys & games needs.,6638.5,True
+PETC-AUT-000569,PetCare Deluxe Automotive Item 569,High-quality deluxe automotive product from PetCare. Perfect for all your automotive needs.,6443.08,True
+JEWE-FOO-000570,JewelCraft Economy Food & Beverage Item 570,High-quality economy food & beverage product from JewelCraft. Perfect for all your food & beverage needs.,3997.17,True
+HOME-FOO-000571,HomeEssentials Economy Food & Beverage Item 571,High-quality economy food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,4354.01,True
+HOME-JEW-000572,HomeEssentials Basic Jewelry Item 572,High-quality basic jewelry product from HomeEssentials. Perfect for all your jewelry needs.,5971.33,True
+BOOK-SPO-000573,BookWorld Super Sports & Outdoors Item 573,High-quality super sports & outdoors product from BookWorld. Perfect for all your sports & outdoors needs.,383.02,False
+TOYS-FOO-000574,ToysRUs Deluxe Food & Beverage Item 574,High-quality deluxe food & beverage product from ToysRUs. Perfect for all your food & beverage needs.,48.41,True
+BEAU-OFF-000575,BeautyPlus Super Office Supplies Item 575,High-quality super office supplies product from BeautyPlus. Perfect for all your office supplies needs.,6867.04,True
+OFFI-SPO-000576,OfficeMax Advanced Sports & Outdoors Item 576,High-quality advanced sports & outdoors product from OfficeMax. Perfect for all your sports & outdoors needs.,4887.19,True
+AUTO-SPO-000577,AutoParts Advanced Sports & Outdoors Item 577,High-quality advanced sports & outdoors product from AutoParts. Perfect for all your sports & outdoors needs.,2479.86,True
+FITG-HEA-000578,FitGear Ultra Health & Beauty Item 578,High-quality ultra health & beauty product from FitGear. Perfect for all your health & beauty needs.,6323.0,True
+TOYS-SPO-000579,ToysRUs Basic Sports & Outdoors Item 579,High-quality basic sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,4975.21,True
+JEWE-HEA-000580,JewelCraft Standard Health & Beauty Item 580,High-quality standard health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,2858.44,True
+AUTO-HEA-000581,AutoParts Standard Health & Beauty Item 581,High-quality standard health & beauty product from AutoParts. Perfect for all your health & beauty needs.,1405.62,True
+BOOK-JEW-000582,BookWorld Basic Jewelry Item 582,High-quality basic jewelry product from BookWorld. Perfect for all your jewelry needs.,1163.48,True
+OFFI-TOY-000583,OfficeMax Elite Toys & Games Item 583,High-quality elite toys & games product from OfficeMax. Perfect for all your toys & games needs.,5803.04,True
+BEAU-BOO-000584,BeautyPlus Professional Books Item 584,High-quality professional books product from BeautyPlus. Perfect for all your books needs.,5544.33,True
+ACME-SPO-000585,Acme Premium Sports & Outdoors Item 585,High-quality premium sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,4763.7,True
+FASH-PET-000586,FashionZone Standard Pet Supplies Item 586,High-quality standard pet supplies product from FashionZone. Perfect for all your pet supplies needs.,2080.99,True
+HOME-FOO-000587,HomeEssentials Standard Food & Beverage Item 587,High-quality standard food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,9790.04,True
+JEWE-JEW-000588,JewelCraft Advanced Jewelry Item 588,High-quality advanced jewelry product from JewelCraft. Perfect for all your jewelry needs.,796.34,True
+TECH-AUT-000589,TechPro Ultra Automotive Item 589,High-quality ultra automotive product from TechPro. Perfect for all your automotive needs.,7188.95,True
+TOYS-FOO-000590,ToysRUs Premium Food & Beverage Item 590,High-quality premium food & beverage product from ToysRUs. Perfect for all your food & beverage needs.,8250.13,True
+TECH-CLO-000591,TechPro Premium Clothing Item 591,High-quality premium clothing product from TechPro. Perfect for all your clothing needs.,2102.71,True
+HOME-CLO-000592,HomeEssentials Mega Clothing Item 592,High-quality mega clothing product from HomeEssentials. Perfect for all your clothing needs.,9119.6,True
+BEAU-OFF-000593,BeautyPlus Basic Office Supplies Item 593,High-quality basic office supplies product from BeautyPlus. Perfect for all your office supplies needs.,7946.92,True
+STYL-AUT-000594,StyleCo Advanced Automotive Item 594,High-quality advanced automotive product from StyleCo. Perfect for all your automotive needs.,9929.49,True
+OFFI-ELE-000595,OfficeMax Professional Electronics Item 595,High-quality professional electronics product from OfficeMax. Perfect for all your electronics needs.,2195.93,True
+GADG-FOO-000596,GadgetHub Super Food & Beverage Item 596,High-quality super food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,9119.61,True
+AUTO-AUT-000597,AutoParts Advanced Automotive Item 597,High-quality advanced automotive product from AutoParts. Perfect for all your automotive needs.,975.86,True
+FOOD-HOM-000598,FoodMart Basic Home & Garden Item 598,High-quality basic home & garden product from FoodMart. Perfect for all your home & garden needs.,821.86,True
+GADG-FOO-000599,GadgetHub Elite Food & Beverage Item 599,High-quality elite food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,3109.88,True
+PETC-CLO-000600,PetCare Premium Clothing Item 600,High-quality premium clothing product from PetCare. Perfect for all your clothing needs.,1501.86,False
+STYL-ELE-000601,StyleCo Economy Electronics Item 601,High-quality economy electronics product from StyleCo. Perfect for all your electronics needs.,5687.78,True
+PETC-AUT-000602,PetCare Economy Automotive Item 602,High-quality economy automotive product from PetCare. Perfect for all your automotive needs.,6453.65,True
+FITG-HOM-000603,FitGear Standard Home & Garden Item 603,High-quality standard home & garden product from FitGear. Perfect for all your home & garden needs.,5872.43,True
+BEAU-TOY-000604,BeautyPlus Advanced Toys & Games Item 604,High-quality advanced toys & games product from BeautyPlus. Perfect for all your toys & games needs.,3410.13,True
+HOME-PET-000605,HomeEssentials Super Pet Supplies Item 605,High-quality super pet supplies product from HomeEssentials. Perfect for all your pet supplies needs.,8511.39,True
+TOYS-TOY-000606,ToysRUs Basic Toys & Games Item 606,High-quality basic toys & games product from ToysRUs. Perfect for all your toys & games needs.,847.07,True
+JEWE-SPO-000607,JewelCraft Basic Sports & Outdoors Item 607,High-quality basic sports & outdoors product from JewelCraft. Perfect for all your sports & outdoors needs.,8601.69,False
+ACME-HEA-000608,Acme Standard Health & Beauty Item 608,High-quality standard health & beauty product from Acme. Perfect for all your health & beauty needs.,8932.84,True
+PETC-HEA-000609,PetCare Premium Health & Beauty Item 609,High-quality premium health & beauty product from PetCare. Perfect for all your health & beauty needs.,7970.96,True
+JEWE-HOM-000610,JewelCraft Premium Home & Garden Item 610,High-quality premium home & garden product from JewelCraft. Perfect for all your home & garden needs.,6951.7,True
+JEWE-ELE-000611,JewelCraft Premium Electronics Item 611,High-quality premium electronics product from JewelCraft. Perfect for all your electronics needs.,1003.42,True
+HOME-HOM-000612,HomeEssentials Ultra Home & Garden Item 612,High-quality ultra home & garden product from HomeEssentials. Perfect for all your home & garden needs.,5443.13,True
+HOME-BOO-000613,HomeEssentials Elite Books Item 613,High-quality elite books product from HomeEssentials. Perfect for all your books needs.,3011.85,True
+TOYS-HOM-000614,ToysRUs Basic Home & Garden Item 614,High-quality basic home & garden product from ToysRUs. Perfect for all your home & garden needs.,2956.04,False
+STYL-FOO-000615,StyleCo Professional Food & Beverage Item 615,High-quality professional food & beverage product from StyleCo. Perfect for all your food & beverage needs.,1245.29,False
+STYL-FOO-000616,StyleCo Elite Food & Beverage Item 616,High-quality elite food & beverage product from StyleCo. Perfect for all your food & beverage needs.,4416.27,True
+FOOD-PET-000617,FoodMart Mega Pet Supplies Item 617,High-quality mega pet supplies product from FoodMart. Perfect for all your pet supplies needs.,4523.46,False
+ACME-ELE-000618,Acme Super Electronics Item 618,High-quality super electronics product from Acme. Perfect for all your electronics needs.,7524.74,True
+HOME-JEW-000619,HomeEssentials Premium Jewelry Item 619,High-quality premium jewelry product from HomeEssentials. Perfect for all your jewelry needs.,157.16,True
+FITG-AUT-000620,FitGear Mega Automotive Item 620,High-quality mega automotive product from FitGear. Perfect for all your automotive needs.,5985.82,False
+OFFI-OFF-000621,OfficeMax Economy Office Supplies Item 621,High-quality economy office supplies product from OfficeMax. Perfect for all your office supplies needs.,8134.31,True
+TOYS-TOY-000622,ToysRUs Economy Toys & Games Item 622,High-quality economy toys & games product from ToysRUs. Perfect for all your toys & games needs.,2825.36,True
+TECH-ELE-000623,TechPro Basic Electronics Item 623,High-quality basic electronics product from TechPro. Perfect for all your electronics needs.,2419.15,True
+OFFI-HOM-000624,OfficeMax Economy Home & Garden Item 624,High-quality economy home & garden product from OfficeMax. Perfect for all your home & garden needs.,4973.5,False
+TECH-PET-000625,TechPro Advanced Pet Supplies Item 625,High-quality advanced pet supplies product from TechPro. Perfect for all your pet supplies needs.,4401.48,True
+HOME-FOO-000626,HomeEssentials Mega Food & Beverage Item 626,High-quality mega food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,9312.03,False
+PETC-OFF-000627,PetCare Super Office Supplies Item 627,High-quality super office supplies product from PetCare. Perfect for all your office supplies needs.,732.83,True
+BOOK-ELE-000628,BookWorld Ultra Electronics Item 628,High-quality ultra electronics product from BookWorld. Perfect for all your electronics needs.,9050.13,True
+FITG-BOO-000629,FitGear Basic Books Item 629,High-quality basic books product from FitGear. Perfect for all your books needs.,7317.42,False
+STYL-OFF-000630,StyleCo Economy Office Supplies Item 630,High-quality economy office supplies product from StyleCo. Perfect for all your office supplies needs.,2926.34,True
+GADG-ELE-000631,GadgetHub Standard Electronics Item 631,High-quality standard electronics product from GadgetHub. Perfect for all your electronics needs.,3980.08,True
+HOME-HOM-000632,HomeEssentials Deluxe Home & Garden Item 632,High-quality deluxe home & garden product from HomeEssentials. Perfect for all your home & garden needs.,5015.48,True
+FASH-HEA-000633,FashionZone Basic Health & Beauty Item 633,High-quality basic health & beauty product from FashionZone. Perfect for all your health & beauty needs.,1784.91,True
+FASH-TOY-000634,FashionZone Advanced Toys & Games Item 634,High-quality advanced toys & games product from FashionZone. Perfect for all your toys & games needs.,1956.28,True
+STYL-HOM-000635,StyleCo Premium Home & Garden Item 635,High-quality premium home & garden product from StyleCo. Perfect for all your home & garden needs.,7435.17,True
+STYL-HOM-000636,StyleCo Premium Home & Garden Item 636,High-quality premium home & garden product from StyleCo. Perfect for all your home & garden needs.,4318.86,True
+PETC-OFF-000637,PetCare Mega Office Supplies Item 637,High-quality mega office supplies product from PetCare. Perfect for all your office supplies needs.,3043.75,True
+OFFI-ELE-000638,OfficeMax Deluxe Electronics Item 638,High-quality deluxe electronics product from OfficeMax. Perfect for all your electronics needs.,468.4,True
+STYL-CLO-000639,StyleCo Premium Clothing Item 639,High-quality premium clothing product from StyleCo. Perfect for all your clothing needs.,9493.79,False
+FASH-BOO-000640,FashionZone Professional Books Item 640,High-quality professional books product from FashionZone. Perfect for all your books needs.,1795.09,True
+STYL-CLO-000641,StyleCo Advanced Clothing Item 641,High-quality advanced clothing product from StyleCo. Perfect for all your clothing needs.,6782.45,True
+TOYS-CLO-000642,ToysRUs Super Clothing Item 642,High-quality super clothing product from ToysRUs. Perfect for all your clothing needs.,8139.84,False
+PETC-JEW-000643,PetCare Super Jewelry Item 643,High-quality super jewelry product from PetCare. Perfect for all your jewelry needs.,2565.1,True
+HOME-FOO-000644,HomeEssentials Professional Food & Beverage Item 644,High-quality professional food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,9473.28,True
+OFFI-TOY-000645,OfficeMax Elite Toys & Games Item 645,High-quality elite toys & games product from OfficeMax. Perfect for all your toys & games needs.,3443.19,False
+FASH-AUT-000646,FashionZone Mega Automotive Item 646,High-quality mega automotive product from FashionZone. Perfect for all your automotive needs.,1216.12,False
+GADG-BOO-000647,GadgetHub Economy Books Item 647,High-quality economy books product from GadgetHub. Perfect for all your books needs.,2795.97,True
+FASH-BOO-000648,FashionZone Premium Books Item 648,High-quality premium books product from FashionZone. Perfect for all your books needs.,6725.01,False
+PETC-FOO-000649,PetCare Super Food & Beverage Item 649,High-quality super food & beverage product from PetCare. Perfect for all your food & beverage needs.,5778.5,False
+HOME-SPO-000650,HomeEssentials Professional Sports & Outdoors Item 650,High-quality professional sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,5121.64,True
+FOOD-HOM-000651,FoodMart Mega Home & Garden Item 651,High-quality mega home & garden product from FoodMart. Perfect for all your home & garden needs.,2277.07,True
+BEAU-JEW-000652,BeautyPlus Mega Jewelry Item 652,High-quality mega jewelry product from BeautyPlus. Perfect for all your jewelry needs.,1782.12,False
+FITG-BOO-000653,FitGear Premium Books Item 653,High-quality premium books product from FitGear. Perfect for all your books needs.,1298.97,True
+ACME-ELE-000654,Acme Mega Electronics Item 654,High-quality mega electronics product from Acme. Perfect for all your electronics needs.,6181.98,True
+HOME-FOO-000655,HomeEssentials Premium Food & Beverage Item 655,High-quality premium food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,5443.67,True
+BOOK-SPO-000656,BookWorld Advanced Sports & Outdoors Item 656,High-quality advanced sports & outdoors product from BookWorld. Perfect for all your sports & outdoors needs.,1918.13,True
+OFFI-HOM-000657,OfficeMax Basic Home & Garden Item 657,High-quality basic home & garden product from OfficeMax. Perfect for all your home & garden needs.,3544.64,True
+TOYS-PET-000658,ToysRUs Professional Pet Supplies Item 658,High-quality professional pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,4690.75,True
+JEWE-HOM-000659,JewelCraft Professional Home & Garden Item 659,High-quality professional home & garden product from JewelCraft. Perfect for all your home & garden needs.,1842.36,False
+ACME-ELE-000660,Acme Standard Electronics Item 660,High-quality standard electronics product from Acme. Perfect for all your electronics needs.,888.23,True
+FASH-TOY-000661,FashionZone Advanced Toys & Games Item 661,High-quality advanced toys & games product from FashionZone. Perfect for all your toys & games needs.,978.06,True
+STYL-OFF-000662,StyleCo Professional Office Supplies Item 662,High-quality professional office supplies product from StyleCo. Perfect for all your office supplies needs.,481.28,True
+FITG-ELE-000663,FitGear Super Electronics Item 663,High-quality super electronics product from FitGear. Perfect for all your electronics needs.,1192.27,True
+FITG-CLO-000664,FitGear Professional Clothing Item 664,High-quality professional clothing product from FitGear. Perfect for all your clothing needs.,3464.97,True
+TOYS-BOO-000665,ToysRUs Deluxe Books Item 665,High-quality deluxe books product from ToysRUs. Perfect for all your books needs.,5544.09,False
+AUTO-PET-000666,AutoParts Standard Pet Supplies Item 666,High-quality standard pet supplies product from AutoParts. Perfect for all your pet supplies needs.,1767.39,False
+JEWE-TOY-000667,JewelCraft Elite Toys & Games Item 667,High-quality elite toys & games product from JewelCraft. Perfect for all your toys & games needs.,3148.35,True
+FASH-FOO-000668,FashionZone Super Food & Beverage Item 668,High-quality super food & beverage product from FashionZone. Perfect for all your food & beverage needs.,6786.71,True
+PETC-HEA-000669,PetCare Advanced Health & Beauty Item 669,High-quality advanced health & beauty product from PetCare. Perfect for all your health & beauty needs.,5819.7,True
+JEWE-HEA-000670,JewelCraft Ultra Health & Beauty Item 670,High-quality ultra health & beauty product from JewelCraft. Perfect for all your health & beauty needs.,3173.56,True
+BEAU-FOO-000671,BeautyPlus Premium Food & Beverage Item 671,High-quality premium food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,5464.39,True
+JEWE-PET-000672,JewelCraft Premium Pet Supplies Item 672,High-quality premium pet supplies product from JewelCraft. Perfect for all your pet supplies needs.,6311.17,False
+STYL-PET-000673,StyleCo Standard Pet Supplies Item 673,High-quality standard pet supplies product from StyleCo. Perfect for all your pet supplies needs.,2987.79,True
+STYL-OFF-000674,StyleCo Economy Office Supplies Item 674,High-quality economy office supplies product from StyleCo. Perfect for all your office supplies needs.,4446.13,False
+BOOK-AUT-000675,BookWorld Premium Automotive Item 675,High-quality premium automotive product from BookWorld. Perfect for all your automotive needs.,9916.9,True
+FOOD-TOY-000676,FoodMart Basic Toys & Games Item 676,High-quality basic toys & games product from FoodMart. Perfect for all your toys & games needs.,3116.97,True
+TOYS-PET-000677,ToysRUs Professional Pet Supplies Item 677,High-quality professional pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,9694.56,False
+BOOK-HOM-000678,BookWorld Mega Home & Garden Item 678,High-quality mega home & garden product from BookWorld. Perfect for all your home & garden needs.,2514.01,True
+BEAU-CLO-000679,BeautyPlus Deluxe Clothing Item 679,High-quality deluxe clothing product from BeautyPlus. Perfect for all your clothing needs.,6540.49,True
+STYL-FOO-000680,StyleCo Premium Food & Beverage Item 680,High-quality premium food & beverage product from StyleCo. Perfect for all your food & beverage needs.,9295.91,True
+ACME-ELE-000681,Acme Standard Electronics Item 681,High-quality standard electronics product from Acme. Perfect for all your electronics needs.,4004.0,True
+GADG-AUT-000682,GadgetHub Professional Automotive Item 682,High-quality professional automotive product from GadgetHub. Perfect for all your automotive needs.,9661.65,True
+GADG-JEW-000683,GadgetHub Mega Jewelry Item 683,High-quality mega jewelry product from GadgetHub. Perfect for all your jewelry needs.,4790.76,True
+OFFI-CLO-000684,OfficeMax Advanced Clothing Item 684,High-quality advanced clothing product from OfficeMax. Perfect for all your clothing needs.,7314.04,False
+GADG-BOO-000685,GadgetHub Professional Books Item 685,High-quality professional books product from GadgetHub. Perfect for all your books needs.,4308.9,True
+HOME-PET-000686,HomeEssentials Super Pet Supplies Item 686,High-quality super pet supplies product from HomeEssentials. Perfect for all your pet supplies needs.,2787.71,True
+STYL-CLO-000687,StyleCo Standard Clothing Item 687,High-quality standard clothing product from StyleCo. Perfect for all your clothing needs.,420.83,False
+TECH-SPO-000688,TechPro Elite Sports & Outdoors Item 688,High-quality elite sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,6333.93,True
+FITG-HOM-000689,FitGear Mega Home & Garden Item 689,High-quality mega home & garden product from FitGear. Perfect for all your home & garden needs.,3229.14,False
+FITG-SPO-000690,FitGear Standard Sports & Outdoors Item 690,High-quality standard sports & outdoors product from FitGear. Perfect for all your sports & outdoors needs.,4421.35,True
+BOOK-ELE-000691,BookWorld Elite Electronics Item 691,High-quality elite electronics product from BookWorld. Perfect for all your electronics needs.,8415.01,True
+OFFI-ELE-000692,OfficeMax Premium Electronics Item 692,High-quality premium electronics product from OfficeMax. Perfect for all your electronics needs.,3738.65,True
+TOYS-PET-000693,ToysRUs Elite Pet Supplies Item 693,High-quality elite pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,4790.43,True
+FASH-CLO-000694,FashionZone Deluxe Clothing Item 694,High-quality deluxe clothing product from FashionZone. Perfect for all your clothing needs.,2912.59,True
+ACME-BOO-000695,Acme Advanced Books Item 695,High-quality advanced books product from Acme. Perfect for all your books needs.,5300.88,True
+JEWE-BOO-000696,JewelCraft Professional Books Item 696,High-quality professional books product from JewelCraft. Perfect for all your books needs.,6050.32,True
+OFFI-PET-000697,OfficeMax Professional Pet Supplies Item 697,High-quality professional pet supplies product from OfficeMax. Perfect for all your pet supplies needs.,8206.3,True
+TOYS-TOY-000698,ToysRUs Standard Toys & Games Item 698,High-quality standard toys & games product from ToysRUs. Perfect for all your toys & games needs.,3817.48,True
+TECH-AUT-000699,TechPro Premium Automotive Item 699,High-quality premium automotive product from TechPro. Perfect for all your automotive needs.,8142.6,False
+PETC-HEA-000700,PetCare Mega Health & Beauty Item 700,High-quality mega health & beauty product from PetCare. Perfect for all your health & beauty needs.,1211.77,False
+TECH-PET-000701,TechPro Basic Pet Supplies Item 701,High-quality basic pet supplies product from TechPro. Perfect for all your pet supplies needs.,935.6,True
+STYL-HEA-000702,StyleCo Standard Health & Beauty Item 702,High-quality standard health & beauty product from StyleCo. Perfect for all your health & beauty needs.,5802.89,True
+STYL-CLO-000703,StyleCo Advanced Clothing Item 703,High-quality advanced clothing product from StyleCo. Perfect for all your clothing needs.,4917.93,True
+TOYS-ELE-000704,ToysRUs Basic Electronics Item 704,High-quality basic electronics product from ToysRUs. Perfect for all your electronics needs.,9499.12,True
+OFFI-CLO-000705,OfficeMax Standard Clothing Item 705,High-quality standard clothing product from OfficeMax. Perfect for all your clothing needs.,5757.53,True
+ACME-CLO-000706,Acme Super Clothing Item 706,High-quality super clothing product from Acme. Perfect for all your clothing needs.,5476.88,True
+ACME-OFF-000707,Acme Economy Office Supplies Item 707,High-quality economy office supplies product from Acme. Perfect for all your office supplies needs.,9924.82,True
+BOOK-HEA-000708,BookWorld Mega Health & Beauty Item 708,High-quality mega health & beauty product from BookWorld. Perfect for all your health & beauty needs.,9632.25,True
+JEWE-CLO-000709,JewelCraft Ultra Clothing Item 709,High-quality ultra clothing product from JewelCraft. Perfect for all your clothing needs.,4952.2,True
+TECH-HOM-000710,TechPro Advanced Home & Garden Item 710,High-quality advanced home & garden product from TechPro. Perfect for all your home & garden needs.,2483.05,True
+FASH-OFF-000711,FashionZone Super Office Supplies Item 711,High-quality super office supplies product from FashionZone. Perfect for all your office supplies needs.,2321.38,True
+ACME-CLO-000712,Acme Elite Clothing Item 712,High-quality elite clothing product from Acme. Perfect for all your clothing needs.,7597.81,True
+JEWE-AUT-000713,JewelCraft Premium Automotive Item 713,High-quality premium automotive product from JewelCraft. Perfect for all your automotive needs.,8967.09,True
+HOME-HEA-000714,HomeEssentials Elite Health & Beauty Item 714,High-quality elite health & beauty product from HomeEssentials. Perfect for all your health & beauty needs.,1359.02,True
+OFFI-AUT-000715,OfficeMax Super Automotive Item 715,High-quality super automotive product from OfficeMax. Perfect for all your automotive needs.,8548.22,True
+OFFI-CLO-000716,OfficeMax Elite Clothing Item 716,High-quality elite clothing product from OfficeMax. Perfect for all your clothing needs.,5805.21,True
+BEAU-TOY-000717,BeautyPlus Elite Toys & Games Item 717,High-quality elite toys & games product from BeautyPlus. Perfect for all your toys & games needs.,9730.68,True
+JEWE-JEW-000718,JewelCraft Deluxe Jewelry Item 718,High-quality deluxe jewelry product from JewelCraft. Perfect for all your jewelry needs.,6977.79,True
+TOYS-HOM-000719,ToysRUs Basic Home & Garden Item 719,High-quality basic home & garden product from ToysRUs. Perfect for all your home & garden needs.,121.53,False
+TECH-PET-000720,TechPro Economy Pet Supplies Item 720,High-quality economy pet supplies product from TechPro. Perfect for all your pet supplies needs.,1924.55,True
+TECH-HOM-000721,TechPro Standard Home & Garden Item 721,High-quality standard home & garden product from TechPro. Perfect for all your home & garden needs.,8369.63,True
+BEAU-CLO-000722,BeautyPlus Deluxe Clothing Item 722,High-quality deluxe clothing product from BeautyPlus. Perfect for all your clothing needs.,4330.81,True
+TECH-TOY-000723,TechPro Economy Toys & Games Item 723,High-quality economy toys & games product from TechPro. Perfect for all your toys & games needs.,5618.56,True
+FASH-PET-000724,FashionZone Premium Pet Supplies Item 724,High-quality premium pet supplies product from FashionZone. Perfect for all your pet supplies needs.,5745.55,True
+AUTO-FOO-000725,AutoParts Elite Food & Beverage Item 725,High-quality elite food & beverage product from AutoParts. Perfect for all your food & beverage needs.,3714.08,False
+TECH-CLO-000726,TechPro Standard Clothing Item 726,High-quality standard clothing product from TechPro. Perfect for all your clothing needs.,5225.87,True
+STYL-FOO-000727,StyleCo Mega Food & Beverage Item 727,High-quality mega food & beverage product from StyleCo. Perfect for all your food & beverage needs.,7898.99,True
+OFFI-TOY-000728,OfficeMax Ultra Toys & Games Item 728,High-quality ultra toys & games product from OfficeMax. Perfect for all your toys & games needs.,1994.14,True
+TECH-SPO-000729,TechPro Mega Sports & Outdoors Item 729,High-quality mega sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,1857.43,True
+FASH-OFF-000730,FashionZone Standard Office Supplies Item 730,High-quality standard office supplies product from FashionZone. Perfect for all your office supplies needs.,5739.19,True
+TOYS-AUT-000731,ToysRUs Ultra Automotive Item 731,High-quality ultra automotive product from ToysRUs. Perfect for all your automotive needs.,9352.22,True
+TOYS-TOY-000732,ToysRUs Economy Toys & Games Item 732,High-quality economy toys & games product from ToysRUs. Perfect for all your toys & games needs.,4666.14,True
+FITG-BOO-000733,FitGear Ultra Books Item 733,High-quality ultra books product from FitGear. Perfect for all your books needs.,1905.75,False
+FASH-TOY-000734,FashionZone Basic Toys & Games Item 734,High-quality basic toys & games product from FashionZone. Perfect for all your toys & games needs.,3705.78,False
+HOME-ELE-000735,HomeEssentials Premium Electronics Item 735,High-quality premium electronics product from HomeEssentials. Perfect for all your electronics needs.,9885.82,True
+STYL-BOO-000736,StyleCo Ultra Books Item 736,High-quality ultra books product from StyleCo. Perfect for all your books needs.,7822.7,False
+JEWE-TOY-000737,JewelCraft Super Toys & Games Item 737,High-quality super toys & games product from JewelCraft. Perfect for all your toys & games needs.,6096.25,True
+STYL-BOO-000738,StyleCo Deluxe Books Item 738,High-quality deluxe books product from StyleCo. Perfect for all your books needs.,6599.5,False
+ACME-PET-000739,Acme Ultra Pet Supplies Item 739,High-quality ultra pet supplies product from Acme. Perfect for all your pet supplies needs.,8668.56,True
+HOME-HOM-000740,HomeEssentials Standard Home & Garden Item 740,High-quality standard home & garden product from HomeEssentials. Perfect for all your home & garden needs.,8296.61,True
+ACME-JEW-000741,Acme Economy Jewelry Item 741,High-quality economy jewelry product from Acme. Perfect for all your jewelry needs.,2605.38,True
+ACME-BOO-000742,Acme Ultra Books Item 742,High-quality ultra books product from Acme. Perfect for all your books needs.,7506.95,False
+AUTO-HEA-000743,AutoParts Elite Health & Beauty Item 743,High-quality elite health & beauty product from AutoParts. Perfect for all your health & beauty needs.,7222.3,True
+FOOD-BOO-000744,FoodMart Deluxe Books Item 744,High-quality deluxe books product from FoodMart. Perfect for all your books needs.,3635.68,True
+HOME-HOM-000745,HomeEssentials Mega Home & Garden Item 745,High-quality mega home & garden product from HomeEssentials. Perfect for all your home & garden needs.,1674.61,True
+ACME-TOY-000746,Acme Advanced Toys & Games Item 746,High-quality advanced toys & games product from Acme. Perfect for all your toys & games needs.,4526.61,True
+TECH-CLO-000747,TechPro Mega Clothing Item 747,High-quality mega clothing product from TechPro. Perfect for all your clothing needs.,8315.04,True
+TECH-BOO-000748,TechPro Economy Books Item 748,High-quality economy books product from TechPro. Perfect for all your books needs.,1276.32,True
+FASH-BOO-000749,FashionZone Economy Books Item 749,High-quality economy books product from FashionZone. Perfect for all your books needs.,2550.91,False
+STYL-JEW-000750,StyleCo Mega Jewelry Item 750,High-quality mega jewelry product from StyleCo. Perfect for all your jewelry needs.,4433.93,True
+FASH-ELE-000751,FashionZone Professional Electronics Item 751,High-quality professional electronics product from FashionZone. Perfect for all your electronics needs.,3319.24,True
+BEAU-TOY-000752,BeautyPlus Advanced Toys & Games Item 752,High-quality advanced toys & games product from BeautyPlus. Perfect for all your toys & games needs.,7223.66,False
+TOYS-AUT-000753,ToysRUs Standard Automotive Item 753,High-quality standard automotive product from ToysRUs. Perfect for all your automotive needs.,2900.01,True
+BOOK-SPO-000754,BookWorld Basic Sports & Outdoors Item 754,High-quality basic sports & outdoors product from BookWorld. Perfect for all your sports & outdoors needs.,7827.61,True
+BOOK-BOO-000755,BookWorld Basic Books Item 755,High-quality basic books product from BookWorld. Perfect for all your books needs.,9615.5,False
+BEAU-ELE-000756,BeautyPlus Super Electronics Item 756,High-quality super electronics product from BeautyPlus. Perfect for all your electronics needs.,981.6,False
+FASH-SPO-000757,FashionZone Economy Sports & Outdoors Item 757,High-quality economy sports & outdoors product from FashionZone. Perfect for all your sports & outdoors needs.,4756.33,True
+BEAU-ELE-000758,BeautyPlus Economy Electronics Item 758,High-quality economy electronics product from BeautyPlus. Perfect for all your electronics needs.,2730.82,False
+TOYS-SPO-000759,ToysRUs Standard Sports & Outdoors Item 759,High-quality standard sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,4474.71,True
+ACME-PET-000760,Acme Ultra Pet Supplies Item 760,High-quality ultra pet supplies product from Acme. Perfect for all your pet supplies needs.,5312.7,True
+TECH-OFF-000761,TechPro Standard Office Supplies Item 761,High-quality standard office supplies product from TechPro. Perfect for all your office supplies needs.,2319.19,True
+FASH-HEA-000762,FashionZone Elite Health & Beauty Item 762,High-quality elite health & beauty product from FashionZone. Perfect for all your health & beauty needs.,980.77,True
+BEAU-CLO-000763,BeautyPlus Professional Clothing Item 763,High-quality professional clothing product from BeautyPlus. Perfect for all your clothing needs.,5833.57,False
+ACME-BOO-000764,Acme Mega Books Item 764,High-quality mega books product from Acme. Perfect for all your books needs.,9357.48,True
+GADG-TOY-000765,GadgetHub Mega Toys & Games Item 765,High-quality mega toys & games product from GadgetHub. Perfect for all your toys & games needs.,421.98,True
+GADG-FOO-000766,GadgetHub Mega Food & Beverage Item 766,High-quality mega food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,8645.85,True
+STYL-TOY-000767,StyleCo Professional Toys & Games Item 767,High-quality professional toys & games product from StyleCo. Perfect for all your toys & games needs.,3009.55,True
+FOOD-ELE-000768,FoodMart Economy Electronics Item 768,High-quality economy electronics product from FoodMart. Perfect for all your electronics needs.,5805.87,True
+AUTO-SPO-000769,AutoParts Economy Sports & Outdoors Item 769,High-quality economy sports & outdoors product from AutoParts. Perfect for all your sports & outdoors needs.,1555.85,True
+BOOK-CLO-000770,BookWorld Professional Clothing Item 770,High-quality professional clothing product from BookWorld. Perfect for all your clothing needs.,8351.38,False
+PETC-AUT-000771,PetCare Economy Automotive Item 771,High-quality economy automotive product from PetCare. Perfect for all your automotive needs.,8279.59,True
+ACME-AUT-000772,Acme Ultra Automotive Item 772,High-quality ultra automotive product from Acme. Perfect for all your automotive needs.,7770.94,True
+STYL-CLO-000773,StyleCo Elite Clothing Item 773,High-quality elite clothing product from StyleCo. Perfect for all your clothing needs.,5628.5,True
+TECH-JEW-000774,TechPro Mega Jewelry Item 774,High-quality mega jewelry product from TechPro. Perfect for all your jewelry needs.,8505.51,True
+ACME-SPO-000775,Acme Elite Sports & Outdoors Item 775,High-quality elite sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,8133.23,True
+JEWE-OFF-000776,JewelCraft Economy Office Supplies Item 776,High-quality economy office supplies product from JewelCraft. Perfect for all your office supplies needs.,7859.61,True
+PETC-PET-000777,PetCare Ultra Pet Supplies Item 777,High-quality ultra pet supplies product from PetCare. Perfect for all your pet supplies needs.,8316.27,True
+PETC-TOY-000778,PetCare Basic Toys & Games Item 778,High-quality basic toys & games product from PetCare. Perfect for all your toys & games needs.,3613.14,True
+TOYS-SPO-000779,ToysRUs Advanced Sports & Outdoors Item 779,High-quality advanced sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,2634.24,False
+FOOD-AUT-000780,FoodMart Advanced Automotive Item 780,High-quality advanced automotive product from FoodMart. Perfect for all your automotive needs.,7951.84,False
+ACME-ELE-000781,Acme Super Electronics Item 781,High-quality super electronics product from Acme. Perfect for all your electronics needs.,9388.03,True
+JEWE-FOO-000782,JewelCraft Professional Food & Beverage Item 782,High-quality professional food & beverage product from JewelCraft. Perfect for all your food & beverage needs.,3613.12,True
+AUTO-AUT-000783,AutoParts Premium Automotive Item 783,High-quality premium automotive product from AutoParts. Perfect for all your automotive needs.,8823.33,True
+STYL-HOM-000784,StyleCo Economy Home & Garden Item 784,High-quality economy home & garden product from StyleCo. Perfect for all your home & garden needs.,3031.35,True
+TECH-HEA-000785,TechPro Deluxe Health & Beauty Item 785,High-quality deluxe health & beauty product from TechPro. Perfect for all your health & beauty needs.,3928.22,False
+TECH-PET-000786,TechPro Ultra Pet Supplies Item 786,High-quality ultra pet supplies product from TechPro. Perfect for all your pet supplies needs.,4797.52,True
+STYL-CLO-000787,StyleCo Advanced Clothing Item 787,High-quality advanced clothing product from StyleCo. Perfect for all your clothing needs.,6548.89,True
+FASH-FOO-000788,FashionZone Deluxe Food & Beverage Item 788,High-quality deluxe food & beverage product from FashionZone. Perfect for all your food & beverage needs.,6244.27,True
+PETC-PET-000789,PetCare Deluxe Pet Supplies Item 789,High-quality deluxe pet supplies product from PetCare. Perfect for all your pet supplies needs.,3845.66,True
+FITG-BOO-000790,FitGear Super Books Item 790,High-quality super books product from FitGear. Perfect for all your books needs.,6024.45,True
+GADG-PET-000791,GadgetHub Premium Pet Supplies Item 791,High-quality premium pet supplies product from GadgetHub. Perfect for all your pet supplies needs.,4201.64,True
+TOYS-CLO-000792,ToysRUs Super Clothing Item 792,High-quality super clothing product from ToysRUs. Perfect for all your clothing needs.,2187.86,True
+FASH-HOM-000793,FashionZone Deluxe Home & Garden Item 793,High-quality deluxe home & garden product from FashionZone. Perfect for all your home & garden needs.,4006.38,True
+GADG-BOO-000794,GadgetHub Economy Books Item 794,High-quality economy books product from GadgetHub. Perfect for all your books needs.,3171.16,True
+TECH-JEW-000795,TechPro Elite Jewelry Item 795,High-quality elite jewelry product from TechPro. Perfect for all your jewelry needs.,1670.17,False
+HOME-FOO-000796,HomeEssentials Basic Food & Beverage Item 796,High-quality basic food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,3877.12,False
+HOME-TOY-000797,HomeEssentials Economy Toys & Games Item 797,High-quality economy toys & games product from HomeEssentials. Perfect for all your toys & games needs.,7236.68,True
+GADG-CLO-000798,GadgetHub Standard Clothing Item 798,High-quality standard clothing product from GadgetHub. Perfect for all your clothing needs.,697.3,True
+AUTO-BOO-000799,AutoParts Deluxe Books Item 799,High-quality deluxe books product from AutoParts. Perfect for all your books needs.,9244.99,True
+BEAU-OFF-000800,BeautyPlus Mega Office Supplies Item 800,High-quality mega office supplies product from BeautyPlus. Perfect for all your office supplies needs.,5367.14,True
+BEAU-ELE-000801,BeautyPlus Deluxe Electronics Item 801,High-quality deluxe electronics product from BeautyPlus. Perfect for all your electronics needs.,902.33,True
+HOME-FOO-000802,HomeEssentials Economy Food & Beverage Item 802,High-quality economy food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,2263.99,True
+PETC-TOY-000803,PetCare Elite Toys & Games Item 803,High-quality elite toys & games product from PetCare. Perfect for all your toys & games needs.,4381.22,False
+STYL-CLO-000804,StyleCo Ultra Clothing Item 804,High-quality ultra clothing product from StyleCo. Perfect for all your clothing needs.,6806.77,True
+OFFI-PET-000805,OfficeMax Elite Pet Supplies Item 805,High-quality elite pet supplies product from OfficeMax. Perfect for all your pet supplies needs.,9287.15,True
+PETC-FOO-000806,PetCare Standard Food & Beverage Item 806,High-quality standard food & beverage product from PetCare. Perfect for all your food & beverage needs.,6853.89,False
+TOYS-SPO-000807,ToysRUs Super Sports & Outdoors Item 807,High-quality super sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,4369.96,True
+FITG-AUT-000808,FitGear Standard Automotive Item 808,High-quality standard automotive product from FitGear. Perfect for all your automotive needs.,9609.1,True
+AUTO-TOY-000809,AutoParts Economy Toys & Games Item 809,High-quality economy toys & games product from AutoParts. Perfect for all your toys & games needs.,9312.72,True
+GADG-FOO-000810,GadgetHub Standard Food & Beverage Item 810,High-quality standard food & beverage product from GadgetHub. Perfect for all your food & beverage needs.,144.76,False
+STYL-BOO-000811,StyleCo Mega Books Item 811,High-quality mega books product from StyleCo. Perfect for all your books needs.,1759.5,True
+TOYS-TOY-000812,ToysRUs Mega Toys & Games Item 812,High-quality mega toys & games product from ToysRUs. Perfect for all your toys & games needs.,1908.91,True
+BOOK-CLO-000813,BookWorld Advanced Clothing Item 813,High-quality advanced clothing product from BookWorld. Perfect for all your clothing needs.,417.42,True
+HOME-HOM-000814,HomeEssentials Professional Home & Garden Item 814,High-quality professional home & garden product from HomeEssentials. Perfect for all your home & garden needs.,7779.37,True
+STYL-ELE-000815,StyleCo Ultra Electronics Item 815,High-quality ultra electronics product from StyleCo. Perfect for all your electronics needs.,2693.03,True
+FOOD-CLO-000816,FoodMart Super Clothing Item 816,High-quality super clothing product from FoodMart. Perfect for all your clothing needs.,5951.03,True
+GADG-OFF-000817,GadgetHub Ultra Office Supplies Item 817,High-quality ultra office supplies product from GadgetHub. Perfect for all your office supplies needs.,2092.82,True
+BOOK-PET-000818,BookWorld Basic Pet Supplies Item 818,High-quality basic pet supplies product from BookWorld. Perfect for all your pet supplies needs.,1195.4,True
+ACME-PET-000819,Acme Mega Pet Supplies Item 819,High-quality mega pet supplies product from Acme. Perfect for all your pet supplies needs.,6526.15,True
+TECH-SPO-000820,TechPro Advanced Sports & Outdoors Item 820,High-quality advanced sports & outdoors product from TechPro. Perfect for all your sports & outdoors needs.,4088.35,True
+AUTO-ELE-000821,AutoParts Elite Electronics Item 821,High-quality elite electronics product from AutoParts. Perfect for all your electronics needs.,1190.97,True
+PETC-SPO-000822,PetCare Ultra Sports & Outdoors Item 822,High-quality ultra sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,9047.37,True
+BEAU-OFF-000823,BeautyPlus Advanced Office Supplies Item 823,High-quality advanced office supplies product from BeautyPlus. Perfect for all your office supplies needs.,9485.25,False
+TECH-CLO-000824,TechPro Professional Clothing Item 824,High-quality professional clothing product from TechPro. Perfect for all your clothing needs.,1277.22,True
+GADG-PET-000825,GadgetHub Mega Pet Supplies Item 825,High-quality mega pet supplies product from GadgetHub. Perfect for all your pet supplies needs.,683.28,True
+TOYS-JEW-000826,ToysRUs Elite Jewelry Item 826,High-quality elite jewelry product from ToysRUs. Perfect for all your jewelry needs.,9034.05,True
+FITG-HEA-000827,FitGear Premium Health & Beauty Item 827,High-quality premium health & beauty product from FitGear. Perfect for all your health & beauty needs.,7830.82,False
+STYL-TOY-000828,StyleCo Premium Toys & Games Item 828,High-quality premium toys & games product from StyleCo. Perfect for all your toys & games needs.,5661.54,True
+TOYS-HEA-000829,ToysRUs Ultra Health & Beauty Item 829,High-quality ultra health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,9056.71,True
+HOME-HOM-000830,HomeEssentials Mega Home & Garden Item 830,High-quality mega home & garden product from HomeEssentials. Perfect for all your home & garden needs.,9905.85,True
+HOME-AUT-000831,HomeEssentials Premium Automotive Item 831,High-quality premium automotive product from HomeEssentials. Perfect for all your automotive needs.,552.87,False
+HOME-SPO-000832,HomeEssentials Standard Sports & Outdoors Item 832,High-quality standard sports & outdoors product from HomeEssentials. Perfect for all your sports & outdoors needs.,7095.97,False
+PETC-HEA-000833,PetCare Advanced Health & Beauty Item 833,High-quality advanced health & beauty product from PetCare. Perfect for all your health & beauty needs.,8486.14,True
+TOYS-HEA-000834,ToysRUs Economy Health & Beauty Item 834,High-quality economy health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,9480.63,True
+FOOD-JEW-000835,FoodMart Elite Jewelry Item 835,High-quality elite jewelry product from FoodMart. Perfect for all your jewelry needs.,4735.77,False
+FITG-CLO-000836,FitGear Professional Clothing Item 836,High-quality professional clothing product from FitGear. Perfect for all your clothing needs.,2018.38,False
+HOME-FOO-000837,HomeEssentials Premium Food & Beverage Item 837,High-quality premium food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,6743.36,False
+FASH-HOM-000838,FashionZone Ultra Home & Garden Item 838,High-quality ultra home & garden product from FashionZone. Perfect for all your home & garden needs.,7503.99,False
+GADG-OFF-000839,GadgetHub Professional Office Supplies Item 839,High-quality professional office supplies product from GadgetHub. Perfect for all your office supplies needs.,2074.41,True
+PETC-AUT-000840,PetCare Economy Automotive Item 840,High-quality economy automotive product from PetCare. Perfect for all your automotive needs.,7211.57,True
+OFFI-OFF-000841,OfficeMax Economy Office Supplies Item 841,High-quality economy office supplies product from OfficeMax. Perfect for all your office supplies needs.,3765.32,True
+ACME-FOO-000842,Acme Professional Food & Beverage Item 842,High-quality professional food & beverage product from Acme. Perfect for all your food & beverage needs.,2902.13,False
+TECH-PET-000843,TechPro Mega Pet Supplies Item 843,High-quality mega pet supplies product from TechPro. Perfect for all your pet supplies needs.,8331.52,True
+PETC-SPO-000844,PetCare Ultra Sports & Outdoors Item 844,High-quality ultra sports & outdoors product from PetCare. Perfect for all your sports & outdoors needs.,7867.1,True
+ACME-AUT-000845,Acme Mega Automotive Item 845,High-quality mega automotive product from Acme. Perfect for all your automotive needs.,8398.59,True
+ACME-SPO-000846,Acme Premium Sports & Outdoors Item 846,High-quality premium sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,1506.73,False
+TOYS-SPO-000847,ToysRUs Standard Sports & Outdoors Item 847,High-quality standard sports & outdoors product from ToysRUs. Perfect for all your sports & outdoors needs.,1761.87,True
+BEAU-OFF-000848,BeautyPlus Deluxe Office Supplies Item 848,High-quality deluxe office supplies product from BeautyPlus. Perfect for all your office supplies needs.,5017.42,False
+FASH-PET-000849,FashionZone Standard Pet Supplies Item 849,High-quality standard pet supplies product from FashionZone. Perfect for all your pet supplies needs.,5827.36,True
+FASH-PET-000850,FashionZone Professional Pet Supplies Item 850,High-quality professional pet supplies product from FashionZone. Perfect for all your pet supplies needs.,8966.43,True
+AUTO-AUT-000851,AutoParts Standard Automotive Item 851,High-quality standard automotive product from AutoParts. Perfect for all your automotive needs.,8559.64,True
+TOYS-FOO-000852,ToysRUs Super Food & Beverage Item 852,High-quality super food & beverage product from ToysRUs. Perfect for all your food & beverage needs.,6418.57,True
+FITG-PET-000853,FitGear Elite Pet Supplies Item 853,High-quality elite pet supplies product from FitGear. Perfect for all your pet supplies needs.,4704.26,False
+AUTO-BOO-000854,AutoParts Deluxe Books Item 854,High-quality deluxe books product from AutoParts. Perfect for all your books needs.,2683.33,True
+JEWE-FOO-000855,JewelCraft Deluxe Food & Beverage Item 855,High-quality deluxe food & beverage product from JewelCraft. Perfect for all your food & beverage needs.,3208.53,True
+TECH-JEW-000856,TechPro Basic Jewelry Item 856,High-quality basic jewelry product from TechPro. Perfect for all your jewelry needs.,2433.21,True
+TOYS-ELE-000857,ToysRUs Economy Electronics Item 857,High-quality economy electronics product from ToysRUs. Perfect for all your electronics needs.,9858.44,True
+FASH-CLO-000858,FashionZone Economy Clothing Item 858,High-quality economy clothing product from FashionZone. Perfect for all your clothing needs.,726.38,True
+GADG-SPO-000859,GadgetHub Standard Sports & Outdoors Item 859,High-quality standard sports & outdoors product from GadgetHub. Perfect for all your sports & outdoors needs.,4778.22,True
+PETC-AUT-000860,PetCare Standard Automotive Item 860,High-quality standard automotive product from PetCare. Perfect for all your automotive needs.,3970.87,False
+GADG-SPO-000861,GadgetHub Mega Sports & Outdoors Item 861,High-quality mega sports & outdoors product from GadgetHub. Perfect for all your sports & outdoors needs.,2360.57,False
+TECH-FOO-000862,TechPro Super Food & Beverage Item 862,High-quality super food & beverage product from TechPro. Perfect for all your food & beverage needs.,7890.88,True
+FITG-AUT-000863,FitGear Super Automotive Item 863,High-quality super automotive product from FitGear. Perfect for all your automotive needs.,8308.22,True
+JEWE-BOO-000864,JewelCraft Mega Books Item 864,High-quality mega books product from JewelCraft. Perfect for all your books needs.,4742.91,True
+OFFI-HOM-000865,OfficeMax Deluxe Home & Garden Item 865,High-quality deluxe home & garden product from OfficeMax. Perfect for all your home & garden needs.,3162.09,False
+BOOK-SPO-000866,BookWorld Premium Sports & Outdoors Item 866,High-quality premium sports & outdoors product from BookWorld. Perfect for all your sports & outdoors needs.,5634.37,False
+TOYS-HEA-000867,ToysRUs Standard Health & Beauty Item 867,High-quality standard health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,1765.18,False
+FITG-TOY-000868,FitGear Advanced Toys & Games Item 868,High-quality advanced toys & games product from FitGear. Perfect for all your toys & games needs.,9055.84,False
+HOME-TOY-000869,HomeEssentials Professional Toys & Games Item 869,High-quality professional toys & games product from HomeEssentials. Perfect for all your toys & games needs.,9894.19,True
+FASH-JEW-000870,FashionZone Mega Jewelry Item 870,High-quality mega jewelry product from FashionZone. Perfect for all your jewelry needs.,7889.34,True
+FASH-HEA-000871,FashionZone Mega Health & Beauty Item 871,High-quality mega health & beauty product from FashionZone. Perfect for all your health & beauty needs.,5429.93,True
+BOOK-BOO-000872,BookWorld Ultra Books Item 872,High-quality ultra books product from BookWorld. Perfect for all your books needs.,9779.32,True
+TECH-BOO-000873,TechPro Premium Books Item 873,High-quality premium books product from TechPro. Perfect for all your books needs.,4862.82,True
+AUTO-ELE-000874,AutoParts Professional Electronics Item 874,High-quality professional electronics product from AutoParts. Perfect for all your electronics needs.,5668.83,True
+ACME-FOO-000875,Acme Professional Food & Beverage Item 875,High-quality professional food & beverage product from Acme. Perfect for all your food & beverage needs.,7400.19,True
+TOYS-ELE-000876,ToysRUs Super Electronics Item 876,High-quality super electronics product from ToysRUs. Perfect for all your electronics needs.,4624.51,True
+PETC-TOY-000877,PetCare Basic Toys & Games Item 877,High-quality basic toys & games product from PetCare. Perfect for all your toys & games needs.,2214.74,False
+ACME-SPO-000878,Acme Advanced Sports & Outdoors Item 878,High-quality advanced sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,4444.7,True
+FASH-PET-000879,FashionZone Economy Pet Supplies Item 879,High-quality economy pet supplies product from FashionZone. Perfect for all your pet supplies needs.,7275.41,True
+TOYS-PET-000880,ToysRUs Standard Pet Supplies Item 880,High-quality standard pet supplies product from ToysRUs. Perfect for all your pet supplies needs.,4216.25,True
+PETC-ELE-000881,PetCare Elite Electronics Item 881,High-quality elite electronics product from PetCare. Perfect for all your electronics needs.,5217.45,True
+TECH-BOO-000882,TechPro Economy Books Item 882,High-quality economy books product from TechPro. Perfect for all your books needs.,7295.19,False
+STYL-OFF-000883,StyleCo Mega Office Supplies Item 883,High-quality mega office supplies product from StyleCo. Perfect for all your office supplies needs.,6060.77,True
+ACME-HOM-000884,Acme Mega Home & Garden Item 884,High-quality mega home & garden product from Acme. Perfect for all your home & garden needs.,3995.21,False
+GADG-AUT-000885,GadgetHub Super Automotive Item 885,High-quality super automotive product from GadgetHub. Perfect for all your automotive needs.,5615.75,True
+BEAU-HOM-000886,BeautyPlus Economy Home & Garden Item 886,High-quality economy home & garden product from BeautyPlus. Perfect for all your home & garden needs.,9917.42,True
+JEWE-CLO-000887,JewelCraft Mega Clothing Item 887,High-quality mega clothing product from JewelCraft. Perfect for all your clothing needs.,3410.64,True
+GADG-JEW-000888,GadgetHub Professional Jewelry Item 888,High-quality professional jewelry product from GadgetHub. Perfect for all your jewelry needs.,2014.31,True
+ACME-SPO-000889,Acme Deluxe Sports & Outdoors Item 889,High-quality deluxe sports & outdoors product from Acme. Perfect for all your sports & outdoors needs.,897.79,True
+PETC-ELE-000890,PetCare Mega Electronics Item 890,High-quality mega electronics product from PetCare. Perfect for all your electronics needs.,3453.84,True
+PETC-OFF-000891,PetCare Basic Office Supplies Item 891,High-quality basic office supplies product from PetCare. Perfect for all your office supplies needs.,5493.01,True
+BEAU-ELE-000892,BeautyPlus Advanced Electronics Item 892,High-quality advanced electronics product from BeautyPlus. Perfect for all your electronics needs.,3543.63,True
+AUTO-AUT-000893,AutoParts Elite Automotive Item 893,High-quality elite automotive product from AutoParts. Perfect for all your automotive needs.,8098.9,False
+BOOK-PET-000894,BookWorld Super Pet Supplies Item 894,High-quality super pet supplies product from BookWorld. Perfect for all your pet supplies needs.,8669.95,False
+FASH-PET-000895,FashionZone Mega Pet Supplies Item 895,High-quality mega pet supplies product from FashionZone. Perfect for all your pet supplies needs.,1435.56,True
+BOOK-HEA-000896,BookWorld Ultra Health & Beauty Item 896,High-quality ultra health & beauty product from BookWorld. Perfect for all your health & beauty needs.,6566.48,False
+BEAU-PET-000897,BeautyPlus Standard Pet Supplies Item 897,High-quality standard pet supplies product from BeautyPlus. Perfect for all your pet supplies needs.,6151.82,False
+HOME-ELE-000898,HomeEssentials Ultra Electronics Item 898,High-quality ultra electronics product from HomeEssentials. Perfect for all your electronics needs.,5813.64,True
+FOOD-CLO-000899,FoodMart Economy Clothing Item 899,High-quality economy clothing product from FoodMart. Perfect for all your clothing needs.,2496.91,True
+FASH-OFF-000900,FashionZone Basic Office Supplies Item 900,High-quality basic office supplies product from FashionZone. Perfect for all your office supplies needs.,2088.55,True
+TOYS-HEA-000901,ToysRUs Premium Health & Beauty Item 901,High-quality premium health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,3869.95,True
+TOYS-TOY-000902,ToysRUs Elite Toys & Games Item 902,High-quality elite toys & games product from ToysRUs. Perfect for all your toys & games needs.,8101.32,False
+FITG-SPO-000903,FitGear Mega Sports & Outdoors Item 903,High-quality mega sports & outdoors product from FitGear. Perfect for all your sports & outdoors needs.,4283.4,True
+JEWE-CLO-000904,JewelCraft Advanced Clothing Item 904,High-quality advanced clothing product from JewelCraft. Perfect for all your clothing needs.,1917.96,True
+GADG-ELE-000905,GadgetHub Ultra Electronics Item 905,High-quality ultra electronics product from GadgetHub. Perfect for all your electronics needs.,6258.91,False
+STYL-TOY-000906,StyleCo Premium Toys & Games Item 906,High-quality premium toys & games product from StyleCo. Perfect for all your toys & games needs.,3083.31,True
+FASH-HEA-000907,FashionZone Deluxe Health & Beauty Item 907,High-quality deluxe health & beauty product from FashionZone. Perfect for all your health & beauty needs.,1504.61,True
+HOME-FOO-000908,HomeEssentials Deluxe Food & Beverage Item 908,High-quality deluxe food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,4072.84,False
+FITG-HOM-000909,FitGear Basic Home & Garden Item 909,High-quality basic home & garden product from FitGear. Perfect for all your home & garden needs.,2852.93,False
+FITG-AUT-000910,FitGear Professional Automotive Item 910,High-quality professional automotive product from FitGear. Perfect for all your automotive needs.,5335.21,True
+GADG-BOO-000911,GadgetHub Ultra Books Item 911,High-quality ultra books product from GadgetHub. Perfect for all your books needs.,6426.11,True
+JEWE-OFF-000912,JewelCraft Ultra Office Supplies Item 912,High-quality ultra office supplies product from JewelCraft. Perfect for all your office supplies needs.,384.42,True
+PETC-HEA-000913,PetCare Standard Health & Beauty Item 913,High-quality standard health & beauty product from PetCare. Perfect for all your health & beauty needs.,4546.1,True
+FASH-BOO-000914,FashionZone Super Books Item 914,High-quality super books product from FashionZone. Perfect for all your books needs.,528.65,True
+FOOD-AUT-000915,FoodMart Super Automotive Item 915,High-quality super automotive product from FoodMart. Perfect for all your automotive needs.,4214.82,True
+HOME-TOY-000916,HomeEssentials Elite Toys & Games Item 916,High-quality elite toys & games product from HomeEssentials. Perfect for all your toys & games needs.,2897.75,True
+OFFI-SPO-000917,OfficeMax Mega Sports & Outdoors Item 917,High-quality mega sports & outdoors product from OfficeMax. Perfect for all your sports & outdoors needs.,8424.03,True
+OFFI-HOM-000918,OfficeMax Ultra Home & Garden Item 918,High-quality ultra home & garden product from OfficeMax. Perfect for all your home & garden needs.,3642.54,True
+FITG-BOO-000919,FitGear Professional Books Item 919,High-quality professional books product from FitGear. Perfect for all your books needs.,2882.51,True
+ACME-CLO-000920,Acme Professional Clothing Item 920,High-quality professional clothing product from Acme. Perfect for all your clothing needs.,1337.08,True
+HOME-OFF-000921,HomeEssentials Deluxe Office Supplies Item 921,High-quality deluxe office supplies product from HomeEssentials. Perfect for all your office supplies needs.,980.89,True
+GADG-BOO-000922,GadgetHub Deluxe Books Item 922,High-quality deluxe books product from GadgetHub. Perfect for all your books needs.,158.07,True
+PETC-FOO-000923,PetCare Deluxe Food & Beverage Item 923,High-quality deluxe food & beverage product from PetCare. Perfect for all your food & beverage needs.,2151.74,True
+HOME-FOO-000924,HomeEssentials Basic Food & Beverage Item 924,High-quality basic food & beverage product from HomeEssentials. Perfect for all your food & beverage needs.,2788.16,True
+PETC-JEW-000925,PetCare Deluxe Jewelry Item 925,High-quality deluxe jewelry product from PetCare. Perfect for all your jewelry needs.,2556.25,True
+FOOD-JEW-000926,FoodMart Economy Jewelry Item 926,High-quality economy jewelry product from FoodMart. Perfect for all your jewelry needs.,6283.98,True
+FITG-FOO-000927,FitGear Advanced Food & Beverage Item 927,High-quality advanced food & beverage product from FitGear. Perfect for all your food & beverage needs.,9375.21,True
+BOOK-FOO-000928,BookWorld Premium Food & Beverage Item 928,High-quality premium food & beverage product from BookWorld. Perfect for all your food & beverage needs.,2684.98,False
+JEWE-SPO-000929,JewelCraft Ultra Sports & Outdoors Item 929,High-quality ultra sports & outdoors product from JewelCraft. Perfect for all your sports & outdoors needs.,6431.29,True
+GADG-BOO-000930,GadgetHub Advanced Books Item 930,High-quality advanced books product from GadgetHub. Perfect for all your books needs.,6698.71,True
+PETC-TOY-000931,PetCare Super Toys & Games Item 931,High-quality super toys & games product from PetCare. Perfect for all your toys & games needs.,595.68,True
+AUTO-FOO-000932,AutoParts Super Food & Beverage Item 932,High-quality super food & beverage product from AutoParts. Perfect for all your food & beverage needs.,311.5,True
+PETC-HOM-000933,PetCare Super Home & Garden Item 933,High-quality super home & garden product from PetCare. Perfect for all your home & garden needs.,4092.4,True
+BEAU-AUT-000934,BeautyPlus Deluxe Automotive Item 934,High-quality deluxe automotive product from BeautyPlus. Perfect for all your automotive needs.,430.91,False
+AUTO-BOO-000935,AutoParts Super Books Item 935,High-quality super books product from AutoParts. Perfect for all your books needs.,7903.66,True
+BEAU-OFF-000936,BeautyPlus Professional Office Supplies Item 936,High-quality professional office supplies product from BeautyPlus. Perfect for all your office supplies needs.,8582.7,True
+AUTO-OFF-000937,AutoParts Premium Office Supplies Item 937,High-quality premium office supplies product from AutoParts. Perfect for all your office supplies needs.,2226.73,True
+AUTO-BOO-000938,AutoParts Elite Books Item 938,High-quality elite books product from AutoParts. Perfect for all your books needs.,2129.36,True
+TOYS-HEA-000939,ToysRUs Basic Health & Beauty Item 939,High-quality basic health & beauty product from ToysRUs. Perfect for all your health & beauty needs.,465.3,False
+STYL-BOO-000940,StyleCo Ultra Books Item 940,High-quality ultra books product from StyleCo. Perfect for all your books needs.,6278.06,True
+STYL-AUT-000941,StyleCo Economy Automotive Item 941,High-quality economy automotive product from StyleCo. Perfect for all your automotive needs.,9317.74,True
+AUTO-HEA-000942,AutoParts Basic Health & Beauty Item 942,High-quality basic health & beauty product from AutoParts. Perfect for all your health & beauty needs.,196.52,False
+STYL-SPO-000943,StyleCo Deluxe Sports & Outdoors Item 943,High-quality deluxe sports & outdoors product from StyleCo. Perfect for all your sports & outdoors needs.,3333.29,True
+JEWE-CLO-000944,JewelCraft Super Clothing Item 944,High-quality super clothing product from JewelCraft. Perfect for all your clothing needs.,5491.72,True
+HOME-TOY-000945,HomeEssentials Professional Toys & Games Item 945,High-quality professional toys & games product from HomeEssentials. Perfect for all your toys & games needs.,5283.88,True
+GADG-HEA-000946,GadgetHub Mega Health & Beauty Item 946,High-quality mega health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,9025.22,True
+HOME-OFF-000947,HomeEssentials Premium Office Supplies Item 947,High-quality premium office supplies product from HomeEssentials. Perfect for all your office supplies needs.,2589.46,True
+PETC-PET-000948,PetCare Super Pet Supplies Item 948,High-quality super pet supplies product from PetCare. Perfect for all your pet supplies needs.,5608.21,False
+GADG-JEW-000949,GadgetHub Economy Jewelry Item 949,High-quality economy jewelry product from GadgetHub. Perfect for all your jewelry needs.,7909.79,False
+ACME-AUT-000950,Acme Premium Automotive Item 950,High-quality premium automotive product from Acme. Perfect for all your automotive needs.,3445.49,True
+FITG-TOY-000951,FitGear Mega Toys & Games Item 951,High-quality mega toys & games product from FitGear. Perfect for all your toys & games needs.,2438.8,True
+ACME-CLO-000952,Acme Standard Clothing Item 952,High-quality standard clothing product from Acme. Perfect for all your clothing needs.,4773.25,False
+ACME-JEW-000953,Acme Elite Jewelry Item 953,High-quality elite jewelry product from Acme. Perfect for all your jewelry needs.,7776.36,True
+PETC-FOO-000954,PetCare Deluxe Food & Beverage Item 954,High-quality deluxe food & beverage product from PetCare. Perfect for all your food & beverage needs.,5500.02,True
+AUTO-JEW-000955,AutoParts Mega Jewelry Item 955,High-quality mega jewelry product from AutoParts. Perfect for all your jewelry needs.,7735.29,False
+FITG-OFF-000956,FitGear Deluxe Office Supplies Item 956,High-quality deluxe office supplies product from FitGear. Perfect for all your office supplies needs.,535.29,False
+FITG-FOO-000957,FitGear Advanced Food & Beverage Item 957,High-quality advanced food & beverage product from FitGear. Perfect for all your food & beverage needs.,1883.8,False
+GADG-HEA-000958,GadgetHub Mega Health & Beauty Item 958,High-quality mega health & beauty product from GadgetHub. Perfect for all your health & beauty needs.,7523.81,True
+TOYS-CLO-000959,ToysRUs Elite Clothing Item 959,High-quality elite clothing product from ToysRUs. Perfect for all your clothing needs.,7385.88,True
+PETC-TOY-000960,PetCare Professional Toys & Games Item 960,High-quality professional toys & games product from PetCare. Perfect for all your toys & games needs.,2655.13,True
+TOYS-ELE-000961,ToysRUs Economy Electronics Item 961,High-quality economy electronics product from ToysRUs. Perfect for all your electronics needs.,9297.63,True
+BOOK-HOM-000962,BookWorld Mega Home & Garden Item 962,High-quality mega home & garden product from BookWorld. Perfect for all your home & garden needs.,5666.43,False
+TECH-CLO-000963,TechPro Mega Clothing Item 963,High-quality mega clothing product from TechPro. Perfect for all your clothing needs.,6575.46,True
+TECH-AUT-000964,TechPro Elite Automotive Item 964,High-quality elite automotive product from TechPro. Perfect for all your automotive needs.,2728.44,True
+BOOK-HEA-000965,BookWorld Mega Health & Beauty Item 965,High-quality mega health & beauty product from BookWorld. Perfect for all your health & beauty needs.,5211.15,True
+TECH-BOO-000966,TechPro Basic Books Item 966,High-quality basic books product from TechPro. Perfect for all your books needs.,5434.16,False
+TOYS-AUT-000967,ToysRUs Standard Automotive Item 967,High-quality standard automotive product from ToysRUs. Perfect for all your automotive needs.,8334.67,True
+ACME-PET-000968,Acme Elite Pet Supplies Item 968,High-quality elite pet supplies product from Acme. Perfect for all your pet supplies needs.,6587.2,True
+TOYS-BOO-000969,ToysRUs Economy Books Item 969,High-quality economy books product from ToysRUs. Perfect for all your books needs.,8487.32,True
+BOOK-TOY-000970,BookWorld Advanced Toys & Games Item 970,High-quality advanced toys & games product from BookWorld. Perfect for all your toys & games needs.,4076.45,True
+BOOK-OFF-000971,BookWorld Economy Office Supplies Item 971,High-quality economy office supplies product from BookWorld. Perfect for all your office supplies needs.,5919.08,True
+TOYS-CLO-000972,ToysRUs Standard Clothing Item 972,High-quality standard clothing product from ToysRUs. Perfect for all your clothing needs.,8617.22,True
+BEAU-AUT-000973,BeautyPlus Deluxe Automotive Item 973,High-quality deluxe automotive product from BeautyPlus. Perfect for all your automotive needs.,8560.27,True
+AUTO-HOM-000974,AutoParts Deluxe Home & Garden Item 974,High-quality deluxe home & garden product from AutoParts. Perfect for all your home & garden needs.,4437.24,True
+JEWE-ELE-000975,JewelCraft Basic Electronics Item 975,High-quality basic electronics product from JewelCraft. Perfect for all your electronics needs.,5691.92,False
+HOME-OFF-000976,HomeEssentials Basic Office Supplies Item 976,High-quality basic office supplies product from HomeEssentials. Perfect for all your office supplies needs.,4532.67,False
+ACME-JEW-000977,Acme Advanced Jewelry Item 977,High-quality advanced jewelry product from Acme. Perfect for all your jewelry needs.,3520.88,False
+BOOK-BOO-000978,BookWorld Standard Books Item 978,High-quality standard books product from BookWorld. Perfect for all your books needs.,1021.27,True
+GADG-ELE-000979,GadgetHub Ultra Electronics Item 979,High-quality ultra electronics product from GadgetHub. Perfect for all your electronics needs.,3433.04,True
+OFFI-OFF-000980,OfficeMax Advanced Office Supplies Item 980,High-quality advanced office supplies product from OfficeMax. Perfect for all your office supplies needs.,8303.42,True
+BEAU-FOO-000981,BeautyPlus Professional Food & Beverage Item 981,High-quality professional food & beverage product from BeautyPlus. Perfect for all your food & beverage needs.,7519.27,True
+HOME-OFF-000982,HomeEssentials Advanced Office Supplies Item 982,High-quality advanced office supplies product from HomeEssentials. Perfect for all your office supplies needs.,5727.85,True
+HOME-CLO-000983,HomeEssentials Economy Clothing Item 983,High-quality economy clothing product from HomeEssentials. Perfect for all your clothing needs.,5800.63,True
+STYL-BOO-000984,StyleCo Ultra Books Item 984,High-quality ultra books product from StyleCo. Perfect for all your books needs.,6578.73,False
+STYL-TOY-000985,StyleCo Super Toys & Games Item 985,High-quality super toys & games product from StyleCo. Perfect for all your toys & games needs.,5061.74,True
+OFFI-FOO-000986,OfficeMax Super Food & Beverage Item 986,High-quality super food & beverage product from OfficeMax. Perfect for all your food & beverage needs.,8408.92,False
+HOME-OFF-000987,HomeEssentials Mega Office Supplies Item 987,High-quality mega office supplies product from HomeEssentials. Perfect for all your office supplies needs.,3987.14,False
+FITG-BOO-000988,FitGear Basic Books Item 988,High-quality basic books product from FitGear. Perfect for all your books needs.,4277.68,False
+OFFI-CLO-000989,OfficeMax Elite Clothing Item 989,High-quality elite clothing product from OfficeMax. Perfect for all your clothing needs.,4011.27,True
+AUTO-SPO-000990,AutoParts Super Sports & Outdoors Item 990,High-quality super sports & outdoors product from AutoParts. Perfect for all your sports & outdoors needs.,9570.4,False
+GADG-SPO-000991,GadgetHub Elite Sports & Outdoors Item 991,High-quality elite sports & outdoors product from GadgetHub. Perfect for all your sports & outdoors needs.,7901.48,True
+AUTO-FOO-000992,AutoParts Mega Food & Beverage Item 992,High-quality mega food & beverage product from AutoParts. Perfect for all your food & beverage needs.,2901.05,True
+FASH-AUT-000993,FashionZone Premium Automotive Item 993,High-quality premium automotive product from FashionZone. Perfect for all your automotive needs.,4130.06,True
+FITG-CLO-000994,FitGear Ultra Clothing Item 994,High-quality ultra clothing product from FitGear. Perfect for all your clothing needs.,8607.52,True
+FASH-TOY-000995,FashionZone Ultra Toys & Games Item 995,High-quality ultra toys & games product from FashionZone. Perfect for all your toys & games needs.,8404.98,True
+STYL-PET-000996,StyleCo Premium Pet Supplies Item 996,High-quality premium pet supplies product from StyleCo. Perfect for all your pet supplies needs.,780.44,True
+FOOD-HOM-000997,FoodMart Elite Home & Garden Item 997,High-quality elite home & garden product from FoodMart. Perfect for all your home & garden needs.,5531.87,True
+FITG-CLO-000998,FitGear Premium Clothing Item 998,High-quality premium clothing product from FitGear. Perfect for all your clothing needs.,3537.13,True
+ACME-OFF-000999,Acme Ultra Office Supplies Item 999,High-quality ultra office supplies product from Acme. Perfect for all your office supplies needs.,8374.38,True
+AUTO-OFF-001000,AutoParts Advanced Office Supplies Item 1000,High-quality advanced office supplies product from AutoParts. Perfect for all your office supplies needs.,556.31,True
