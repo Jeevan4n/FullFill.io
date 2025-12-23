@@ -1,5 +1,7 @@
 Flask
-Flask-SQLAlchemy
+flask-cors
+flask-sqlalchemy
 psycopg2-binary
 celery
 redis
+gunicorn
