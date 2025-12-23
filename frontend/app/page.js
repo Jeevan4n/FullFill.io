@@ -59,11 +59,29 @@ export default function ProductsPage() {
     }
   };
 
+  const fetchAllProducts = async () => {
+    let allProducts = [];
+    let page = 1;
+    const perPage = 100;
+    while (true) {
+      const params = new URLSearchParams({
+        page: page.toString(),
+        per_page: perPage.toString(),
+      });
+      const res = await fetch(`${API_BASE}/products?${params}`);
+      if (!res.ok) throw new Error('Fetch failed');
+      const data = await res.json();
+      const items = data.data || [];
+      allProducts = [...allProducts, ...items];
+      if (items.length < perPage) break;
+      page++;
+    }
+    return allProducts;
+  };
+
   const fetchStats = async () => {
     try {
-      const res = await fetch(`${API_BASE}/products?per_page=1000`);
-      const data = await res.json();
-      const allProducts = data.data || [];
+      const allProducts = await fetchAllProducts();
       setTotalProducts(allProducts.length);
       setActiveCount(allProducts.filter(p => p.active).length);
       const totalPrice = allProducts.reduce((sum, p) => sum + (p.price || 0), 0);
