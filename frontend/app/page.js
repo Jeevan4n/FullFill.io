@@ -59,42 +59,29 @@ export default function ProductsPage() {
     }
   };
 
-  const fetchAllProducts = async () => {
-    let allProducts = [];
-    let page = 1;
-    const perPage = 100;
-    while (true) {
-      const params = new URLSearchParams({
-        page: page.toString(),
-        per_page: perPage.toString(),
-      });
-      const res = await fetch(`${API_BASE}/products?${params}`);
-      if (!res.ok) throw new Error('Fetch failed');
-      const data = await res.json();
-      const items = data.data || [];
-      allProducts = [...allProducts, ...items];
-      if (items.length < perPage) break;
-      page++;
-    }
-    return allProducts;
-  };
 
-  const fetchStats = async () => {
-    try {
-      const allProducts = await fetchAllProducts();
-      setTotalProducts(allProducts.length);
-      setActiveCount(allProducts.filter(p => p.active).length);
-      const totalPrice = allProducts.reduce((sum, p) => sum + (p.price || 0), 0);
-      setAvgPrice(allProducts.length > 0 ? totalPrice / allProducts.length : 0);
-    } catch (err) {
-      console.error('Stats fetch error:', err);
-    }
-  };
+const fetchStats = async () => {
+  try {
+    const res = await fetch(`${API_BASE}/products/stats`);
+    const data = await res.json();
 
-  useEffect(() => {
-    fetchProducts();
-    fetchStats();
-  }, [page, search, activeFilter]);
+    setTotalProducts(data.total_products);
+    setActiveCount(data.active_products);
+    setAvgPrice(data.average_price);
+  } catch (err) {
+    console.error("Stats fetch failed:", err);
+  }
+};
+
+
+useEffect(() => {
+  fetchProducts();
+}, [page, search, activeFilter]);
+
+useEffect(() => {
+  fetchStats();
+}, []);
+
 
   const handleApplyFilters = () => {
     setSearch(searchInput.trim());
