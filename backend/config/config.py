@@ -12,6 +12,9 @@
 
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------- DATABASE (PostgreSQL on Render) ----------------
 SQLALCHEMY_DATABASE_URI = os.getenv(
