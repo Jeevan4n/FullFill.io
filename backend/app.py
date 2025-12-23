@@ -373,6 +373,28 @@ def health_check():
         logger.error(f"Health check failed: {str(e)}")
         return jsonify({"status": "unhealthy", "error": str(e)}), 503
 
+@app.route("/api/products/stats", methods=["GET"])
+def product_stats():
+    session = get_session()
+    try:
+        total_products = session.query(func.count(Product.id)).scalar()
+        active_products = session.query(func.count(Product.id)) \
+            .filter(Product.active == True).scalar()
+
+        avg_price = session.query(func.avg(Product.price)) \
+            .filter(Product.price.isnot(None)).scalar()
+
+        return jsonify({
+            "total_products": total_products or 0,
+            "active_products": active_products or 0,
+            "average_price": round(float(avg_price), 2) if avg_price else 0.0
+        })
+    except Exception as e:
+        logger.error(f"Stats error: {str(e)}")
+        return jsonify({"error": "Failed to fetch stats"}), 500
+    finally:
+        safe_close(session)
+
 
 @app.errorhandler(413)
 def too_large(e):
