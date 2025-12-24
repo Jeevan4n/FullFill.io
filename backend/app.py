@@ -1,3 +1,4 @@
+# app.py
 import os
 import uuid
 import csv
@@ -15,7 +16,7 @@ from models.product import Product
 from models.webhook import Webhook
 from utils.session_manager import get_session, safe_close, engine
 from utils.webhooks import trigger_webhooks
-from tasks.import_tasks import process_csv_import_task
+from tasks.import_tasks import process_csv_import
 
 app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
@@ -58,8 +59,8 @@ def upload_csv():
     file.seek(0, os.SEEK_END)
     file_size_bytes = file.tell()
     file.seek(0)
-    if file_size_bytes > 500 * 1024 * 1024:
-        return jsonify({"error": "File too large (>500MB)"}), 413
+    if file_size_bytes > 1500 * 1024 * 1024:
+        return jsonify({"error": "File too large (>1500MB)"}), 413
 
     job_id = str(uuid.uuid4())
     file_path = os.path.join(UPLOAD_FOLDER, f"{job_id}_{file.filename}")
@@ -84,7 +85,7 @@ def upload_csv():
         session.commit()
 
         if is_valid:
-            process_csv_import_task.delay(job_id, file_path)
+            process_csv_import.delay(job_id, file_path)
             logger.info("Queued import job %s", job_id)
         else:
             logger.warning("Invalid CSV for job %s: %s", job_id, msg)
@@ -175,7 +176,7 @@ def retry_import(job_id):
         job.updated_at = datetime.utcnow()
         session.commit()
 
-        process_csv_import_task.delay(job_id, job.file_path)
+        process_csv_import.delay(job_id, job.file_path)
         logger.info("Retrying import job %s", job_id)
         return jsonify({"message": "Retry started"}), 202
     except Exception as e:
@@ -268,7 +269,7 @@ def create_product():
             sku=sku,
             name=(data.get("name") or "").strip(),
             description=data.get("description"),
-            price=data.get("price"),
+            price=float(data.get("price")) if data.get("price") is not None else None,
             active=data.get("active", True),
         )
         session.add(product)
@@ -299,7 +300,7 @@ def update_product(sku):
 
         product.name = data.get("name", product.name)
         product.description = data.get("description", product.description)
-        product.price = data.get("price", product.price)
+        product.price = float(data.get("price")) if "price" in data else product.price
         product.active = data.get("active", product.active)
 
         session.commit()
@@ -472,13 +473,8 @@ def test_webhook(webhook_id):
             "timestamp": datetime.utcnow().isoformat(),
         }
 
-        # Use the shared trigger_webhooks helper for consistency.
-        try:
-            result = trigger_webhooks(hook.event_type, payload, single_hook=hook)
-        except TypeError:
-            # Backwards compatibility: if trigger_webhooks doesn't accept single_hook
-            result = trigger_webhooks(hook.event_type, payload)
-        return jsonify({"webhook_id": hook.id, "url": hook.url, "result": result})
+        result = trigger_webhooks(hook.event_type, payload, single_hook=hook)
+        return jsonify({"webhook_id": hook.id, "url": hook.url, "result": result[0] if result else {"error": "No result"}})
     finally:
         safe_close(session)
 
