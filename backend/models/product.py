@@ -1,22 +1,23 @@
 from datetime import datetime
-from sqlalchemy import Column, BigInteger, String, Text, Boolean, DateTime, Numeric,Index
-from sqlalchemy.sql import func
+from sqlalchemy import Column, BigInteger, String, Text, Boolean, DateTime, Numeric, Index, func
 from models.base import Base
+
 
 class Product(Base):
     __tablename__ = "products"
 
     id = Column(BigInteger, primary_key=True, autoincrement=True)
-    sku = Column(String(255), nullable=False)
+    sku = Column(String(255), nullable=False, index=True)
     name = Column(String(255), nullable=True)
     description = Column(Text, nullable=True)
-    price = Column(Numeric(10, 2), nullable=True)  # Added price
+    price = Column(Numeric(12, 2), nullable=True)
     active = Column(Boolean, default=True, nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow, nullable=False)
 
     __table_args__ = (
-        Index('uq_products_sku_lower', func.lower(sku), unique=True),
+        Index('ix_products_sku_lower', func.lower(sku), unique=True),
     )
 
     def to_dict(self):

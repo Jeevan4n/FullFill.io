@@ -5,6 +5,7 @@ from models.base import Base
 # Import all your models so Base knows about them
 import models.import_job
 import models.product
+import models.webhook
 
 
 engine = create_engine(SQLALCHEMY_DATABASE_URI)

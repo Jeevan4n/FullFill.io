@@ -57,174 +57,170 @@ def update_job_progress(
 
 
 
-@celery.task(bind=True)
-def process_csv_task(self, job_id):
+@celery.task(bind=True, name='tasks.process_csv_import')
+def process_csv_import(self, filepath, task_id):
     """
-    END-TO-END SAFE CELERY TASK
-
-    ✔ No ORM leakage
-    ✔ No session conflicts
-    ✔ Windows compatible (--pool=solo)
-    ✔ Scales to 500k+ rows
+    Process CSV file import asynchronously.
+    Efficient, chunked, batched, and progress-tracked version.
     """
+    app = create_flask_app()
+    with app.app_context():
+        try:
+            job = ImportJob.query.filter_by(task_id=task_id).first()
+            if not job:
+                return {'status': 'error', 'message': 'Job not found'}
 
-    session = get_session()
-    job = None
+            job.status = 'processing'
+            job.progress = 0
+            job.processed_records = 0
+            db.session.commit()
 
-    try:
-        # ----------------------------------------------------
-        # Load job (ONLY inside this session)
-        # ----------------------------------------------------
-        job = session.get(ImportJob, job_id)
-        if not job:
-            return
+            # --- Configuration ---
+            chunk_size = 10000               # Rows per pandas chunk
+            commit_interval = 500             # Commit product writes every 500
+            progress_update_interval = 100    # Update job progress every 100
 
-        update_job_progress(job_id, status="parsing")
+            total_processed = total_created = total_updated = 0
 
-        # ----------------------------------------------------
-        # Count rows (fast + safe)
-        # ----------------------------------------------------
-        with open(job.file_path, "r", encoding="utf-8") as f:
-            total_rows = sum(1 for _ in f) - 1
+            # --- Count total rows efficiently ---
+            try:
+                total_rows = sum(len(chunk) for chunk in pd.read_csv(filepath, chunksize=chunk_size, dtype=str))
+            except Exception:
+                with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                    next(f, None)  # Skip header
+                    total_rows = sum(1 for _ in f)
 
-        update_job_progress(
-            job_id,
-            processed_rows=0,
-            success_count=0,
-            error_count=0
-        )
+            if total_rows <= 0:
+                job.status = 'failed'
+                job.error_message = 'CSV file is empty or invalid'
+                db.session.commit()
+                return {'status': 'error', 'message': 'Empty or invalid CSV'}
 
-        update_job_progress(job_id, status="processing")
+            job.total_records = total_rows
+            db.session.commit()
+            print(f" Starting import: {total_rows} total rows")
 
-        success_count = 0
-        error_count = 0
-        errors = []
+            # --- Process CSV in chunks ---
+            for chunk_num, chunk in enumerate(pd.read_csv(filepath, chunksize=chunk_size, dtype=str)):
+                products_to_create, products_to_update = [], []
 
-        # ----------------------------------------------------
-        # Process CSV
-        # ----------------------------------------------------
-        with open(job.file_path, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-
-            for row_idx, row in enumerate(reader, start=1):
-
-                session.refresh(job)
-                if job.status == "cancelled":
-                    update_job_progress(job_id, status="cancelled")
-                    return
-
-                # ---- Validation ----
-                sku = row.get("sku", "").strip().lower()
-                name = row.get("name", "").strip()
-
-                if not sku:
-                    error_count += 1
-                    errors.append(f"Row {row_idx}: SKU missing")
-                    update_job_progress(
-                        job_id,
-                        processed_rows=row_idx,
-                        error_count=error_count
-                    )
-                    continue
-
-                if not name:
-                    error_count += 1
-                    errors.append(f"Row {row_idx}: Name missing")
-                    update_job_progress(
-                        job_id,
-                        processed_rows=row_idx,
-                        error_count=error_count
-                    )
-                    continue
-
-
-                description = row.get("description", "").strip() or None
-
-                price = None
-                raw_price = row.get("price", "").strip()
-                if raw_price:
+                for _, row in chunk.iterrows():
                     try:
-                        price = float(raw_price)
-                        if price < 0:
-                            raise ValueError
-                    except ValueError:
-                        error_count += 1
-                        errors.append(f"Row {row_idx}: Invalid price")
-                        update_job_progress(
-                            job_id,
-                            processed_rows=row_idx,
-                            error_count=error_count
-                        )
+                        sku = str(row.get('sku', '')).strip().lower()
+                        if not sku:
+                            continue
+
+                        name = str(row.get('name', '')).strip()
+                        description = str(row.get('description', '')).strip()
+
+                        existing_product = Product.query.filter(
+                            db.func.lower(Product.sku) == sku
+                        ).first()
+
+                        if existing_product:
+                            existing_product.name = name
+                            existing_product.description = description
+                            existing_product.updated_at = datetime.utcnow()
+                            products_to_update.append(existing_product)
+                            total_updated += 1
+                        else:
+                            products_to_create.append(Product(
+                                sku=sku,
+                                name=name,
+                                description=description,
+                                active=True
+                            ))
+                            total_created += 1
+
+                        total_processed += 1
+
+                        # --- Update progress every 100 records ---
+                        if total_processed % progress_update_interval == 0:
+                            progress = int((total_processed / total_rows) * 100)
+                            job.progress = progress
+                            job.processed_records = total_processed
+                            db.session.commit()
+
+                            self.update_state(
+                                state='PROGRESS',
+                                meta={
+                                    'current': total_processed,
+                                    'total': total_rows,
+                                    'progress': progress,
+                                    'status': f'Processing {total_processed}/{total_rows}'
+                                }
+                            )
+
+                        # --- Commit DB writes every 500 records ---
+                        if total_processed % commit_interval == 0:
+                            if products_to_create:
+                                db.session.bulk_save_objects(products_to_create)
+                                products_to_create.clear()
+
+                            if products_to_update:
+                                for prod in products_to_update:
+                                    db.session.merge(prod)
+                                products_to_update.clear()
+
+                            db.session.commit()
+                            print(f" Committed {total_processed}/{total_rows} records")
+
+                    except Exception as e:
+                        print(f" Error processing row: {e}")
                         continue
 
-                active = row.get("active", "true").lower() in (
-                    "true", "1", "yes", "y", "active"
-                )
+                # --- Commit any remaining records in this chunk ---
+                if products_to_create:
+                    db.session.bulk_save_objects(products_to_create)
+                if products_to_update:
+                    for prod in products_to_update:
+                        db.session.merge(prod)
+                db.session.commit()
 
-                # ---- UPSERT Product ----
-                product = (
-                    session.query(Product)
-                    .filter(func.lower(Product.sku) == sku)
-                    .first()
-                )
+                # --- Update progress after each chunk ---
+                progress = int((total_processed / total_rows) * 100)
+                job.progress = progress
+                job.processed_records = total_processed
+                db.session.commit()
 
-                if product:
-                    product.name = name
-                    product.description = description
-                    product.price = price
-                    product.active = active
-                else:
-                    session.add(Product(
-                        sku=sku,
-                        name=name,
-                        description=description,
-                        price=price,
-                        active=active
-                    ))
+                print(f" Finished chunk {chunk_num + 1}, progress: {progress}%")
 
-                success_count += 1
+            # --- Mark job as complete ---
+            job.status = 'completed'
+            job.progress = 100
+            job.processed_records = total_processed
+            db.session.commit()
 
-                # ---- Batch commit ----
-                if row_idx % 500 == 0:
-                    session.commit()
+            # --- Cleanup ---
+            try:
+                os.remove(filepath)
+            except Exception:
+                pass
 
-                update_job_progress(
-                    job_id,
-                    processed_rows=row_idx,
-                    success_count=success_count,
-                    error_count=error_count
-                )
+            print(f" Import completed: {total_processed} processed, {total_created} created, {total_updated} updated")
 
-        session.commit()
+            return {
+                'status': 'completed',
+                'total_processed': total_processed,
+                'total_created': total_created,
+                'total_updated': total_updated
+            }
 
-        if errors:
-            msg = "\n".join(errors[:10])
-            if len(errors) > 10:
-                msg += f"\n... and {len(errors) - 10} more errors"
+        except Exception as e:
+            error_msg = str(e)
+            print(f"Import failed: {error_msg}")
+            traceback.print_exc()
 
-            update_job_progress(
-                job_id,
-                status="completed_with_errors",
-                error_message=msg
-            )
-        else:
-            update_job_progress(job_id, status="completed")
+            job = ImportJob.query.filter_by(task_id=task_id).first()
+            if job:
+                job.status = 'failed'
+                job.error_message = error_msg
+                db.session.commit()
 
-    except Exception as e:
-        session.rollback()
-        update_job_progress(
-            job_id,
-            status="failed",
-            error_message=str(e)
-        )
-        raise
+            try:
+                if os.path.exists(filepath):
+                    os.remove(filepath)
+            except Exception:
+                pass
 
-    finally:
-        safe_close(session)
-
-        # Cleanup file
-        try:
-            if job and os.path.exists(job.file_path):
-                os.remove(job.file_path)
-        except Exception:
-            pass
+            return {'status': 'error', 'message': error_msg}
