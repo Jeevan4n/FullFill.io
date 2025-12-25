@@ -1,3 +1,4 @@
+// app/page.jsx (Products Page)
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -15,7 +16,7 @@ import {
 } from '@/components/ui/alert-dialog';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Trash2, Edit, Plus, Search, X, Package, TrendingUp, DollarSign } from 'lucide-react';
 import Link from 'next/link';
 
@@ -280,15 +281,17 @@ useEffect(() => {
 
           <CardContent className="p-6">
             <Tabs defaultValue="list" className="w-full">
-              <TabsList className="grid w-full grid-cols-2 mb-8 bg-gray-100">
+              <TabsList className="grid w-full grid-cols-3 mb-8 bg-gray-100">
                 <TabsTrigger value="list">Product List</TabsTrigger>
                 <TabsTrigger value="import" asChild>
                   <Link href="/imports">Import CSV</Link>
                 </TabsTrigger>
+                <TabsTrigger value="webhooks" asChild>
+                  <Link href="/webhooks">Webhooks</Link>
+                </TabsTrigger>
               </TabsList>
 
-              {/* Only Product List Content */}
-              <div className="space-y-6">
+              <TabsContent value="list" className="space-y-6">
                 {/* Filters */}
                 <Card className="border border-gray-200 shadow-md">
                   <CardContent className="p-6">
@@ -449,7 +452,7 @@ useEffect(() => {
                 </div>
 
                 <CustomPagination />
-              </div>
+              </TabsContent>
             </Tabs>
           </CardContent>
         </Card>
