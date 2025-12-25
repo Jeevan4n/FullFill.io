@@ -32,7 +32,7 @@ import {
 import { Plus, Trash2, Edit, Send, ArrowLeft, Webhook } from 'lucide-react';
 import Link from 'next/link';
 
-const API_BASE = 'http://127.0.0.1:5000/api';
+const API_BASE = 'https://fullfill-io.onrender.com/api';
 
 const EVENT_TYPES = [
   'product.created',

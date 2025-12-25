@@ -20,7 +20,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Trash2, Edit, Plus, Search, X, Package, TrendingUp, DollarSign } from 'lucide-react';
 import Link from 'next/link';
 
-const API_BASE = 'http://127.0.0.1:5000/api';
+const API_BASE = 'https://fullfill-io.onrender.com/api';
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([]);
