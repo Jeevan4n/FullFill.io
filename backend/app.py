@@ -85,7 +85,7 @@ def upload_csv():
         session.commit()
 
         if is_valid:
-            process_csv_import.delay(job_id, file_path)
+            process_csv_import.delay(job_id)
             logger.info("Queued import job %s", job_id)
         else:
             logger.warning("Invalid CSV for job %s: %s", job_id, msg)
@@ -176,7 +176,7 @@ def retry_import(job_id):
         job.updated_at = datetime.utcnow()
         session.commit()
 
-        process_csv_import.delay(job_id, job.file_path)
+        process_csv_import.delay(job_id)
         logger.info("Retrying import job %s", job_id)
         return jsonify({"message": "Retry started"}), 202
     except Exception as e:

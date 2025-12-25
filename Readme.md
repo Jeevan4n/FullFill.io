@@ -81,7 +81,7 @@ Additional features:
 #### Key Backend Files
 
 - `app.py` – API routes & web server
-- `celery_worker.py` – CSV processing worker
+- `celery_app.py` – Celery app & CSV processing tasks
 - `import_job.py` – ImportJob model & progress tracking
 - `product.py` – Product model with SKU uniqueness
 - `uploads/` – Temporary CSV storage
@@ -96,6 +96,7 @@ Additional features:
 
 - `page.js` – Product list, CRUD UI
 - `imports/page.js` – CSV import interface
+- `webhooks/page.js` – Webhook listener / webhook debug UI
 - `package.json` – Frontend dependencies
 
 ## 🔌 API Endpoints
@@ -190,26 +191,40 @@ Additional features:
 python -m venv .venv
 
 # Activate virtual environment
-# Windows
-.venv\Scripts\activate
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+# Windows (cmd)
+.venv\Scripts\activate.bat
 # Unix/MacOS
 source .venv/bin/activate
 
 # Install dependencies
 pip install -r backend/requirements.txt
 
-# Set environment variables
+# Set environment variables (examples)
+# Windows (PowerShell)
+$env:DATABASE_URL="postgresql://user:pass@localhost:5432/fullfill"
+$env:REDIS_URL="redis://localhost:6379/0"
+# Unix/MacOS
 export DATABASE_URL=postgresql://user:pass@localhost:5432/fullfill
 export REDIS_URL=redis://localhost:6379/0
 
-# Initialize database
+# Initialize database (if provided)
 cd backend
 python init_db.py
 
-# Start Celery worker (in separate terminal)
-celery -A celery_worker worker --loglevel=info
+# Start Celery worker (in a separate terminal)
+# The Celery app object is named `celery` inside `backend/celery_app.py`,
+# so target it as `celery_app.celery`.
+celery -A celery_app.celery worker --loglevel=info
 
-# Start Flask server
+# If the Celery CLI has trouble on Windows, run via python -m:
+python -m celery -A celery_app.celery worker --loglevel=info
+
+# Example with concurrency and specific queue:
+celery -A celery_app.celery worker --loglevel=info --concurrency=4 -Q default
+
+# Start Flask server (in a separate terminal)
 python app.py
 ```
 
@@ -229,7 +244,7 @@ Frontend will run on `http://localhost:3000`
 fullfill.io/
 ├── backend/
 │   ├── app.py                 # Flask API server
-│   ├── celery_worker.py       # Celery task processor
+│   ├── celery_app.py          # Celery app & task processor
 │   ├── models/
 │   │   ├── product.py         # Product model
 │   │   └── import_job.py      # ImportJob model
@@ -240,6 +255,8 @@ fullfill.io/
 │   │   ├── page.js           # Products page
 │   │   └── imports/
 │   │       └── page.js       # Import CSV page
+│   │   └── webhooks/
+│   │       └── page.js       # Webhooks page
 │   ├── components/ui/        # shadcn/ui components
 │   └── package.json          # Node dependencies
 └── README.md
